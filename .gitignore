@@ -1,3 +1,5 @@
+.DS_Store
+.sass_cache/
 _site
 Gemfile
 Gemfile.lock
