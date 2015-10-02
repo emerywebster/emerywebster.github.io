@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://emerywebster.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
+  title: Webb Henderson
   avatar: avatar.png
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Person website of Webb Henderson" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -17,29 +17,16 @@ theme:
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   This website is open source. Please feel free to <a href="https://github.com/emerywebster/emerywebster.github.io/edit/master/index.html">improve this page on GitHub</a>.<br />
+   © 2015. <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a>. Hosted by <a href="https://pages.github.com/">GitHub</a>. v1.0
 
   # Icons
   rss: false
+  github: "emerywebster"
+  linkedin:  "http://www.linkedin.com/in/emerywebster"
+  twitter: "emerywebster"
+  instagram: "emerywebster"
   email_address: # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: "rohanchandra/type-theme"
-  google_plus:
-  instagram:
-  linkedin:  # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: "twitter"
-  wordpress:
-  youtube:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
