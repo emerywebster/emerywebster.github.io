@@ -1,0 +1,28 @@
+---
+layout: post
+title: Learning Hartl's Rails Tutorial
+---
+A few years ago--before I knew anything at all about web development--I attempted to run through Michael Hartl's famous [rails tutorial](http://railstutorial.org). This became one of my first introductions to the command line, git, deployment processes, and programming in general. 
+
+At the time I recall mainly just going through the motions. While I learned a great deal, much of it didn't _stick_...and I was never able to finish the [sample app]() after running into some complicated bugs.
+
+At the start of 2012 I began working with Alex King and Devin Reams at [Crowd Favorite](http://crowdfavorite.com). It was an immediate and instieve learning experience. I became fully exposed to all aspects of professional web development. Even as a project manager I found myself opening and using the terminal on a daily basis. I eventually became comfortable enough to update/commit/deploy bits of code.
+
+So now (for whatever reason) I've decided to jump back into Hartl's tutorial and give it another shot. 
+
+I'm doing this in tandem with...
+
+- Updating this site (via Github pages & Jekyll)
+- Running through Harvard's introductory course for computer science ([CS50](http://cs50.tv)<sup>1</sup>).
+
+In any event, my progress is available on Github and deployed via Heroku.  It's just as fun as I expected but I'm just getting started (again).
+
+To this point I've finished the two starter apps and am abou to dive into the sample app (the _main event_).
+
+- Hello World (intro): [Github](https://github.com/emerywebster/rails_hello-world); [Heroku](http://ewh-rails-hw.herokuapp.com/)
+- Toy App (scaffolding): [Github](https://github.com/emerywebster/rails_toy-app); [Heroku](http://ewh-rails-toy.herokuapp.com/)
+- Sample App (main event): [Github](https://github.com/emerywebster/rails_sample-app); [Heroku](http://ewh-rails-sample.herokuapp.com/)
+
+More to come!
+
+[^1]:I'm planning to posts my progress from CS50 to this site as well.

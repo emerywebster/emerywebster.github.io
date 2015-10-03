@@ -11,10 +11,9 @@ theme:
   description: "Person website of Webb Henderson" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text:
+#     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+#     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
    This website is open source. Please feel free to <a href="https://github.com/emerywebster/emerywebster.github.io/edit/master/index.html">improve this page on GitHub</a>.<br />
@@ -53,8 +52,9 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
-markdown: kramdown
-highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough", "footnotes"]
 sass:
   sass_dir: _sass
   style: :compressed
@@ -65,3 +65,4 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
+
