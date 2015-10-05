@@ -10,9 +10,10 @@ Here's what needs to happen here (as I see it):
 2. [Update avatar](http://d.pr/i/114yH)
 3. [Update favicon](http://d.pr/i/ZmeG)
 4. Add _Influences_ page (people, books, blogs)
-5. Improve fonts(currently _Arial_ for body & _Source Sans Pro_ for headings)
-6. Improve [mobile header spacing](http://d.pr/i/1f3hx) (for menu, social)
-7. Improve [mobile padding](http://d.pr/i/17Pl1) (too much)
+5. Customize _About_ page
+6. Improve fonts(currently _Arial_ for body & _Source Sans Pro_ for headings)
+7. Improve [mobile header spacing](http://d.pr/i/1f3hx) (for menu, social)
+8. Improve [mobile padding](http://d.pr/i/17Pl1) (too much)
 9. Add other services to header (gyroscope? exposure? etc...)
 10. [Fix emoji](http://d.pr/i/19wUP) on excerpts (Jekyll issue?)
 11. Add disqus (or some commenting)
