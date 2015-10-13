@@ -10,14 +10,14 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
 ## Quick Facts
 
-- I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/)
-- I moved to the [DFW area](http://mavs.com) when I was 16
-- I [went to school](http://leeds.colorado.edu) in Boulder, CO
-- I now own a home near downtown [Denver, CO](http://denverbroncos.com) (and will likely hang around for quite a while)
+- I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
+- I moved to the [DFW area](http://mavs.com) when I was sixteen.
+- I [went to school](http://leeds.colorado.edu) in Boulder, CO.
+- I now own a home near downtown [Denver, CO](http://denverbroncos.com) (and will likely hang around for quite a while).
 - I love golf more than just about anything...but also like to ski, snowboard, fish, camp, and cook.
 - I run an eBay/Amazon resale business...for fun and for $.
 - I've been to 16 countries and am hoping to double that number within the next 6-8 years.
-- I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com)
+- I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
 
 ---
 
