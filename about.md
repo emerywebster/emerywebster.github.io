@@ -6,8 +6,80 @@ feature-img: "img/sample_feature_img_2.png"
 menu: main
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+## Quick Facts
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+- I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/)
+- I moved to the [DFW area](http://mavs.com) when I was 16
+- I [went to school](http://leeds.colorado.edu) in Boulder, CO
+- I now own a home near downtown [Denver, CO](http://denverbroncos.com) (and will likely hang around for quite a while)
+- I love golf more than just about anything...but also like to ski, snowboard, fish, camp, and cook.
+- I run an eBay/Amazon resale business...for fun and for $.
+- I've been to 16 countries and am hoping to double that number within the next 6-8 years.
+- I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com)
+
+---
+
+## Contact
+
+- [Email](mailto:webb.henderson@gmail.com)
+- [Facebook](http://facebook.com/emerywebster)
+- [Foursquare](http://foursquare.com/emerywebster)
+- [GitHub](http://github.com/emerywebster)
+- [Golfshot](http://golfshot.com/members/0871088840/statistics)
+- [Instagram](http://instagram.com/emerywebster)
+- [Twitter](http://twitter.com/emerywebster)
+
+---
+
+## Projects
+
+**Active**
+
+- [IFLGolf](http://ifl.golf) : Online publication for a "daily dose of golf news, reviews, lessons, and shenanigans."
+- [Hartl's Rails Tutorial](http://ewh-rails-sample.herokuapp.com/) : Twitter-like app to learn more about web development (in-progress)
+
+**Inactive**
+
+- [wp.emerywebster.com](http://wp.emerywebster.com/) : Old WordPress version of this personal site.
+- [ebay.emerywebster.com](http://ebay.emerywebster.com/) : Old WordPress blog for (formerly) ebaylessonslearned.com.
+
+---
+
+## Setup
+
+#### Hardware
+
+- iPhone 6
+- Macbook Air 13"
+
+#### Software
+
+- [AbletonLive](http://ableton.com) for music production
+- [Chrome](http://chrome.com) for web browsing
+- [Gmail](http://gmail.com) for email (all)
+- [iTerm](https://www.iterm2.com/) for bashing
+- [Sketch](http://www.sketchapp.com/) for designing
+- [Slack](http://slack.com) for personal chat
+- [SublimeText](http://sublimetext.com) for text editing
+- [Wunderlist](http://wunderlist.com) for organizing &amp; prioritizing
+
+---
+
+## Influences
+
+#### Books
+
+[to add]
+
+#### People
+
+- [Alex King](http://alexking.org)
+- [Andrew Austin](http://andrewjaustin.net/)
+- [Chris Forgham](http://oldguysriptoo.com/)
+- [Devin Reams](http://devin.reams.me)
+- [Jared Cornwall](http://jaredcornwall.com/)
+- [Rona Kilmer](https://twitter.com/rkunboxed)
+- [Sandy Sage](http://sandy-sage.com)
+
