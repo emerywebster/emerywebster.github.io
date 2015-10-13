@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Learning Hartl's Rails Tutorial
+categories: Development
 ---
 Some years ago (~fall 2010)&mdash;before I knew anything at all about web development&mdash;I attempted to run through Michael Hartl's famous [ruby on rails tutorial](http://railstutorial.org). This became one of my first introductions to a handful of technologies: command line, git, code deployment, and programming in general. Awesome stuff for sure, but certainly more than I could chew at the time.
 
