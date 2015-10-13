@@ -10,13 +10,15 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
 ## Quick Facts
 
+- My full name is Emery Webster Henderson.
 - I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
 - I moved to the [DFW area](http://mavs.com) when I was sixteen.
 - I [went to school](http://leeds.colorado.edu) in Boulder, CO.
 - I now own a home near downtown [Denver, CO](http://denverbroncos.com) (and will likely hang around for quite a while).
-- I love golf more than just about anything...but also like to ski, snowboard, fish, camp, and cook.
+- I love golf more than just about anything.
+- I also like to ski, snowboard, camp, fish, run, and cook.
 - I run an eBay/Amazon resale business...for fun and for $.
-- I've been to 16 countries and am hoping to double that number within the next 6-8 years.
+- I've been to 16 countries and am hoping to double that number within the next 5-6 years.
 - I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
 
 ---
@@ -35,12 +37,12 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
 ## Projects
 
-**Active**
+#### Active
 
 - [IFLGolf](http://ifl.golf) : Online publication for a "daily dose of golf news, reviews, lessons, and shenanigans."
 - [Hartl's Rails Tutorial](http://ewh-rails-sample.herokuapp.com/) : Twitter-like app to learn more about web development (in-progress)
 
-**Inactive**
+#### Inactive
 
 - [wp.emerywebster.com](http://wp.emerywebster.com/) : Old WordPress version of this personal site.
 - [ebay.emerywebster.com](http://ebay.emerywebster.com/) : Old WordPress blog for (formerly) ebaylessonslearned.com.
