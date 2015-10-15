@@ -28,7 +28,7 @@ theme:
   email_address: # Full email address, e.g. "sam@example.com"
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-8462524-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
