@@ -16,8 +16,8 @@ theme:
 #     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   This website is open source. Please feel free to <a href="https://github.com/emerywebster/emerywebster.github.io/edit/master/index.html">improve this page on GitHub</a>.<br />
-   © 2015. <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a>. Hosted by <a href="https://pages.github.com/">GitHub</a>. v1.0
+   This website is <a href="https://github.com/emerywebster/emerywebster.github.io">open source</a>.<br /
+   &copy; 2015 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
 
   # Icons
   rss: false
