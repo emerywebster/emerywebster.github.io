@@ -16,7 +16,7 @@ theme:
 #     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   This website is <a href="https://github.com/emerywebster/emerywebster.github.io">open source</a>.<br /
+   This website is <a href="https://github.com/emerywebster/emerywebster.github.io">open source</a>.<br />
    &copy; 2015 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
 
   # Icons
