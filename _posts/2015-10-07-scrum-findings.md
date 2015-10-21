@@ -5,7 +5,7 @@ categories: PM
 ---
 As far as learning goes...I'm all over the place lately. Yesterday I dove deep into `git` concepts, before that I was expoloring ruby/rails...and today I predictably have more notes to share on yet another (albeit certainly related) topic.
 
-I don't have a completely clear answer as to why I'm going down all of these avenues...other than to say that _I am enjoying each of them_. I'm certainly a lifelong and infinitely curious about multiple topics...and don't see any problem with that. I've always wanted to learn more about this process and (agile development in general). In the past I worked within a number of modified waterfall approaches (due primarily to the nature of client services work) but can see how agile would be preferable in most product-based business models.
+I don't have a completely clear answer as to why I'm going down all of these avenues...other than to say that _I am enjoying each of them_. I'm certainly a lifelong learner and infinitely curious about multiple topics...and don't see any problem with that. I've always wanted to learn more about this process and (agile development in general). In the past I worked within a number of modified waterfall approaches (due primarily to the nature of client services work) but can see how agile would be preferable in most product-based business models.
 
 So, below is a collection of notes gathered after sweeping through the [Scrum Training Series](http://scrumtrainingseries.com/). I'm most certainly talking to myself alone when I say...enjoy!
 
