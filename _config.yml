@@ -7,7 +7,7 @@ theme:
   # Meta
   title: Webb Henderson
   avatar: avatar.png
-  gravatar: # Email MD5 hash
+  gravatar: c1bdb8868b7153e10841465ae6b1cf5f
   description: "Person website of Webb Henderson" # used by search engines
 
   # Header and footer text
