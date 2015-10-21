@@ -20,7 +20,7 @@ About two pages in I stumbled upon this footnote:
 
 > I wish everyone wrote down their principles. I wish I could read and compare the principles of all the people I’m interested in&mdash;Steve Jobs, Albert Einstein, people running for political office, people I share my life with, etc. I'd love to know what they value most and what principles they use to get what they want. Imagine how great that would be—e.g. imagine how much valuable fundamental thinking could be harnessed. I hope that my doing this will encourage others to do the same.
 
-What a cool concept. Cound me in.
+What a cool concept. Count me in.
 
 It's worth noting a couple gems in the pages that followed (that I could get to before landing).
 
