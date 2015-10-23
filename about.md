@@ -13,7 +13,7 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 - My full name is Emery Webster Henderson.
 - I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
 - I moved to the [DFW area](http://mavs.com) when I was sixteen.
-- I [went to school](http://leeds.colorado.edu) in Boulder, CO.
+- I went to school in (Boulder, CO)[(http://leeds.colorado.edu)].
 - I now own a home near downtown [Denver, CO](http://denverbroncos.com) (and will likely hang around for quite a while).
 - I love golf more than just about anything.
 - I also like to ski, snowboard, camp, fish, run, and cook.
