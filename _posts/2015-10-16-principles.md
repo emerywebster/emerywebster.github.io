@@ -4,7 +4,7 @@ title: Principles
 categories: Learning Management
 tags: books principles learning
 ---
-While flying from DEN to DFW today I began reading [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf) — a short "book" on mangegement (and life) by [Ray Dalio](http://www.forbes.com/profile/ray-dalio/), founder &amp; CEO of Bridgewater Associates. 
+While flying from DEN to DFW today I began reading [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf) — a short "book" on management (and life) by [Ray Dalio](http://www.forbes.com/profile/ray-dalio/), founder &amp; CEO of Bridgewater Associates. 
 
 The book is arranged in three parts:
 
