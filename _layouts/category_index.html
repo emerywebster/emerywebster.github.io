@@ -4,7 +4,7 @@ layout: default
 
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
 	<section class="post-content">
-		<h1 class="title">{{ page.title }} Archives</h1>
+		<h2 class="title">{{ page.title }} Archives</h2>
 		<ul class="posts">
 		{% for post in site.categories[page.category] %}
 		    <div>{{ post.date | date_to_html_string }}</div>
