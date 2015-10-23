@@ -8,7 +8,7 @@ menu: main
 
 Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
-## Quick Facts
+### Quick Facts
 
 - My full name is Emery Webster Henderson.
 - I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
@@ -23,7 +23,7 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
 ---
 
-## Contact
+### Contact
 
 - [Email](mailto:webb.henderson@gmail.com)
 - [Facebook](http://facebook.com/emerywebster)
@@ -35,7 +35,7 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
 ---
 
-## Projects
+### Projects
 
 #### Active
 

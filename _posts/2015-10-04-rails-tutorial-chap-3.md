@@ -17,13 +17,13 @@ The best epiphanies of this chapter came through TDD (partly because I've had a 
 
 **Step 1: Write a failing test for a new Contact page**
 
-```
-test "should get contact" do
-   	get :contact
-   	assert_response :success
-   	assert_select "title", "Contact | #{@base_title}"
-end
-```
+    {% highlight ruby %}
+    test "should get contact" do
+      get :contact
+      assert_response :success
+      assert_select "title", "Contact | #{@base_title}"
+    end
+    {% endhighlight %}
 
 **Step 2: Run test suite**
 
