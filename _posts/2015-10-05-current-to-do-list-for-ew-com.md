@@ -6,18 +6,19 @@ _Sigh_... I know. Another post that is clearly intended for its author alone. Ho
 
 Here's what needs to happen here (as I see it):
 
-1. Add categories/tags (and archive pages, if possible)
-2. [Update avatar](http://d.pr/i/114yH)
-3. [Update favicon](http://d.pr/i/ZmeG)
+1. ~~Allow categories/tags~~
+2. ~~Update avatar~~ (gravatar)
+3. ~~Update favicon~~
 4. Add _Influences_ page (people, books, blogs)
-5. Customize _About_ page
-6. Improve fonts(currently _Arial_ for body & _Source Sans Pro_ for headings)
-7. Improve [mobile header spacing](http://d.pr/i/1f3hx) (for menu, social)
+5. ~~Customize _About_ page~~
+6. ~~Improve fonts~~ (currently _Arial_ for body & _Source Sans Pro_ for headings)
+7. ~~Improve mobile header spacing~~ (for menu, social)
 8. Improve [mobile padding](http://d.pr/i/17Pl1) (too much)
 9. Add other services to header (gyroscope? exposure? etc...)
 10. [Fix emoji](http://d.pr/i/19wUP) on excerpts (Jekyll issue?)
 11. Add disqus (or some commenting)
 12. Add share stuff
+13. Add category/tag archive pages
 
 Hopefully I can provide an update to this with a bunch of ~~strikethroughs~~ soon.
 
