@@ -152,6 +152,9 @@ p, ol, ul, dl, .math-display {
 }
 ol, ul {
   list-style-position: inside;
+  li li {
+    padding-left: 1em;
+  }
 }
 hr {
   border: 0;
