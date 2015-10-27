@@ -56,6 +56,7 @@ While it's pretty clear that you don't need to have a deep understanding of SQL 
 
 Time to add another item to the TODO list![^1]
 
+---
 [^1]:    This is already like the sixth time this has happened while going through this tutorial. You learn one thing only to realize that you really need to learn something else as well. It's clear that this never-ending learning pattern is a big part of web development...which is also part of the reason I'm drawn to it.
 
 

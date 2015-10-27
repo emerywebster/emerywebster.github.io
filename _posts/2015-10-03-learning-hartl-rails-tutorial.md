@@ -36,6 +36,7 @@ As of writing this I've finished the two starter apps and am about to dive into 
 
 Exciting stuff. More to come!
 
+---
 [^1]:    I did continue to explore front end web development and routintely built sites with WordPress...but I didn't get a professional helping of web technologies and work flows until I started working with Crowd Favorite.
 
 [^2]:    This is proving to be an incredibly valuable experience--particularly with laying down a foundation for programming and computer science in general. I'll certainly plan to post my work on CS50 problem sets on this site as well.

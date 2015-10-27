@@ -41,4 +41,5 @@ You can review the same [commit diff](https://github.com/emerywebster/rails_samp
 
 Moving on to heavier stuff soon (user models, finalizing signups and microposts, followers, etc).
 
+---
 [^1]:    This is pretty dern ugly...mental note to find a way to add some color here soon.

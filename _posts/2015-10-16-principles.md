@@ -34,4 +34,5 @@ On mistakes:
 
 Good stuff. Certainly more on this to come...
 
+---
 [^1]:    Perhaps this is why I'm so intrgiued with this whole idea :eyeglasses:. Also, that statment isn't _entirely_ accurate...but that's obviously a much bigger discussion that has no place in this post.
