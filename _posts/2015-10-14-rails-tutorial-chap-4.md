@@ -19,6 +19,5 @@ Below are some resources that helped me to this point (in terms of actual **prog
 
 That's all for now. More to come... :shipit:
 
----
 [^1]:    This is a continuation of lessons learned from Michael Hartl's [Rails Tutorial](/2015/10/03/learning-hartl-rails-tutorial). Feel free to review my [Chapter 3](/2015/10/04/rails-tutorial-chap-3) notes as well.
 

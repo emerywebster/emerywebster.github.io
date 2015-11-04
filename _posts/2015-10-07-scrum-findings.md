@@ -186,5 +186,4 @@ Tally of small/medium/large tasks done to forecast velocity.
     - [Facilitator's Guide to Participatory Decision Making](http://www.amazon.com/Facilitators-Participatory-Decision-Making-Jossey-Bass-Management/dp/1118404955/ref=sr_1_1?s=books&ie=UTF8&qid=1444255342&sr=1-1&keywords=facilitator%27s+guide+to+participatory+decision-making) - Sam Kaner
     - [The Skilled Facilitator](http://www.amazon.com/Skilled-Facilitator-Comprehensive-Consultants-Facilitators/dp/0787947237/ref=sr_1_1?s=books&ie=UTF8&qid=1444255369&sr=1-1&keywords=The+skilled+facilitator) - Roger Schwarz
 
----
 [^1]:    I'm still continuing each of them separately and plan to add further findings/accomplishments to this site as well
