@@ -94,7 +94,7 @@ We can then <strong><small><span style="color:green">PASS</span></small></strong
 flash.now[:danger] = 'Invalid email/password combination'
 ```
 
-Whew! So far so good.
+So far so good.
 
 ---
 
@@ -266,6 +266,6 @@ end
 
 ---
 
-Wow :tired_face: I'm guessing a lot of people bail on the project at some point during this chapter... For me, writing everything out here helped a HUGE amount, [so on we go](#)!
+I'm guessing a lot of people bail on the project at some point during this chapter... For me, writing everything out here helped a HUGE amount, [so on we go](#)!
 
 [^1]:    [Stack Overflow](http://stackoverflow.com/questions/6885990/rails-params-explained) provides a really helpful explanation of rails `params` as well.
