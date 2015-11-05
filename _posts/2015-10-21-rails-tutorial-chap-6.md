@@ -35,9 +35,10 @@ Within _app/db/migrate_ I have three files:
 
 These files are essentially incremental instructions for 'how to construct the database' (and are translated by Rails into SQL when it's time to run the `bundle exec rake db:migrate` command.
 
-So this code from `_create_users.rb`...
+So this code:
 
     {% highlight ruby %}
+    # From [timestamp]_create_users.rb
     class CreateUsers < ActiveRecord::Migration
       def change
         create_table :users do |t|

@@ -13,6 +13,7 @@ One resource that was particularly helpful is the [list of existing Less variabl
 The other standout (that I'm somewhat shocked I didn't fully comprehend previously) are nested elements. Here's an example from the Sample App code[^1].
 
     {% highlight scss %}
+    // From app/assets/stylesheets/custom.css.scss
     footer {
       margin-top: 45px;
       padding-top: 5px;

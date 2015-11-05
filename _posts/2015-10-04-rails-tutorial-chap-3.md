@@ -18,6 +18,7 @@ The best epiphanies of this chapter came through TDD (partly because I've had a 
 **Step 1: Write a failing test for a new Contact page**
 
     {% highlight ruby %}
+    # From app/test/controllers/static_pages_controller_test.rb
     test "should get contact" do
       get :contact
       assert_response :success
