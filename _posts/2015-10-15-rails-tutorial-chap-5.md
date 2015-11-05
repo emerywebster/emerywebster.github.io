@@ -12,8 +12,9 @@ One resource that was particularly helpful is the [list of existing Less variabl
 
 The other standout (that I'm somewhat shocked I didn't fully comprehend previously) are nested elements. Here's an example from the Sample App code[^1].
 
-    {% highlight scss %}
+```scss
     // From app/assets/stylesheets/custom.css.scss
+    
     footer {
       margin-top: 45px;
       padding-top: 5px;
@@ -36,7 +37,7 @@ The other standout (that I'm somewhat shocked I didn't fully comprehend previous
           margin-left: 15px;
         }
       }
-    {% endhighlight %}
+```
 
 You can review the same [commit diff](https://github.com/emerywebster/rails_sample-app/commit/032a1aa24c7dbead3f60d7de8fa50e0d92ba81f0#diff-b2bb630942ce6e7ab7704565fd365420R71) on GitHub as well. :octocat:
 

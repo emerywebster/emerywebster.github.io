@@ -37,7 +37,8 @@ These files are essentially incremental instructions for 'how to construct the d
 
 So this code:
 
-    {% highlight ruby %}
+```ruby
+
     # From [timestamp]_create_users.rb
     class CreateUsers < ActiveRecord::Migration
       def change
@@ -49,7 +50,7 @@ So this code:
         end
       end
     end
-    {% endhighlight %}
+```
 
 ...will execute SQL commands behind the scenes to set up the database architecture (create table, add columns for name/email...and add timestamps). So if I make a mistake when structuring the `_add_password` migration piece I can just perform a `db:rollback`, make any necessary changes, and then `db:migrate` it back into place. Pretty cool.
 
