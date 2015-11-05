@@ -6,11 +6,11 @@ tags: Rails Ruby Learning
 ---
 I'll be honest, I had to go through this chapter twice just to _get it_. It's a beast. And the concepts are much more complex than previous chapters. Part of the reason I'm posting notes throughout this tutorial is to ensure it sticks.
 
-With that, I'm divvying this chapter into three (big) parts:
+With that, I'm divvying this chapter into three sections:
 
 1. **Creating the User Session** (what happens when you enter stuff into a login form)
 2. **Log in / Log out** (what happens after successfully entering login info)
-3. **'Remember me'** [update: this post already pretty massive so I'll cover this bit in 'Part 2']
+3. **Remember me** [update: this post already pretty massive so I'll cover this bit in [Part 2](#)]
 
 Here we go...
 
@@ -67,7 +67,7 @@ With an existing `user` and the correct password via `params[:session][:password
 
 The last part of this section applies a <span style="background-color:#f2dede; border-color:#ebccd1; color:#a94442; padding:2px; border:1px solid transparent; border-radius:4px; font-family:arial;">flash</span> for incorrect logins (with accompanying test). 
 
-Here's a quick look at the test (which <span style="color:red">FAILS</span>):
+Here's a quick look at the test (which <strong><small><span style="color:red">FAILS</span></small></strong>):
 
 ```ruby
 # Added to users_login_test.rb
@@ -88,7 +88,7 @@ end
 ```
 
 
-We can then <span style="color:green">PASS</span> our test (and apply the flash) by adding this line to the `else` portion of the session controller code.
+We can then <strong><small><span style="color:green">PASS</span></small></strong> our test (and apply the flash) by adding this line to the `else` portion of the session controller code.
 
 ```ruby
 flash.now[:danger] = 'Invalid email/password combination'
@@ -267,3 +267,5 @@ end
 ---
 
 Wow :tired_face: I'm guessing a lot of people bail on the project at some point during this chapter... For me, writing everything out here helped a HUGE amount, [so on we go](#)!
+
+[^1]:    [Stack Overflow](http://stackoverflow.com/questions/6885990/rails-params-explained) provides a really helpful explanation of rails `params` as well.
