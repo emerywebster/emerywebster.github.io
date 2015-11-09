@@ -14,7 +14,7 @@ This October I found one of these :bulb: moments in the golf swing (via Ben Hoga
 
 You'll notice that Hogan nearly completes his downswing without making any movement with his upper body. His hip rotation performs about 80% of the work alone.
 
-I noticed this feeling most when my hips (nearly) faced square to the target by the time I reach impact.  This way my hands/arms just need to release down the target line with **no extra movement needed elsewhere**. 
+I notice this feeling most when my hips (nearly) face square to the target by the time I reach impact.  This way my hands/arms just need to release down the target line with **no extra movement needed elsewhere**. 
 
 So (as is often the case) the surrounding theme of a great swing is one of _simplicity_.
 
