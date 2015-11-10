@@ -27,9 +27,9 @@ There were actually a few that I'd never seen or heard before...and at one point
 
 Heavy stuff.
 
-So many aspects of the human experience are entirely mysterious (and will likely remain that way for quite a while). From the size/age of the universe...to the the complexity of the human brain...it seems at times that we really have no idea what's going on with this surrounding context.
+So many aspects of the human experience are entirely mysterious (and will likely remain that way for quite a while). From the size/age of the universe...to the the complexity of the human brain...to life/death...it seems at times that we really have no idea what's going on with this surrounding context.
 
-**But that's alright.** And as Einstein says, that contemplation itself is a beautiful one. Plus we manage to inch our way toward uncovering these secrets as we go forward.
+**But that's alright.** As Einstein says, that contemplation itself is a beautiful experience. Plus we manage to inch our way toward uncovering these secrets as we go forward.
 
 ---
 
