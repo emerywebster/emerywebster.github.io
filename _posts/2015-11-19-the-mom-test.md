@@ -42,6 +42,8 @@ _The following example comes from Chapter 3, which is about asking important que
 
 </div>
 
+The point here is that Rob demonstrates lots of helpful examples in a totally relatable way. He really cuts all the BS (which is why this differs from so many other business books IMO) so you can quickly learn what you need to know and then go out and act upon it.
+
 ---
 
 Notes[^1] I took on the book while reading...because I'm a psychopath:
