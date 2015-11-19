@@ -26,11 +26,11 @@ _The following example comes from Chapter 3, which is about asking important que
 
 <p><strong>You:</strong> "What would you say is your biggest problem with going to the gym?" <em>This is where the conversation goes horribly wrong. Instead of figuring out whether staying fit is actually a real problem, we're prematurely zooming in on it. Any response here is going to be dangerously misleading.</em></p>
 
-<p><strong>Them:</strong> "I guess it takes time to get there. I'm always kind of busy, you know?" <em>Wait, who says I have a problem with going to the gym? I thought I just told you I don't care about the gym! But if I had to choose one, I guess I'd go with convenience. Not that I've done a pushup in 5 years. Pushup are pretty convenient.</em></p>
+<p><strong>Them:</strong> "I guess it takes time to get there. I'm always kind of busy, you know?" <em>Wait, who says I have a problem with going to the gym? I thought I just told you I don't care about the gym! But if I had to choose one, I guess I'd go with convenience. Not that I've done a pushup in 5 years. Pushups are pretty convenient.</em></p>
 
 <p><strong>You:</strong> Perfect. That's great. And can you rank these 4 in terms of which is most important to you in a fitness program: convenience, personalization, novelty, or cost? <em>Note that we're still assuming we're talking to a person who actually cares about getting in shape. Questions like this don't tell you if the person cares about any of it at all.</em></p>
 
-<p><strong>Them:</strong> Probably convenience, then cost, then personalization, then novelty. <em>Since you asked, I'll anser. Hypothetically speaking, of course.</em></p>
+<p><strong>Them:</strong> Probably convenience, then cost, then personalization, then novelty. <em>Since you asked, I'll answer. Hypothetically speaking, of course.</em></p>
 
 <p><strong>You:</strong> Okay. Awesome. Thanks so much. We're working on an app that will help you exercise in the convenience of your own home. I think it's going to be a great fit for what you care about. <em>Totally missing the point and mis-interpreting the conversation as validation. Now fishing for compliments.</em></p>
 
@@ -42,11 +42,11 @@ _The following example comes from Chapter 3, which is about asking important que
 
 </div>
 
-The point here is that Rob demonstrates lots of helpful examples in a totally relatable way. He really cuts all the BS (which is why this differs from so many other business books IMO) so you can quickly learn what you need to know and then go out and act upon it.
+The point here is that Rob demonstrates lots of helpful examples in a totally relatable way. He also does a great job cutting the BS and diving straight into the point (which is why this differs from so many other business books IMO) &mdash; so you can quickly learn what you need to know and then go out and act upon it.
 
 ---
 
-Notes[^1] I took on the book while reading...because I'm a psychopath:
+Notes[^1] I took on the book while reading...because :dancer::
 
 ### KEY POINTS
 
