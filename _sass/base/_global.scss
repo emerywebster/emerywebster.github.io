@@ -146,6 +146,9 @@ p, ol, ul, dl, .math-display {
   line-height: 1.8;
   margin-bottom: 1em;
 }
+ul ul {
+  margin-bottom: 0;
+}
 .math-display {
   display: inline-block;
   width: 100%;
