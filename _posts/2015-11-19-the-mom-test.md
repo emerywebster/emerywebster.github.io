@@ -14,7 +14,7 @@ If you present your idea to customers right off the bat you are only inviting em
 2. **Collect** useful information (identify what they really care about)
 3. **Implement**/share learning so your team can properbly build and sell a solution.
 
-It's also a surprisingly fun read. Rather than regurgitating and summarizing its many key points (which I end up doing below anyway) I'll showcase an example of [Rob Fitzpatrick](http://twitter.com/robfitz)'s style below:
+It's also a surprisingly fun read. Rather than regurgitating and summarizing its many key points (which I end up doing below anyway) I'll showcase a quick example:
 
 ---
 
@@ -510,4 +510,4 @@ Spend a week doing customer conversations. Get your learnings and then give them
 
 <small>Credit and thanks to [Peter Nocchiero](https://www.linkedin.com/in/peternocchiero) for recommending this one.</small>
 
-[^1]:    Everything entirely attributable to Rob Fitzpatrick, _The Mom Test_.
+[^1]:    Everything entirely attributable to [Rob Fitzpatrick](http://twitter.com/robfitz), _The Mom Test_.
