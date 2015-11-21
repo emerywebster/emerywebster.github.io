@@ -29,7 +29,7 @@ theme:
 
   # Scripts
   google_analytics: "UA-8462524-1"
-  disqus_shortname:
+  disqus_shortname: emerywebster
   katex: true # Enable if using math markup
 
   # Localization strings
