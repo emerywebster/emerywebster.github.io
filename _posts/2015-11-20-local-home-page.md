@@ -4,22 +4,19 @@ title: Local Home Page
 categories: Development
 tags: home.dev setup apache mysql 
 ---
-About [the same time](/2015/10/02/launched/) I began reworking this site I decided to clean up all my dev _stuff_  &mdash; organizing everything (both on my machine and on any servers), relocating old projects into specified subdomains for safe keeping, establishing backup and deploy processes, and **reworking my local dev environment**.
+When I started rebuilding this site I also took some time to clean up (and properly establish) all my dev _stuff_ &mdash; organizing old projects, establishing backup/deploy processes, and **reworking my local dev environment**.
 
-While planning this out I discovered [The Perfect Web Development Environment](https://mallinson.ca/osx-web-development/) post from Chris Mallinson. It didn't take very long to get everything up and running and there were pretty much zero pain points. I highly recommend it.
+Along the way I discovered [The Perfect Web Development Environment](https://mallinson.ca/osx-web-development/) from Chris Mallinson and replicated it on my machine. There were pretty much zero pain points and it didn't take very long to get everything up and running. I highly recommend it if you're looking for a clean local setup.
 
-The real kicker IMO is that he also adds a local home page (@ http://home.dev) so you can quickly access all of your projects. I've since forked it :octocat: and made [a handful of changes](https://github.com/emerywebster/LocalHomePage) I found pretty helpful:
-
-- Nicer fonts
-- Added 'GitHub' icon for any GitHub Pages projects
-- Ensure 'WordPress' icon appears in case it's tucked into a `/wp/` sub-directory
-- Ensure favicon shows if it's not in the root directory (for whatever reason)
+The real kicker with Chris's configuration is that he also adds a local home page (@ [http://home.dev](http://home.dev)) so you can quickly access all of your projects in a nice visual list. I forked his GitHub repo :octocat: and made a handful of [changes](https://github.com/emerywebster/LocalHomePage) to better match my projects.
 
 All said and done it looks like this:
 
 ![Local home page home.dev](https://cldup.com/NDFNMUInVT-2000x2000.png)
 
-Super helpful and a fun little mini project to house all your real projects... :neckbeard:
+Everything functions as a link (in some cases as a shortcut to `/wp-admin/`)...the only caveat is that anything requiring an additional server command to start obviously won't work without it (e.g. rails apps).
+
+Still, super helpful and a fun little mini project to house all your stuff :shipit:.
 
 
 
