@@ -7,24 +7,20 @@ Not exactly a [full blown backlog](https://www.atlassian.com/agile/backlogs/) bu
 
 ---
 
-**To Do** (high)
+**To Do**
 
 1. [Fix emoji](https://cloudup.com/cXq_pgYPocx) on excerpts (Jekyll issue?)
-2. Add category/tag archive pages (better organization)
-3. Add [Influences](/influences) page (people, books, blogs)
-4. Add share stuff (for posts only)
-5. Trim [mobile padding](https://cloudup.com/cfBK6B3HpJn) (by ~50%)
-6. Limit content width [for super wide screens](https://cloudup.com/cdxUYqQXM0W ) (~900px)
+2. Add pagination on individual posts
+3. Add category/tag archive pages (better organization)
+4. Add [Influences](/influences) page (people, books, blogs)
+5. Add share stuff (for posts only)
+6. Trim [mobile padding](https://cloudup.com/cfBK6B3HpJn) (by ~50%)
+7. Limit content width [for super wide screens](https://cloudup.com/cdxUYqQXM0W ) (~900px)
+8. Add other services to header (gyroscope? exposure?)
 
 ---
 
-**Additional Ideas** (low)
-
-- Add other services to header (gyroscope? exposure?)
-
----
-
-**Completed** (newest at the top)
+**Done** (newest at the top)
 
 - ~~Add disqus (or commenting of some kind)~~
 - ~~Add [backlog](/backlog)~~
