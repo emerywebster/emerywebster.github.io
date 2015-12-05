@@ -27,7 +27,7 @@ Still, you see a handful of recurring themes:
 - Own the overall vision (make strategic decisions / achieve business goals)
 - Evangelize the product (help sell)
 
-How PMs go about doing all of these things can obviously vary depending on your market, company/team, product goals, etc... But essentially the group serves as a resource to cultivate professional development within this **mixed bag of problem solvers**. And in some ways, the mashup nature of the product role perfectly describes the dynamic of the CP Meetup crowd as well.
+How PMs go about doing all of these things can obviously vary depending on the market, company/team, product goals, etc... But essentially the group serves as a resource to cultivate professional development within this **mixed bag of problem solvers**. And in some ways, the mashup nature of the product role perfectly describes the dynamic of the CP Meetup crowd as well.
 
 I met people from a variety of backgrounds and disciplines. Startup CEOs, biz dev folks, account reps, entrepreneurs, active PMs &mdash; all with vastly different stories (and reasons for their interest in the meetup). It was a lot of fun to learn about their experiences, methods, successes, failures, goals, and journies in general. 
 
@@ -38,7 +38,7 @@ What what is like? Basically a hybrid of these two things:
 
 We shook a lot of hands, exchanged cards, discussed backgrounds/ideas...and eventually broke off into teams to discuss and draft target [user personas](http://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/) for an existing product (a freely available Google Chrome extension). 
 
-After about 20-30 mins of brainstorming/discussion each team presented a target persona to the group (which was super cool...lots of different ideas). We then gained some insight from the actual product owers as to how/why they hypothesized their initial persona, tested it, analyzed metrics/feedback, and then redefined their target persona and accompanying marketing material (keywords, landing page look/messaging, etc).
+After about 20-30 mins of brainstorming/discussion, each team presented a target persona to the group (which was super cool...lots of different ideas). We then gained some insight from the actual product owners as to how/why they hypothesized their initial persona, tested it, analyzed metrics/feedback, and then redefined their target persona and accompanying marketing material (keywords, landing page look/messaging, etc).
 
 Love it. Made some great connections within my team, the organizers, and a handful of folks I met beforehand. Looking forward to many more :beers:
 
@@ -48,3 +48,5 @@ Other cool meetups:
 
 - [Refresh Denver](http://www.meetup.com/refreshdenver/): (2.5k) Mostly designers &amp; developers. Talks from industry leaders in various disciplines. Largely discussing web trends and/or product design.
 - [New Tech](http://www.meetup.com/bdnewtech/): (11k+) Largely presentations/pitches for new companies and ideas.
+
+Know of any others worth mentioning? Add a comment below or give me a shout!
