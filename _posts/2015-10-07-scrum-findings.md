@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scrum Findings
-categories: PM
+categories: Product
 ---
 As far as learning goes...I'm all over the place lately. Yesterday I dove deep into `git` concepts, before that I was expoloring ruby/rails...and today I predictably have more notes to share on yet another (albeit certainly related) topic.
 
