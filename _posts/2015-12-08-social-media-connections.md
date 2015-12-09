@@ -6,7 +6,7 @@ tags: learning product
 ---
 Today I had a simple, yet totally profound interaction on Twitter. Here's what happened: While reading [Dan Olsen](https://twitter.com/danolsen)'s [The Lean Product Playbook](http://www.amazon.com/The-Lean-Product-Playbook-Innovate/dp/1118960874) I found myself with a lot of unanswered questions &mdash; primarily around his central case study (which is used to illustrate his lean process with an actual product). I tried Google... Nothing. Then I thought, _why not just ask him?_
 
-Twitter provided the easiest path, and within an hour he followed me back and provided an answer:
+Twitter provided the easiest path, and within an hour he followed me back and offered an answer:
 
 <blockquote align="center" class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/emerywebster">@emerywebster</a> good question :-) The MVP validation after we pivoted led the company to acquire a startup in that space</p>&mdash; Dan Olsen (@danolsen) <a href="https://twitter.com/danolsen/status/674391006851166208">December 9, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
