@@ -2,7 +2,7 @@
 layout: post
 title: Current TO DO list for this site
 ---
-[**Update** November 2015 &mash; this is now all tracked in an ongoing manner in the site [backlog](/backlog)]].
+[**Update** November 2015 &mdash; this is now all tracked in an ongoing manner in the site [backlog](/backlog)].
 
 _Sigh_... I know. Another post that is clearly intended for its author alone. Hopefully that changes at some point. For now I'm just documenting and publishing as often as I can :bowtie:
 
