@@ -24,7 +24,7 @@ layout: default
         </p>
       </header>
       <div class="excerpt">
-        <p>{{ post.excerpt | markdownify }}</p>
+        <p>{{ post.excerpt | strip_footnotes | markdownify }}</p>
         <a class="button" href="{{ post.url | prepend: site.baseurl }}">
           {{ site.theme.str_continue_reading }}
         </a>
