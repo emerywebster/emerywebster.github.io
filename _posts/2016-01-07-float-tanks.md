@@ -61,7 +61,7 @@ Float tanks are [surprisingly common](http://floatationlocations.com/map/) and r
 
 ---
 
-When I tell people about all of this, they usually respond with genuine intrigue and some level of surprise. Wait, I’ve heard of this&mdash;you really did that?? There’s a heavy curiosity (and sometimes a hint of fear) that follows the conversation along. Why? Because deep down they want to give it a shot…if only to satisfy their own curiosity. Yet so few ever do.
+When I tell people about all of this, they usually respond with genuine intrigue and some level of surprise. _Wait, I’ve heard of this&mdash;you really did that??_ There’s a heavy curiosity (and sometimes a hint of fear) that follows the conversation along. Why? Because deep down they want to give it a shot…if only to satisfy their own curiosity. Yet so few ever do.
 
 I hope this serves as a somewhat helpful starter guide for anyone curious about float tanks (or even meditation and mental health in general). Hopefully it helps push a few adventurous minds to step in as well.
 
