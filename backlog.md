@@ -3,7 +3,7 @@ layout: page
 title: Site Backlog
 permalink: /backlog/
 ---
-Not exactly a [full blown backlog](https://www.atlassian.com/agile/backlogs/) but helpful nonetheless. Also tracking technical issues on [GitHub](https://github.com/emerywebster/emerywebster.github.io/issues).
+Not exactly a [full blown backlog](https://www.atlassian.com/agile/backlogs/), but helpful nonetheless. Also tracking technical issues on [GitHub](https://github.com/emerywebster/emerywebster.github.io/issues).
 
 ---
 
