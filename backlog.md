@@ -11,16 +11,17 @@ Not exactly a [full blown backlog](https://www.atlassian.com/agile/backlogs/), b
 
 1. [Fix emoji](https://cloudup.com/cXq_pgYPocx) on excerpts (Jekyll issue?)
 2. Indent bulleted text
-3. Improve formatting for blockquotes (currently just italics with minor indent)
-4. Add pagination to individual posts
-5. Add site search
-6. Add category/tag archive pages (better organization)
-7. Add [Influences](/influences) page (people, books, blogs)
-8. Add share stuff (for posts only)
-9. Trim [mobile padding](https://cloudup.com/cfBK6B3HpJn) (by ~50%)
-10. Limit content width [for super wide screens](https://cloudup.com/cdxUYqQXM0W ) (~900px)
-11. 'About' page split for 'This Site'
-12. Add other services to header (gyroscope? exposure?)
+3. Add sticky social share (ssk)
+4. Improve formatting for blockquotes (currently just italics with minor indent)
+5. Add pagination to individual posts
+6. Add site search
+7. Add category/tag archive pages (better organization)
+8. Add [Influences](/influences) page (people, books, blogs)
+9. Add share stuff (for posts only)
+10. Trim [mobile padding](https://cloudup.com/cfBK6B3HpJn) (by ~50%)
+11. Limit content width [for super wide screens](https://cloudup.com/cdxUYqQXM0W ) (~900px)
+12. 'About' page split for 'This Site'
+13. Add other services to header (gyroscope? exposure?)
 
 ---
 
