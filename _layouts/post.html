@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<div class="ssk-sticky ssk-left ssk-center ssk-lg">
+    <a href="" class="ssk ssk-twitter" data-url="{{ page.url }}"></a>
+    <a href="" class="ssk ssk-facebook"></a>
+    <a href="" class="ssk ssk-linkedin"></a>
+</div>
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
@@ -9,7 +14,14 @@ layout: default
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
   </header>
-  <section class="post-content">{{ content }}</section>
+  <section class="post-content">
+      <div class="top-share ssk-group">
+        <a href="" class="ssk ssk-text ssk-twitter" data-url="">Tweet</a>
+        <a href="" class="ssk ssk-text ssk-facebook">Share</a>
+        <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
+    </div>
+    {{ content }}
+  </section>
 </article>
 
 <!-- Post navigation -->
@@ -40,3 +52,6 @@ layout: default
   {% include disqus.html %}
 </div>
 {% endif %}
+
+<!-- SSK -->
+{% include ssk.html %}
