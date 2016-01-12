@@ -32,20 +32,26 @@
 	{% endif %}
 
 	<!-- Open graph & Twitter tags -->
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<meta property="og:image" content="{% if img_src %}{{ img_src }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+	<meta property="fb:admins" content="10202093"/>
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+	<meta property="og:locale" content="en_us"/>
+	<meta property="og:site_name" content="{{ site.title }}"/>
+	{% if page.title == "Home" %}
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="{{ site.title }}"/>
+	<meta property="og:description" content="{{ site.description | strip_html }}"/>
+	{% else %}
+	<meta property="og:type" content="article"/>
+	<meta property="og:title" content="{{ page.title }}"/>
+	<meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+	{% endif %}
 
-	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="og:site_name" content="Webb Henderson">
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@emerywebster" />
-	<meta name="twitter:creator" content="@emerywebster" />
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-	<meta property="og:image" content="{% if img_src %}{{ img_src }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+	{% if page.title != "Home" %}
+	<!-- Twitter Cards -->
+	<meta property="twitter:card" content="summary"/>
+	<meta property="twitter:title" content="{{ page.title }}"/>
+	<meta property="twitter:description" content="{{ page.excerpt | strip_html }}"/>
+	{% endif %}
 
 	<!-- Google Analytics -->
 	{% if site.theme.google_analytics %}
