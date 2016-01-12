@@ -73,11 +73,7 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 
 ## Influences
 
-#### Books
-
-[to add]
-
-#### People
+#### People (I actually know)
 
 - [Alex King](http://alexking.org)
 - [Andrew Austin](http://andrewjaustin.net/)
@@ -88,3 +84,11 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 - [Rona Kilmer](http://ronakilmer.com)
 - [Sandy Sage](http://sandy-sage.com)
 
+#### People (I've haven't met yet)
+
+- [Andrew Chen](http://andrewchen.co/)
+- [Ben Horowitz](http://www.bhorowitz.com/)
+- [Ken Norton](http://kennorton.com/)
+- [Marty Cagan](http://svpg.com/articles/)
+- [Rob Fitzpatrick](http://robfitz.com/)
+- [Tristan Kromer](http://grasshopperherder.com/)
