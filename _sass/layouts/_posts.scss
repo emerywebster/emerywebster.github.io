@@ -44,9 +44,9 @@ header {
       color: rgba($feature-image-text-color, .7);
     }
   }
-  .post-content {
-    @extend %padding-regular;
-  }
+  // .post-content {
+  //   @extend %padding-regular;
+  // }
 }
 // Post navigation
 #post-nav {
@@ -74,9 +74,19 @@ header {
   a:hover {
     @extend a.button:hover;
   }
-
   i {
     vertical-align: middle;
   }
 }
-
+.content-wrapper {
+  display: block;
+  margin: auto;
+  max-width: 800px;
+  padding: 2em 0 1em 0;
+  @media (max-width: 1000px) {
+    padding: 5%;
+  }
+}
+.post-content {
+  margin-top:20px;
+}

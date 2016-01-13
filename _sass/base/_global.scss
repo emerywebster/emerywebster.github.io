@@ -104,14 +104,18 @@ h4 {
   font-size: 1.15em;
 }
 blockquote {
-    border-left: #4A4A4A 0.15em solid;
-    padding: 0 0 0 1.75em;
-    font-style: italic;
+  border-left: #4A4A4A 0.15em solid;
+  padding: 0 0 0 1.75em;
+  font-style: italic;
 }
-blockquote p:last-child,
-footer p:last-child {
-  margin-bottom: 0;
+blockquote p {
+  margin: 30px 0 30px 0;
+  font-size: 115%;
 }
+// blockquote p:last-child,
+// footer p:last-child {
+//   margin-bottom: 0;
+// }
 table {
   table-layout:fixed;
   width:100%;
@@ -145,6 +149,7 @@ dd {
 p, ol, ul, dl, .math-display {
   line-height: 1.8;
   margin-bottom: 1em;
+  display: block;
 }
 ul ul {
   margin-bottom: 0;

@@ -10,19 +10,19 @@ Not exactly a [full blown backlog](https://www.atlassian.com/agile/backlogs/), b
 **To Do**
 
 1. [Fix emoji](https://cloudup.com/cXq_pgYPocx) on excerpts (Jekyll issue?)
-2. Improve formatting for blockquotes (currently just italics with minor indent)
-3. Add 'bio' section to home page
-4. Add pagination to individual posts
-5. Add category/tag archive pages (better organization)
-6. Add [Influences](/influences) page (people, books, blogs)
-7. Limit content width [for super wide screens](https://cloudup.com/cdxUYqQXM0W ) (~900px)
-8. Add site search
-9. Add other services to header (gyroscope? exposure?)
+2. Add 'bio' section to home page
+3. Add pagination to individual posts
+4. Add category/tag archive pages (better organization)
+5. Add [Influences](/influences) page (people, books, blogs)
+6. Add site search
+7. Add other services to header (gyroscope? exposure?)
 
 ---
 
 **Done** (newest at the top)
 
+- ~~Limit content width [for super wide screens](https://cloudup.com/cdxUYqQXM0W ) (~900px)~~
+- ~~Improve formatting for blockquotes (currently just italics with minor indent)~~
 - ~~Clean up indentation on ordered lists~~
 - ~~Trim [mobile padding](https://cloudup.com/cfBK6B3HpJn) (by ~50%)~~
 - ~~Add social share (single posts only)~~
