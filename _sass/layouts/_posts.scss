@@ -1,4 +1,8 @@
-article,
+article {
+  border-bottom: 1px solid $border-color;
+  float: left;
+  width: 100%;
+}
 .comments {
   @extend %padding-regular;
   border-bottom: 1px solid $border-color;
@@ -7,7 +11,7 @@ article,
 }
 article {
   header {
-    margin-bottom: 6%;
+    margin-bottom: 3em;
     text-align: center;
   }
   a:hover {
@@ -38,7 +42,7 @@ header {
     color: $feature-image-text-color;
     background-size: $feature-image-size;
     background-position: center;
-    margin-bottom: -2%;
+    margin-bottom: 20px;
     padding: $padding-large/3 $padding-large;
     .meta {
       color: rgba($feature-image-text-color, .7);
@@ -47,6 +51,11 @@ header {
   // .post-content {
   //   @extend %padding-regular;
   // }
+}
+.no-feature-image {
+  header {
+    padding-top: 3em;
+  }
 }
 // Post navigation
 #post-nav {
@@ -82,11 +91,5 @@ header {
   display: block;
   margin: auto;
   max-width: 800px;
-  padding: 0 0 1em 0;
-  @media (max-width: 1000px) {
-    padding: 5%;
-  }
-}
-.post-content {
-  margin-top:20px;
+  padding: 0 1em 1em 1em;
 }
