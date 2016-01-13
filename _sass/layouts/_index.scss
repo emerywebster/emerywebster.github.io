@@ -15,7 +15,7 @@
 // Post listing
 .posts {
   .post-teaser {
-    padding: $padding-small/2 $padding-large;
+    padding: $padding-small/4 $padding-large $padding-small $padding-large;
     @media (max-width: 1000px) {
       padding: $padding-small * 1.5 $padding-large / 3;
     }
