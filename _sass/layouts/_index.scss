@@ -15,7 +15,10 @@
 // Post listing
 .posts {
   .post-teaser {
-    @extend %padding-regular;
+    padding: $padding-small/2 $padding-large;
+    @media (max-width: 1000px) {
+      padding: $padding-small * 1.5 $padding-large / 3;
+    }
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
