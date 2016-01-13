@@ -155,8 +155,12 @@ ul ul {
 }
 ol, ul {
   list-style-position: inside;
+  li {
+    margin-left: 3px;
+    margin-bottom: 3px;
+  }
   li li {
-    padding-left: 1em;
+    margin-left: 1em;
   }
 }
 hr {
