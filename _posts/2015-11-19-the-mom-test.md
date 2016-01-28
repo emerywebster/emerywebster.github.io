@@ -8,13 +8,13 @@ tags: product lessons customers notes reviews
 
 _The Mom Test_ serves as a guide to customer conversations so you can build the best possible products/solutions &mdash; learning what to build before investing time and money into the wrong idea. 
 
-If you present your product/idea to customers right off the bat you are only inviting empty compliments, unnecessary fluff, and misleading ideas (not only will your mom say it's a great idea...everyone will.) Instead focus on their life, activies, problems, and goals so that you can: 
+If you present your product/idea to customers right off the bat you are only inviting empty compliments, unnecessary fluff, and misleading ideas (not only will your mom say it's a great idea...everyone will.) Instead, focus on their life, activies, problems, and goals so that you can: 
 
-1. **Validate** whether or not you're actually solving a real problem
-2. **Collect** useful information (identify what they really care about &mdash; and if they'll pay for it)
+1. **Validate** whether or not you're actually solving a real problem.
+2. **Collect** useful information (identify what they really care about &mdash; and if they'll pay for it).
 3. **Implement**/share learning so your team can properly build and sell a solution.
 
-It's also a surprisingly fun read. Rather than regurgitating and summarizing its many key points (which I end up doing below anyway) I'll showcase a quick example:
+It's also a surprisingly fun read. Rather than regurgitating and summarizing its many key points (which I end up doing below anyway), I'll showcase a quick example the format:
 
 ---
 
