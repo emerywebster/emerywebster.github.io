@@ -6,7 +6,7 @@ feature-img: "img/beav.jpg"
 menu: main
 ---
 
-Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
+Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
 
 ### Quick Facts
 
@@ -15,10 +15,10 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 - I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
 - I moved to the [DFW area](http://mavs.com) when I was sixteen.
 - I went to school in [Boulder, CO](http://leeds.colorado.edu).
-- I now own a home near downtown [Denver, CO](http://denverbroncos.com) (and will likely hang around for quite a while).
+- I own a home near downtown [Denver, CO](http://denverbroncos.com).
 - [I love golf](http://ifl.golf) more than just about anything.
 - I also like to ski, snowboard, camp, fish, run, and cook.
-- I run an eBay/Amazon resale business...along with a few other side projects.
+- I run an eBay/Amazon resale business...along with lots of other side projects.
 - I've been to 16 countries and am hoping to double that number within the next 5-6 years.
 - I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
 
@@ -61,7 +61,7 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 #### Software
 
 - [AbletonLive](http://ableton.com) for music production
-- [Balsamiq](http://balsamiq.com) for prototyping
+- [Balsamiq](http://balsamiq.com) for wireframing
 - [Chrome](http://chrome.com) for web browsing
 - [Gmail](http://gmail.com) for email (all)
 - [iTerm](https://www.iterm2.com/) for bashing
@@ -85,7 +85,7 @@ Hello there! I'm Webb, a super-generalist living in Denver, Colorado.
 - [Rona Kilmer](http://ronakilmer.com)
 - [Sandy Sage](http://sandy-sage.com)
 
-#### People (I've haven't met yet)
+#### People (I haven't met yet)
 
 - [Andrew Chen](http://andrewchen.co/)
 - [Ben Horowitz](http://www.bhorowitz.com/)
