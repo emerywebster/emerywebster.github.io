@@ -58,7 +58,7 @@ redcarpet:
 sass:
   sass_dir: _sass
   style: :compressed
-highlighter: pygments
+highlighter: rouge
 permalink: /:year/:month/:day/:title/
 
 gems:
@@ -67,4 +67,5 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-paginate
 
