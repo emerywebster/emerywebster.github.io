@@ -81,6 +81,7 @@ Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
 - [Chris Forgham](http://oldguysriptoo.com/)
 - [Devin Reams](http://devin.reams.me)
 - [Jared Cornwall](http://jaredcornwall.com/)
+- [Jonathan Johnson](http://jondavidjohn.com/)
 - [Michael Lopp](http://randsinrepose.com)
 - [Rona Kilmer](http://ronakilmer.com)
 - [Sandy Sage](http://sandy-sage.com)
