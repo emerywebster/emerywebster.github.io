@@ -42,6 +42,7 @@ Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
 
 - [IFLGolf](http://ifl.golf) : Online publication/brand for next generation golf fans.
 - [Hartl's Rails Tutorial](http://ewh-rails-sample.herokuapp.com/) : Twitter-like app to learn more about web development (in-progress).
+- [SpiceGuide](http://spicegui.de) : Because everyone needs a food blog...right?
 
 #### Inactive
 
