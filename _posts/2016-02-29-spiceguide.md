@@ -30,8 +30,8 @@ So...I have a food blog now. And yeah, it's extremely cliché...but **who cares*
 
 - If I experience something great (in tech, music, food, whatever), I'll push it onto anyone who will listen.
 - I recently discovered a hot sauce that was so good that I felt compelled to share it with people I know.
-- I thought: _Why not extend my capacity to share with...everyone?_ 
-- Then I thought: _Why not seek and share other spicy experiences as well?_ 
+- I thought: _Why not extend my capacity to share it with...everyone?_ 
+- Then I thought: _Why not seek other spicy experiences to share as well?_ 
 
 :arrow_right::arrow_right::arrow_right::arrow_right::arrow_right: :bulb:
 
@@ -41,7 +41,7 @@ So...I have a food blog now. And yeah, it's extremely cliché...but **who cares*
 
 So, I snagged a clever domain name (I hope?) and a handful of matching social media accounts. Then I set up a quick WordPress site and added some initial content.
 
-The concept, for now, is [SpiceGuide](http://spicegui.de) &mdash; my tribute to spicy food. If nobody uses it (or cares), that's totally fine. I'll still enjoy having a place to share great recipes, products, and restaurants/dishes that I find worthwhile. If it evolves into something bigger, awesome.
+The concept, for now, is [SpiceGuide](http://spicegui.de) &mdash; my tribute to spicy food. If nobody uses it (or cares), that's totally fine. I'll still enjoy having a place to add great recipes, products, and restaurants/dishes that I find worthwhile. If it evolves into something bigger, awesome.
 
 I just got started this a few days ago (and am still testing a handful of ideas/content)...but hopefully the momentum continues to build.
 
