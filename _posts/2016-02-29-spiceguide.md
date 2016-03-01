@@ -7,7 +7,7 @@ tags: learning development
 ---
 So...I have a food blog now. And yeah, it's extremely cliché...but **who cares**? I'm pretty sure worse things happen on the internet. Here's the story... 🌶
 
-[If you're not into stories, just check out [spicegui.de](http://spicegui.de) &amp; [@spiceguide](http://instagram.com/spiceguide)].
+[If you're not into stories, just check out [spicegui.de](http://spicegui.de) &amp; @[spiceguide](http://instagram.com/spiceguide)].
 
 ---
 
