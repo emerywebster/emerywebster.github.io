@@ -21,6 +21,7 @@ Not exactly a [full blown backlog](https://www.atlassian.com/agile/backlogs/), b
 
 **Done** (newest at the top)
 
+- ~~Add [archive](/archive) page~~
 - ~~Limit content width [for super wide screens](https://cloudup.com/cdxUYqQXM0W ) (~900px)~~
 - ~~Improve formatting for blockquotes (currently just italics with minor indent)~~
 - ~~Clean up indentation on ordered lists~~
@@ -28,8 +29,8 @@ Not exactly a [full blown backlog](https://www.atlassian.com/agile/backlogs/), b
 - ~~Add social share (single posts only)~~
 - ~~Add disqus (or commenting of some kind)~~
 - ~~Add [backlog](/backlog)~~
-- ~~Add [404](/asdfghjkl)~~
-- ~~Add [About](/about) content~~
+- ~~Add [404](/asdfghjkl) page~~
+- ~~Add [About](/about) page~~
 - ~~Add favicon~~
 - ~~Improve `code` styles~~
 - ~~Improve fonts (formerly 'Arial' for body & 'Source Sans Pro' for headings)~~
