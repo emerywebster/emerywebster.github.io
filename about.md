@@ -41,8 +41,12 @@ Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
 #### Active
 
 - [IFLGolf](http://ifl.golf) : Online publication/brand for next generation golf fans.
-- [Hartl's Rails Tutorial](http://ewh-rails-sample.herokuapp.com/) : Twitter-like app to learn more about web development (in-progress).
 - [SpiceGuide](http://spicegui.de) : Because everyone needs a food blog...right?
+
+#### Learning
+
+- [Fetchy](http://fetchy.emerywebster.com/) : Interface crafted in Sketch and built in SublimeText (mostly to better understand simple API-based web apps).
+- [Hartl's Rails Tutorial](http://ewh-rails-sample.herokuapp.com/) : Twitter-like app to learn more about web development (in-progress).
 
 #### Inactive
 
