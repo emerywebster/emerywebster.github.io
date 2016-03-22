@@ -12,9 +12,9 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 ### Key Concepts
 
-#### 1. What is good UX?
+#### 1. Defining UX
 
-- Good UX is **effective** (and often invisible)
+- The goal of a UX designer is to make users **effective**
 - Accomplishes goals (for the user and business)
 - Happiness (for the user) is not necessarily the goal
 - Scientific (as with other lean principles):
