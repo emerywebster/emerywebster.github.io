@@ -10,8 +10,6 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 ---
 
-# UX Fundamentals
-
 ### Key Concepts
 
 #### 1. What is good UX?
