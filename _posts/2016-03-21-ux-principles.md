@@ -293,7 +293,7 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 - Depends on traffic, time, etc
 - Must be run at the same time (nothing new here)
-- Tools: [Optimizely](https://www.optimizely.com/resources/ab-testing-tool/), [VWO](http://vwo.com), [FiveSecondTest](http://fivesecondtest.com), 
+- Tools: [Optimizely](https://www.optimizely.com/resources/ab-testing-tool/), [VWO](http://vwo.com), [FiveSecondTest](http://fivesecondtest.com)
 
 ---
 
@@ -317,4 +317,4 @@ Others worth mentioning here:
 
 - [Don't Make Me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=sr_1_1?ie=UTF8&qid=1458618561&sr=8-1&keywords=don%27t+make+me+think) - classic from Steve Krug
 - [Project Guide to UX Design](http://www.amazon.com/Project-Guide-Design-experience-designers/dp/0321815386/ref=sr_1_1?ie=UTF8&qid=1458618600&sr=8-1&keywords=ux+design+project) - a practical start-to-finish outline
-- [Designing with the Mind in Mind](http://www.amazon.com/Designing-Mind-Second-Understanding-Guidelines/dp/0124079148/ref=sr_1_1?ie=UTF8&qid=1458618836&sr=8-1&keywords=designing+with+the+mind+in+mind) - a solid companion to Krug's book that puts an emphasis on the _why_ of effective user interfaces.
+- [Designing with the Mind in Mind](http://www.amazon.com/Designing-Mind-Second-Understanding-Guidelines/dp/0124079148/ref=sr_1_1?ie=UTF8&qid=1458618836&sr=8-1&keywords=designing+with+the+mind+in+mind) - a solid companion to Krug's book that puts an emphasis on the _why_ of effective user interfaces
