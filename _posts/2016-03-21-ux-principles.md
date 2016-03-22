@@ -246,7 +246,7 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - Power users are the minority
 - Design for distracted idiots, not obsessed geniuses
 - Hidden vs. Visible: Understand simplicity vs crippling your feature set
-- Recognish vs. Memory: don't make me thing. (or at worst, _remind me where to look_)
+- Recognition vs. Memory: don't make me think (or at worst, _remind me where to look_)
 - Learning is slow. Habits are fast: create a "fast way" to do key features.
 
 ---
@@ -257,8 +257,8 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 - Never lies, but also doesn't account for context
 - Interpretation is where mistakes can happen
-- [Clicktale](https://www.clicktale.com/)
-- Search logs 
+- Tools: [Clicktale](https://www.clicktale.com/), [Segment](http://segment.io)
+- Search logs (review history of search terms to improve experience)
 
 #### 29. Summary Statistics
 
@@ -293,12 +293,13 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 - Depends on traffic, time, etc
 - Must be run at the same time (nothing new here)
+- Tools: [Optimizely](https://www.optimizely.com/resources/ab-testing-tool/), [VWO](http://vwo.com), [FiveSecondTest](http://fivesecondtest.com), 
 
 ---
 
 ## Other Takeaways
 
-Every section of this outline could serve as the starting point for in-depth study &mdash; user research, wireframing, interaction design, copywriting, visual design, psychology, project planning, data analysis, best practices. The list goes on and on, which is partly why it's such an interesting and exciting field.
+Every section of this outline could serve as the starting point for in-depth study &mdash; user research, wireframing, interaction design, copywriting, visual design, psychology, project planning, data analysis, testing, etc. The list goes on and on, which is partly why it's such an interesting and exciting field.
 
 ---
 
