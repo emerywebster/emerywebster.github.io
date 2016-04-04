@@ -44,7 +44,7 @@ author:
   facebook: emerywebster  # eg. daattali
   github: emerywebster    # eg. daattali
   twitter: emerywebster   # eg. daattali
-  linkedin: emerywebster  # eg. "pub/dean-attali/8/946/143"
+  linkedin: in/emerywebster  # eg. "pub/dean-attali/8/946/143"
   # stackoverflow: emerywebster  # eg. "3943160/daattali"
  
 # Select which links to show in the footer
@@ -64,7 +64,7 @@ url-pretty: "emerywebster.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: emerywebster
+disqus`: emerywebster
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-8462524-1"
