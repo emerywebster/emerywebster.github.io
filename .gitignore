@@ -5,6 +5,7 @@ _site
 
 # general
 .DS_Store
+_drafts
 Thumbs.db
 ehthumbs.db
 Gemfile.lock
