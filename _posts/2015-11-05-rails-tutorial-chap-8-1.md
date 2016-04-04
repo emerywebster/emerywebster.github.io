@@ -26,7 +26,7 @@ We attack this two difference ways. First by creating a user **_session_** (temp
 
 First we create a _sessions_ controller like so:
 
-```ruby
+{% highlight ruby %}
 class SessionsController < ApplicationController
 
   def new
@@ -45,7 +45,7 @@ class SessionsController < ApplicationController
   def destroy
   end
 end
-```
+{% endhighlight %}
 
 Initially I struggled with the concept of `params[:whatever]`...but after some digging I found that it's basically just a placeholder for a nested hash (user data submitted through the login form). So `params[:session]` translates to `{ password: "foobar", email: "user@example.com" }`. 
 
@@ -53,9 +53,9 @@ Going further, `params[:session][:email]` just points to the submitted email add
 
 To pound this concept in a little further let's explain what's really going on with the punchline in the above code:
 
-```ruby
+{% highlight ruby %}
 if user && user.authenticate(params[:session][:password])
-```
+{% endhighlight %}
 
 Here we need for the user to exist and for the password to be correct (kinda obvious when you think of what the login form does). So here are the possible results:
 
@@ -69,7 +69,7 @@ The last part of this section applies a <span style="background-color:#f2dede; b
 
 Here's a quick look at the test (which <strong><small><span style="color:red">FAILS</span></small></strong>):
 
-```ruby
+{% highlight ruby %}
 # Added to users_login_test.rb
 require 'test_helper'
 
@@ -85,14 +85,14 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     assert flash.empty?
   end
 end
-```
+{% endhighlight %}
 
 
 We can then <strong><small><span style="color:green">PASS</span></small></strong> our test (and apply the flash) by adding this line to the `else` portion of the session controller code.
 
-```ruby
+{% highlight ruby %}
 flash.now[:danger] = 'Invalid email/password combination'
-```
+{% endhighlight %}
 
 So far so good.
 
@@ -115,16 +115,16 @@ Kind of a big one. I'll try to keep it brief &mdash; here's what we're doing:
 
 First we introduce the _sessions helper_ to define the `log_in` method, which looks like this: 
 
-```ruby
+{% highlight ruby %}
 # Added to sessions_helper.rb
 def log_in(user)
   session[:user_id] = user.id
 end
-```
+{% endhighlight %}
 
 We can then add that to our session empty controller comment from Section 1 above:
 
-```ruby
+{% highlight ruby %}
 # Added to sessions_controller.rb
 def create
   user = User.find_by(email: params[:session][:email].downcase)
@@ -136,30 +136,30 @@ def create
     render 'new'
   end
 end
-```
+{% endhighlight %}
 
 ---
 
 Next we need to define the `current_user` to pull info from the database corresponding to their session id. 
 
-```ruby
+{% highlight ruby %}
 # Returns the current logged-in user (if any).
 def current_user
   @current_user ||= User.find_by(id: session[:user_id])
 end
-```
+{% endhighlight %}
 
 We use an instance variable (`@current_user`) here in case it appears multiple multiple times on the page.
 
 Also worth noting that the `||=` operation line is equivalent to the code below (but simpler/better):
 
-```ruby
+{% highlight ruby %}
 if @current_user.nil?
   @current_user = User.find_by(id: session[:user_id])
 else
   @current_user
 end
-```
+{% endhighlight %}
 
 So the `||=` operation will stop if `@current_user` is available/true...and will otherwise continue on to the search.
 
@@ -167,18 +167,18 @@ So the `||=` operation will stop if `@current_user` is available/true...and will
 
 Next we need to change the layout links for logged in users. We first do this by defining a method that checks if the user is logged in (in other words, is `current_user` not `nil`):
 
-```ruby
+{% highlight ruby %}
 # Added to app/helpers/sessions_helper.rb
 
 # Returns true if the user is logged in, false otherwise.
 def logged_in?
   !current_user.nil?
 end
-```
+{% endhighlight %}
 
 With that in place we're able to add some conditional code to the header:
 
-```erb
+{% highlight erb %}
 <%# Added to app/views/_header.html.erb %>
 
 <% if logged_in? %>
@@ -187,30 +187,30 @@ With that in place we're able to add some conditional code to the header:
   <%# Original link to login. %>
   <li><%= link_to "Log in", login_path %></li>
 <% end %>
-```
+{% endhighlight %}
 
 ---
 
 Almost there! Next we need to test everything with some sample user data. We do this with [fixtures](http://guides.rubyonrails.org/testing.html#the-low-down-on-fixtures):
 
-```YAML
+{% highlight yaml %}
 # Create test/fixtures/users.yml
 
 webb:
   name: Webb Example
   email: webb@example.com
   password_digest: <%= User.digest('password') %>
-```
+{% endhighlight %}
 
 And then add an instance variable for `:webb` in the login test:
 
-```ruby
+{% highlight ruby %}
 # Modify test/integration/users_login_test.rb
 
   def setup
     @user = users(:webb)
   end
-```
+{% endhighlight %}
 
 ---
 
@@ -222,26 +222,26 @@ Then we add `assert is_logged_in?` to the `users_signup_test.rb` to ensure it wo
 
 **Finally**, we need the ability to log out. To do this we go back to our `sessions_helper` to define the method:
 
-```ruby
+{% highlight ruby %}
 # Logs out the current user.
 def log_out
   session.delete(:user_id)
   @current_user = nil
 end
-```
+{% endhighlight %}
 
 Then we can use that method in our sessions controller:
 
-```ruby
+{% highlight ruby %}
 def destroy
   log_out
   redirect_to root_url
 end
-```
+{% endhighlight %}
 
 The test for this is pretty gnarly but showcases a nice, full list of steps that are fairly easy to understand:
 
-```ruby
+{% highlight ruby %}
 # Add to test/integration/users_login_test.rb
   test "login with valid information followed by logout" do
     get login_path
@@ -262,7 +262,7 @@ The test for this is pretty gnarly but showcases a nice, full list of steps that
     assert_select "a[href=?]", user_path(@user), count: 0
   end
 end
-```
+{% endhighlight %}
 
 ---
 

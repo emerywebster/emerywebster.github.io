@@ -1,59 +1,46 @@
 ---
-layout: default
+layout: base
 ---
+
+{% include header.html type="post" %}
 <div class="ssk-sticky ssk-left ssk-center ssk-lg">
-    <a href="" class="ssk ssk-twitter"></a>
-    <a href="" class="ssk ssk-facebook"></a>
-    <a href="" class="ssk ssk-linkedin"></a>
+  <a href="" class="ssk ssk-twitter" data-text="{{ page.title }}"></a>
+  <a href="" class="ssk ssk-facebook"></a>
+  <a href="" class="ssk ssk-linkedin"></a>
 </div>
-<article {% if page.feature-img %}class="feature-image"{% else %}class="no-feature-image"{% endif %}>
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}');">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="meta">
-    {{ page.date | date: "%B %-d, %Y" }}
-    {% if page.author %} - {{ page.author }}{% endif %}
-    </p>
-  </header>
-  <div class="content-wrapper">
-    <section class="post-content">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
         <div class="top-share ssk-group">
-          <a href="" class="ssk ssk-text ssk-twitter">Tweet</a>
+          <a href="" class="ssk ssk-text ssk-twitter" data-text="{{ page.title }}">Tweet</a>
           <a href="" class="ssk ssk-text ssk-facebook">Share</a>
           <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
-      </div>
-      {{ content }}
-    </section>
+        </div>
+	      {{ content }}
+	    </article>
+	  	  
+      <ul class="pager blog-pager">
+        {% if page.previous.url %}
+        <li class="previous">
+          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="next">
+          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
   </div>
-</article>
-
-<!-- Post navigation -->
-{% if site.theme.post_navigation %}
-<div id="post-nav">
-    {% if page.previous.url %}
-    <a id="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">
-      <span class="page-title">{{ page.previous.title }}</span>
-      <span class="nav-label">
-        <i class="fa fa-chevron-left"></i> {{ site.theme.str_prev }}
-      </span>
-    </a>
-    {% endif %}
-    {% if page.next.url %}
-    <a id="next-post" href="{{ site.baseurl }}{{ page.next.url }}">
-       <span class="page-title">{{ page.next.title }}</span>
-       <span class="nav-label">
-        {{ site.theme.str_next }} <i class="fa fa-chevron-right"></i>
-       </span>
-     </a>
+    {% if page.comments %}
+    <div class="disqus-comments">
+      {% include disqus.html %}
+    </div>
     {% endif %}
 </div>
-{% endif %}
 
-<!-- Disqus -->
-{% if site.theme.disqus_shortname %}
-<div class="comments">
-  {% include disqus.html %}
-</div>
-{% endif %}
 
 <!-- SSK -->
 {% include ssk.html %}

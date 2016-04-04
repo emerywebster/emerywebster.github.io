@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
-menu: main
 ---
 
 Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
