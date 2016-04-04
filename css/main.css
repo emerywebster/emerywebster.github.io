@@ -584,7 +584,7 @@ a.button:hover {
 }
 @media only screen and (max-width: 768px) {
   .navbar-brand {
-    font-size: .6em;
+    font-size: .75em;
   }
 }
 
