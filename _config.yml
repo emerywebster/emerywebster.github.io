@@ -1,65 +1,108 @@
-# SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://emerywebster.com" # the base hostname & protocol for your site
+# --- General options --- #
 
-# THEME-SPECIFIC CONFIGURATION
-theme:
-  # Meta
-  title: Webb Henderson
-  avatar: avatar.png
-  gravatar: c1bdb8868b7153e10841465ae6b1cf5f
-  description: "Personal website of Webb Henderson" # used by search engines
+# url is the full website URL
+# baseurl is the website's URL without the hostname
 
-  # Header and footer text
-  header_text:
-#     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-#     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
-  footer_text: >
-   This website is <a href="https://github.com/emerywebster/emerywebster.github.io">open source</a>. View <a href="/backlog">backlog</a>.<br />
-   &copy; 2016 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+url: "/"
+baseurl: ""
 
-  # Icons
+# If you are building a GitHub project page then use these settings:
+#url: "http://username.github.io/projectname"
+#baseurl: "/projectname"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
+# Name of website
+title: Webb Henderson
+
+# Short description of your site
+description: Personal website of Webb Henderson
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  About: "about"
+  Archive: "archive"
+#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+#    - Learn markdown: "http://www.markdowntutorial.com/"
+#    - GitHub Pages: "https://pages.github.com/"
+  Portfolio: "http://ux.emerywebster.com"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: /img/avatar.jpg
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: Webb Henderson
+  email: "webb.henderson@gmail.com"
+  facebook: emerywebster  # eg. daattali
+  github: emerywebster    # eg. daattali
+  twitter: emerywebster   # eg. daattali
+  linkedin: emerywebster  # eg. "pub/dean-attali/8/946/143"
+  # stackoverflow: emerywebster  # eg. "3943160/daattali"
+ 
+# Select which links to show in the footer
+footer-links-active:
   rss: false
-  github: "emerywebster"
-  linkedin:  "http://www.linkedin.com/in/emerywebster"
-  twitter: "emerywebster"
-  instagram: "emerywebster"
-  email_address: # Full email address, e.g. "sam@example.com"
+  facebook: false
+  email: true
+  twitter: true
+  github: true
+  linkedin: true
+  stackoverflow: false
 
-  # Scripts
-  google_analytics: "UA-8462524-1"
-  disqus_shortname: emerywebster
-  katex: true # Enable if using math markup
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "emerywebster.com"  # eg. "deanattali.com/beautiful-jekyll"
 
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Older"
-  str_prev: "Newer"
-  str_continue_reading: "Continue reading"
+# --- Misc --- #
 
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-  
-  # Post navigation
-  post_navigation: false
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+disqus: "emerywebster"
 
-# PAGINATION
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: "UA-8462524-1"
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Denver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
 paginate: 5
 paginate_path: "page/:num"
 
-# BUILD SETTINGS
-markdown: redcarpet
-redcarpet:
-  extensions: ["strikethrough", "footnotes"]
-sass:
-  sass_dir: _sass
-  style: :compressed
-highlighter: rouge
-permalink: /:year/:month/:day/:title/
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - Vagrantfile
 
 gems:
 - jekyll-mentions
@@ -68,4 +111,6 @@ gems:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-paginate
-
+  
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189

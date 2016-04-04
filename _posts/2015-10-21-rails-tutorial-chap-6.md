@@ -14,7 +14,9 @@ While this seems to vary depending on the technologies/frameworks/languages invo
 
 In this chapter we started down this path by creating and building upon a _User_ model. Generally users have names, emails, (timestamps), and passwords. We created each of these by _generating_ the User model (rails tees this up pretty simply) and then telling it how to handle each attribute. That's the easy part.
 
-    $ rails generate model User name:string email:string
+{% highlight shell %}
+$ rails generate model User name:string email:string
+{% endhighlight %}
 
 We then built some tests and [red / green / refactored](https://en.wikipedia.org/wiki/Test-driven_development) them as we've done before. This included:
 
@@ -37,20 +39,19 @@ These files are essentially incremental instructions for 'how to construct the d
 
 So this code:
 
-```ruby
+{% highlight ruby %}
+# From [timestamp]_create_users.rb
+class CreateUsers < ActiveRecord::Migration
+  def change
+    create_table :users do |t|
+      t.string :name
+      t.string :email
 
-    # From [timestamp]_create_users.rb
-    class CreateUsers < ActiveRecord::Migration
-      def change
-        create_table :users do |t|
-          t.string :name
-          t.string :email
-    
-          t.timestamps null: false
-        end
-      end
+      t.timestamps null: false
     end
-```
+  end
+end
+{% endhighlight %}
 
 ...will execute SQL commands behind the scenes to set up the database architecture (create table, add columns for name/email...and add timestamps). So if I make a mistake when structuring the `_add_password` migration piece I can just perform a `db:rollback`, make any necessary changes, and then `db:migrate` it back into place. Pretty cool.
 

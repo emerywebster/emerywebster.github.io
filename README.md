@@ -2,7 +2,7 @@
 
 - github pages
 - jekyll
-- currently using forked [Type](https://rohanchandra.github.io/project/type/) theme.
+- currently using [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll) theme.
 
 ### License
 
