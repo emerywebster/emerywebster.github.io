@@ -659,7 +659,8 @@ pre code, tt {
 @media screen and (min-width: 771px) {
  .top-share {
   display: none;
- }
+  }
+}
 
 .static p a {
  color: #1ABC9C
