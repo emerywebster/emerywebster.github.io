@@ -4,8 +4,19 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
+Hello there! I'm Webb &mdash; a product generalist living in Denver, Colorado.
 
-Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
+I enjoy...
+
+- Technology and design
+- Problem solving
+- Art (music, writing, performance &mdash; all of it)
+- Learning from others
+- Discovering new experiences
+
+I also like connecting with new people...so please feel free to [give me a shout](mailto:webb.henderson@gmail.com)!
+
+---
 
 ### Quick Facts
 
@@ -66,7 +77,6 @@ Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
 
 - [AbletonLive](http://ableton.com) for music production
 - [Balsamiq](http://balsamiq.com) for wireframing
-- [Chrome](http://chrome.com) for web browsing
 - [Gmail](http://gmail.com) for email (all)
 - [iTerm](https://www.iterm2.com/) for bashing
 - [Sketch](http://www.sketchapp.com/) for designing
@@ -94,7 +104,13 @@ Hello there! I'm Webb &mdash; a super-generalist living in Denver, Colorado.
 
 - [Andrew Chen](http://andrewchen.co/)
 - [Ben Horowitz](http://www.bhorowitz.com/)
+- [Chris Coyier](http://chriscoyier.net/)
+- [Don Norman](http://jnd.org/)
+- [Jared Spool](http://uie.com/)
+- [Julie Zhuo](https://medium.com/@joulee)
 - [Ken Norton](http://kennorton.com/)
+- [Luke Wroblewski](http://lukew.com/)
 - [Marty Cagan](http://svpg.com/articles/)
 - [Rob Fitzpatrick](http://robfitz.com/)
+- [Tim Brown](http://nicewebtype.com)
 - [Tristan Kromer](http://grasshopperherder.com/)
