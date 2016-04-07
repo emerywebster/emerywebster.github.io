@@ -3,9 +3,9 @@
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
-  color: #1F1F26);
+  font-family: 'Lora', 'Georgia', serif;
+  font-size: 20px;
+  color: #1F1F26;
   position: relative;
   background: #FFF;
 }
@@ -32,6 +32,9 @@ blockquote {
   color: #808080;
   font-style: italic;
   margin: 1em;
+}
+li {
+  margin-bottom:.15em;
 }
 hr.small {
   max-width: 100px;
@@ -580,7 +583,7 @@ a.button:hover {
   color: #1ABC9C;
 }
 .navbar-brand {
-  font-size: 1em;
+  font-size: 18px;
 }
 @media only screen and (max-width: 768px) {
   .navbar-brand {
