@@ -10,7 +10,7 @@ This October I found one of these :bulb: moments in the golf swing (via Ben Hoga
 
 **Here's the lesson:** Hogan prefaces his instruction by saying the most important detail is _the movement of the lower body from the top of the swing._[^1] In other words, use your hip rotation (and weight-transfer to the left side) to initiate the downswing:
 
-<div class='embed-container'><iframe src='http://www.youtube.com/embed/4wpyAXvIDYw?rel=0' frameborder='0' allowfullscreen></iframe></div>
+<iframe width="750" height="500" src="https://www.youtube.com/embed/4wpyAXvIDYw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 You'll notice that Hogan nearly completes his downswing without making any movement with his upper body. His hip rotation performs about 80% of the work alone.
 

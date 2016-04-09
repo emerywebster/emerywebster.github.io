@@ -35,7 +35,7 @@ So many aspects of the human experience are entirely mysterious (and will likely
 
 I clearly took a hard left turn to super-deep existential land here...but while we're at it, take a few minutes to watch of my favorite Neil Degrasse Tyson videos:
 
-<div class='embed-container'><iframe src='http://www.youtube.com/embed/9D05ej8u-gU?rel=0' frameborder='0' allowfullscreen></iframe></div>
+<iframe width="750" height="500" src="https://www.youtube.com/embed/9D05ej8u-gU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ---
 
