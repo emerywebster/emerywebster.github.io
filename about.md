@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
-Hello there! I'm Webb &mdash; a product generalist living in Denver, Colorado.
-
-I enjoy...
+Hello there! I'm Webb &mdash; a product generalist living in Denver, Colorado. I enjoy...
 
 - Technology and design
 - Problem solving
