@@ -10,9 +10,9 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 ---
 
-### Key Concepts
+## Key Concepts
 
-#### 1. Defining UX
+### 1. Defining UX
 
 - The goal of a UX designer is to make users **effective**
 - Accomplishes goals (for the user and business)
@@ -21,13 +21,13 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 > We do research to understand the users, we develop ideas to solve the users’ needs — and the needs of the business — and we build and measure those solutions in the real world to see if they work.
 
-#### 2. Two types of goals
+### 2. Two types of goals
 
 - User (needs)
 - Business (KPIs, metrics)
 - Align goals so business benefits when user reaches their goal
 
-#### 3. UX Ingredients
+### 3. UX Ingredients
 
 - Psychology (motivation, expectation, rewards) -- unconscious
 - Usability (logic vs intuition, clear vs clever, mistakes) -- conscious
@@ -37,15 +37,15 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 ---
 
-### Understanding Users
+## Understanding Users
 
-#### 4. User Research
+### 4. User Research
 
 - Early and often
 - Subjective (often qualitative, no right answer)
 - Objective (often quantitative interpretation of subjective questions "80 of 100 say it's 'bad'")
 
-#### 5. Asking Questions
+### 5. Asking Questions
 
 - Types
     - (1) Open questions ("how would you describe...x?")
@@ -58,7 +58,7 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - Avoid interpretting questions or suggesting answers
 - Take good notes
 
-#### 6. User Profiles
+### 6. User Profiles
 
 - These are _NOT_:
     - personality types
@@ -70,7 +70,7 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - Describes goals, expectations, motivations, behavior of real people
 - Back info up with research and data
 
-#### 7. Designing for Devices 
+### 7. Designing for Devices 
 
 - (1) How does it like to be touched? 
 - (2) Start small
@@ -79,23 +79,23 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - (5) Be responsive (any device)
 - (6) Think about more than one screen at a time
 
-#### 8. Design Patterns
+### 8. Design Patterns
 
 - "Good" patterns are common _and_ usable
 - Tools: [GoodUI](https://goodui.org/), PatternTap, mobile-patterns.com
 
 ---
 
-### Information Architecture
+## Information Architecture
 
-#### 9. What is IA?
+### 9. What is IA?
 
 - Don't make it fancy
 - Just because it's simple, doesn't mean it makes sense
 - Deep or flat, not both
 - Make sure user knows where they are at all times and how to navigate elsewhere
 
-#### 10. User Stories & Types of IA
+### 10. User Stories & Types of IA
 
 - Describes _flows_ -- sequences and choices, not the implementation or UI.
 - Simple & effective
@@ -106,7 +106,7 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
     - Time (inbox, reddit, news feed)
     - People (facebook, designed by who the information is about)
 
-#### 11. Wireframing
+### 11. Wireframing
 
 - Technical blueprint
 
@@ -114,27 +114,27 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 ---
 
-### Visual Design Principles
+## Visual Design Principles
 
-#### 12. Visual weight, contrast, depth
+### 12. Visual weight, contrast, depth
 
 - All relative
 - Depth and size (even if your design is flat)
 
 > That’s why it’s wrong to “make the logo bigger”. Unless you want users to stare at your logo instead of buying something.
 
-#### 13. Color
+### 13. Color
 
 - Sometimes color = function (traffic lights, popsicles)
 - Recede vs. advance (quiet vs loud)
 
-#### 14. Repetition & Pattern-Breaking
+### 14. Repetition & Pattern-Breaking
 
 - We focus on pattern breaks 
 - (don't just notice them, we think about them differently)
 - Can also take the eye away from important elements
 
-#### 15. Line Tension & Edge Tension
+### 15. Line Tension & Edge Tension
 
 - "Do you see 12 ducks...or a box made of ducks?"
 - Our brains are super good at identifying/focusing on patterns
@@ -142,16 +142,16 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - 1 mental thing vs 12 separate things
 - [combine] Gradient lists
 
-#### 16. Alignment & Proximity
+### 16. Alignment & Proximity
 
 - Perception of organization, separation, leading, direction
 - Understanding of related elements without reading anything
 
 ---
 
-### Functional Layout Design
+## Functional Layout Design
 
-#### 17. Z-Pattern, F-Pattern, and Visual Heirarchy
+### 17. Z-Pattern, F-Pattern, and Visual Heirarchy
 
 - Users scan, they don't read
 - Z = boring (newspaper)
@@ -160,33 +160,33 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - Create a design that users can scan easily
 - Better design doesn't necessarily look better, it's just easier to scan
 
-#### 18. Browsing vs. Searching vs. Discovery
+### 18. Browsing vs. Searching vs. Discovery
 
 - Browsing: make scanning easy & keep the content quick & visual. Don't overcrowd. Focus on emotional appeal. Style? photos. Power? info via labels. Brands? logos. Craftsmanship? magnify details. etc.
 - Searching: they'll ignore lots of stuff, focus on attributes, highlight ones that are likely critical, avoid clutter, focus on what the user wants out of it.
 - Discovery: users click on menu items if they are looking for those things. nobody discovers stuff via the menu. More experienced users also explore less. Instead, let them find what they are already looking for. Add relevant stuff so they can then discover it. It might feel like you're hiding it...but you're making it visible to the right people.
 
-#### 19. Page Framework
+### 19. Page Framework
 
 - Footers -- infinite scroll? Ensure that info is somewhere else.
 - Menus -- most to least popular, always
 - Mega-menus are lazy
 - Create navigation and footers that work for all of the pages/screens in your app before you get into content
 
-#### 20. The Fold, Images, & Headlines
+### 20. The Fold, Images, & Headlines
 
 - 60-80% of users will scroll if they expect something useful
 - If you need a graphic that says "(anything)", your design is weak
 - People looking in the direction of your content...works
 - Use headlines to direct users to what matters most
 
-#### 21. The Axis of Interaction
+### 21. The Axis of Interaction
 
 - Human attention is extremely limited
 - Find edges, users will focus on the first one, then the next
 - Put CTAs on or near an axis of interaction
 
-#### 22. Forms
+### 22. Forms
 
 - Generally, shorter the better
 - Make them _feel_ simple 
@@ -197,13 +197,13 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - Simple questions? Label goes above and aligned with axis of interaction
 - Complex questions? Slow users down by putting the label to the left of the input
 
-#### 23. CTAs, Instructions, & Labels
+### 23. CTAs, Instructions, & Labels
 
 - CTA = VERB + BENEFIT + URGENT TIME (now, free) or PLACE (here)
 - Instructions: short, literal, direct (no cleverness, not too wordy, not soft)
 - Labels: common, easy, simple as possible &mdash; avoid cleverness or uniqueness 
 
-#### 24. Primary & Secondary buttons
+### 24. Primary & Secondary buttons
 
 - Primary actions are helpful for goals, secondary actions are not
 - High contrast, on/near axis of interaction
@@ -212,9 +212,9 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 ---
 
-### User Psychology
+## User Psychology
 
-#### 25. Conditioning
+### 25. Conditioning
 
 - Repetition for rewards, avoidance for punishment
 - Feelings, not things
@@ -223,7 +223,7 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
     - (post baby pic on facebook, get likes, do it again)
     - Punishment? Dead crops in farmville for staying away too long
 
-#### 26. Persuasion
+### 26. Persuasion
 
 - 8 Common Methods (of 40 different types of persuaders)
     - Credibility/Trust: don't say it, show it.
@@ -241,7 +241,7 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
     - Understanding: motivation to learn, _deserve_ to know more, 
 - Money is not on this list because it is not motivating in itself (what does it provide though? status? options?).
 
-#### 27. How Experience Changes Experience
+### 27. How Experience Changes Experience
 
 - Power users are the minority
 - Design for distracted idiots, not obsessed geniuses
@@ -251,16 +251,16 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 
 ---
 
-### Designing with Data
+## Designing with Data
 
-#### 28. What is data?
+### 28. What is data?
 
 - Never lies, but also doesn't account for context
 - Interpretation is where mistakes can happen
 - Tools: [Clicktale](https://www.clicktale.com/), [Segment](http://segment.io)
 - Search logs (review history of search terms to improve experience)
 
-#### 29. Summary Statistics
+### 29. Summary Statistics
 
 - (1 & 2) Sessions (total visits) and Users (unique visits)
     - High quality: total > uniques
@@ -282,14 +282,14 @@ As usual, I jotted some notes on certain concepts to revisit. Here are the main 
 - (7) New vs. Return
     - Indication of quality, growth, etc
 
-#### 30. Graph Shapes
+### 30. Graph Shapes
 
 - People don't suddenly change behavior without being provoked
 - Exponential / long tail 
     - Big drop = big problem
     - Understanding of user behavior, engagement, etc.
 
-#### 31. A/B Test
+### 31. A/B Test
 
 - Depends on traffic, time, etc
 - Must be run at the same time (nothing new here)
