@@ -64,7 +64,7 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 ---
 
-## Setup
+### Setup
 
 #### Hardware
 
@@ -84,7 +84,7 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 ---
 
-## Influences
+### Influences
 
 #### People (I actually know)
 
