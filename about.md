@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
-Hello there! I'm Webb, a product generalist living in Denver, Colorado. I'm currently on the UX team at [ReadyTalk](http://readytalk.com) &mdash; working on an amazing new collaborative video tool called [FoxDen](http://foxden.io).
+Hello there! I'm Webb &mdash; a product generalist and UX designer living in Denver, Colorado. Currently I'm working with [ReadyTalk](http://readytalk.com) on a fun new product called [FoxDen](http://foxden.io).
 
 I enjoy...
 
@@ -31,6 +31,9 @@ I also like connecting with new people...so please feel free to [give me a shout
 - I've been to 16 countries and am hoping to double that number within the next 5-6 years.
 - I previously ran an eBay/Amazon resale business (I still dabble).
 - Prior to that, I managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
+- I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
+- I once ran an eBay/Amazon resale business...along with lots of other side projects.
+- I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
 
 ---
 
@@ -50,8 +53,9 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 #### Active
 
-- [IFLGolf](http://ifl.golf) : Online publication/brand for next generation golf fans.
-- [SpiceGuide](http://spicegui.de) : Because everyone needs a food blog...right?
+- [FoxDen](http://foxden.io) (ReadyTalk) : Awesomely simple video meetings. FoxDen provides simple and helpful way to collaborate online.
+- [IFLGolf](http://ifl.golf) (Personal) : Online publication/brand for next generation golf fans.
+- [SpiceGuide](http://spicegui.de) (Personal) : Because everyone needs a food blog...right?
 
 #### Learning
 
