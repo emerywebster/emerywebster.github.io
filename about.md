@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
-Hello there! I'm Webb &mdash; a product generalist and UX designer living in Denver, Colorado. Currently I'm working with [ReadyTalk](http://readytalk.com) on a fun new product called [FoxDen](http://foxden.io).
+Hello there! I'm Webb &mdash; a product generalist and UX designer living in Denver, Colorado.
 
 I enjoy...
 
@@ -53,7 +53,7 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 #### Active
 
-- [FoxDen](http://foxden.io) (ReadyTalk) : Awesomely simple video meetings. FoxDen provides simple and helpful way to collaborate online.
+- [FoxDen](http://foxden.io) (ReadyTalk) : Ridiculously simple video meetings - contributed a handful of useful features _after_ the initial product launch.
 - [IFLGolf](http://ifl.golf) (Personal) : Online publication/brand for next generation golf fans.
 - [SpiceGuide](http://spicegui.de) (Personal) : Because everyone needs a food blog...right?
 
@@ -75,16 +75,17 @@ I also like connecting with new people...so please feel free to [give me a shout
 #### Hardware
 
 - iPhone 6
-- Macbook Air 13"
+- Macbook Pro 13"
 
 #### Software
 
 - [AbletonLive](http://ableton.com) for music production
-- [Balsamiq](http://balsamiq.com) for wireframing
+- [Balsamiq](http://balsamiq.com) for wireframing (or more commonly a whiteboard)
+- [foxden](http://foxden.io) for video conferencing
 - [Gmail](http://gmail.com) for email (all)
 - [iTerm](https://www.iterm2.com/) for bashing
 - [Sketch](http://www.sketchapp.com/) for designing
-- [Slack](http://slack.com) for personal chat
+- [Slack](http://slack.com) for chat
 - [SublimeText](http://sublimetext.com) for text editing
 - [Wunderlist](http://wunderlist.com) for organizing &amp; prioritizing
 
@@ -118,3 +119,5 @@ I also like connecting with new people...so please feel free to [give me a shout
 - [Rob Fitzpatrick](http://robfitz.com/)
 - [Tim Brown](http://nicewebtype.com)
 - [Tristan Kromer](http://grasshopperherder.com/)
+
+And lots of amazing folks at [ReadyTalk](https://www.linkedin.com/company/readytalk).
