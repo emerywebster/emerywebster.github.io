@@ -87,7 +87,8 @@ I also like connecting with new people...so please feel free to [give me a shout
 - [Sketch](http://www.sketchapp.com/) for designing
 - [Slack](http://slack.com) for chat
 - [SublimeText](http://sublimetext.com) for text editing
-- [Wunderlist](http://wunderlist.com) for organizing &amp; prioritizing
+- [Trello](http://trello.com) for organizing &amp; priorities work
+- [Wunderlist](http://wunderlist.com) for organizing &amp; prioritizing life
 
 ---
 
