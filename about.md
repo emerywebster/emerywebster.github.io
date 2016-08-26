@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
-Hello there! I'm Webb &mdash; a product generalist and UX designer living in Denver, Colorado.
+Hello there! I'm Webb &mdash; a product and UX generalist living in Denver, Colorado.
 
 I enjoy...
 
