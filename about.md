@@ -29,6 +29,7 @@ I also like connecting with new people...so please feel free to [give me a shout
 - [I love golf](http://ifl.golf) more than just about anything.
 - I also like to ski, snowboard, camp, fish, run, and cook.
 - I've been to 16 countries and am hoping to double that number within the next 5-6 years.
+- I'm currently an experience designer at [Readytalk](http://readytalk.com).
 - I previously ran an eBay/Amazon resale business (I still dabble).
 - Prior to that, I managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
 
