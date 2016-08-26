@@ -31,9 +31,6 @@ I also like connecting with new people...so please feel free to [give me a shout
 - I've been to 16 countries and am hoping to double that number within the next 5-6 years.
 - I previously ran an eBay/Amazon resale business (I still dabble).
 - Prior to that, I managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
-- I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
-- I once ran an eBay/Amazon resale business...along with lots of other side projects.
-- I previously managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
 
 ---
 
