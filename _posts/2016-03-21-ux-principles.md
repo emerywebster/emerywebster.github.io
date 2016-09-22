@@ -4,7 +4,7 @@ title: UX Learning
 categories: Design
 tags: learning development apis sketch
 ---
-I recently went through [Joel Marsh](http://thehipperelement.com/)'s _crash course_ on UX fundamentals. It's an extremely introductory, high-level guide...but still a useful and worthwhile exercise nonetheless.
+I recently went through [Joel Marsh](http://thehipperelement.com/)'s _crash course_ on UX fundamentals. It's an extremely introductory, high-level guide...but definitely a useful and worthwhile exercise.
 
 As usual, I jotted some notes on certain concepts to revisit. Here are the main takeaways:
 
