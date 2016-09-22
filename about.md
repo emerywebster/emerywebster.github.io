@@ -53,7 +53,7 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 - [FoxDen](http://foxden.io) (ReadyTalk) : Ridiculously simple video meetings - contributed a handful of useful features _after_ the initial product launch.
 - [IFLGolf](http://ifl.golf) (Personal) : Online publication/brand for next generation golf fans.
-- [SpiceGuide](http://spicegui.de) (Personal) : Because everyone needs a food blog...right?
+- [SpiceGuide](http://spicegui.de) (Personal) : Because everyone needs a food blog.
 
 #### Learning
 
@@ -70,10 +70,12 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 ### Setup
 
-#### Hardware
+#### Hardware & Gadgets
 
 - iPhone 6
 - Macbook Pro 13"
+- Kindle Paperwhite (love!)
+- 
 
 #### Software
 
@@ -85,7 +87,7 @@ I also like connecting with new people...so please feel free to [give me a shout
 - [Sketch](http://www.sketchapp.com/) for designing
 - [Slack](http://slack.com) for chat
 - [SublimeText](http://sublimetext.com) for text editing
-- [Trello](http://trello.com) for organizing &amp; priorities work
+- [Trello](http://trello.com) for organizing &amp; prioritizing work
 - [Wunderlist](http://wunderlist.com) for organizing &amp; prioritizing life
 
 ---
