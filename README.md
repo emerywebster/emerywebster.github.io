@@ -1,10 +1,10 @@
 # emerywebster.com
 
-Uses:
+Made with:
 
-- github pages
-- jekyll
-- using a modified version of the [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll) theme
+- [Jekyll](https://jekyllrb.com/)
+- [Github Pages](https://pages.github.com/)
+- A modified version of the [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll) theme
 
 ### Setup
 
