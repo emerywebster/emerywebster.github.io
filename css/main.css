@@ -3,11 +3,11 @@
 /* --- General --- */
 
 body {
-  font-family: '.tk-athelas' , 'Lora', 'Georgia', serif;
+  font-family: athelas, 'Lora', 'Georgia', serif;
   color: #38373D;
   position: relative;
   background: #FFF;
-  font-size: 18px;
+  font-size: 20px;
 }
 p {
   line-height: 1.5;
@@ -65,7 +65,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: athelas, 'Lora', 'Georgia', serif;
   padding: 15px inherit;
 }
 
@@ -333,7 +333,7 @@ footer .theme-by {
   text-align: center;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: athelas, 'Lora', 'Georgia', serif;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -591,7 +591,10 @@ a.button:hover {
   text-decoration: none;
 }
 .blog-post li a {
-  color: #1ABC9C;
+  border-bottom: 1px dashed #38373d;
+  color: #38373d;
+  text-decoration: none;
+  cursor: pointer;
 }
 .navbar-brand {
   font-size: 18px;
@@ -674,14 +677,6 @@ pre code, tt {
  .top-share {
   display: none;
   }
-}
-
-.static p a {
- color: #1ABC9C
-}
-
-.static li a {
- color: #1ABC9C
 }
 
 .pager {
