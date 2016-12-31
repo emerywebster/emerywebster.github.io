@@ -602,6 +602,18 @@ a.button:hover {
     font-size: .75em;
   }
 }
+.pager {
+  margin-top: -20px;
+}
+.pager li a {
+  color: #404040;
+}
+.page-content li a {
+  border-bottom: 1px dashed #38373d;
+  color: #38373d;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* --- */
 
@@ -675,11 +687,4 @@ pre code, tt {
  .top-share {
   display: none;
   }
-}
-
-.pager {
-  margin-top: -20px;
-}
-.pager li a {
-  color: #404040;
 }
