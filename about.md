@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
-Hello there! I'm Webb &mdash; a product and UX generalist living in Denver, Colorado.
+Hi there! I'm Webb &ndash; a UX and product generalist living in Denver, Colorado.
 
 I enjoy...
 
 - Technology and design
 - Problem solving
-- Art (music, writing, performance &mdash; all of it)
+- Art (music, writing, performance &ndash; all of it)
 - Learning from others
 - Discovering new experiences
 
@@ -51,7 +51,7 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 #### Active
 
-- [FoxDen](http://foxden.io) (ReadyTalk) : Ridiculously simple video meetings - contributed a handful of useful features _after_ the initial product launch.
+- [FoxDen](http://foxden.io) (ReadyTalk) : Simple & effective video meetings.
 - [IFLGolf](http://ifl.golf) (Personal) : Online publication/brand for next generation golf fans.
 - [SpiceGuide](http://spicegui.de) (Personal) : Because everyone needs a food blog.
 
@@ -75,19 +75,16 @@ I also like connecting with new people...so please feel free to [give me a shout
 - iPhone 6
 - Macbook Pro 13"
 - Kindle Paperwhite (love!)
-- 
 
-#### Software
+#### Software & Tools
 
-- [AbletonLive](http://ableton.com) for music production
-- [Balsamiq](http://balsamiq.com) for wireframing (or more commonly a whiteboard)
-- [foxden](http://foxden.io) for video conferencing
-- [Gmail](http://gmail.com) for email (all)
+- [FoxDen](http://foxden.io) for video meetings
 - [iTerm](https://www.iterm2.com/) for bashing
+- [Invision](http://invisionapp.com) & [Proto.io](http://proto.io) for prototyping
 - [Sketch](http://www.sketchapp.com/) for designing
 - [Slack](http://slack.com) for chat
 - [SublimeText](http://sublimetext.com) for text editing
-- [Trello](http://trello.com) for organizing &amp; prioritizing work
+- [Trello](http://trello.com) & [Jira](https://www.atlassian.com/software/jira) for organizing &amp; prioritizing work
 - [Wunderlist](http://wunderlist.com) for organizing &amp; prioritizing life
 
 ---
@@ -97,12 +94,14 @@ I also like connecting with new people...so please feel free to [give me a shout
 #### People (I actually know)
 
 - [Alex King](http://alexking.org)
-- [Andrew Austin](http://andrewjaustin.net/)
-- [Chris Forgham](http://oldguysriptoo.com/)
+- [Andrew Austin](http://andrewjaustin.net)
+- [Chris Forgham](http://oldguysriptoo.com)
+- [Courtney Bregar](http://courtneybregar.com)
 - [Devin Reams](http://devin.reams.me)
-- [Jared Cornwall](http://jaredcornwall.com/)
-- [Jonathan Johnson](http://jondavidjohn.com/)
+- [Jared Cornwall](http://jaredcornwall.com)
+- [Jonathan Johnson](http://jondavidjohn.com)
 - [Michael Lopp](http://randsinrepose.com)
+- [Nam Nguyen](https://www.linkedin.com/in/namydesign)
 - [Rona Kilmer](http://ronakilmer.com)
 - [Sandy Sage](http://sandy-sage.com)
 
@@ -120,5 +119,3 @@ I also like connecting with new people...so please feel free to [give me a shout
 - [Rob Fitzpatrick](http://robfitz.com/)
 - [Tim Brown](http://nicewebtype.com)
 - [Tristan Kromer](http://grasshopperherder.com/)
-
-And lots of amazing folks at [ReadyTalk](https://www.linkedin.com/company/readytalk).
