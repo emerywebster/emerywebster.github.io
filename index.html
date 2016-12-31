@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 
 <div class="posts-list">
@@ -21,27 +21,11 @@ layout: page
   
     <div class="post-entry">
       {{ post.excerpt | strip_html | xml_escape}} <br />
-    <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+      <a class="button" href="{{ post.url | prepend: site.baseurl }}">
       Read More
-    </a>
-	  <!--<a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>-->
+      </a>
     </div>
   
    </article>
   {% endfor %}
 </div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">More Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
