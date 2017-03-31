@@ -76,11 +76,13 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: #ccc;
+  background-color: #1ABC9C;
+  color: #ffffff;
   text-shadow: none;
 }
 ::selection {
-  color: #ccc;
+  background-color: #1ABC9C;
+  color: #ffffff;
   text-shadow: none;
 }
 img::selection {
