@@ -7,7 +7,7 @@ body {
   color: #38373D;
   position: relative;
   background: #FFF;
-  font-size: 20px;
+  font-size: 21px;
 }
 p {
   line-height: 1.5;
@@ -322,9 +322,8 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #acb5c3;
   font-size: 18px;
-  font-style: italic;
   margin: 0 0 10px;
 }
 .post-heading .post-meta {
@@ -461,7 +460,7 @@ footer .theme-by {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  .post-entry, .post-preview {
+  .post-entry, .post-preview, .blog-post {
     font-size: 19px;
     line-height: 26px;
   }
