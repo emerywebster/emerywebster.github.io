@@ -324,7 +324,6 @@ footer .theme-by {
 .post-heading .post-meta {
   color: #acb5c3;
   font-size: 18px;
-  margin: 0 0 10px;
 }
 .post-heading .post-meta {
   display: block;
@@ -468,6 +467,11 @@ footer .theme-by {
   .container {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .post-preview .post-meta,
+  .post-heading .post-meta {
+      margin-bottom: 12px;
   }
 
   .header-section.has-img .intro-header.no-img {
