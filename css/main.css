@@ -460,7 +460,17 @@ footer .theme-by {
 .header-section.has-img .intro-header.no-img {
   display: none;
 }
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 767px) {
+  .post-entry, .post-preview {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .header-section.has-img .intro-header.no-img {
     display: block;
   }
@@ -506,7 +516,7 @@ footer .theme-by {
   border-radius: 0;
   color: #404040;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .pager li a {
     padding: 15px 25px;
   }
