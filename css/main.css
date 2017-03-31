@@ -41,9 +41,10 @@ a:focus {
   color: #38373d;
 }
 blockquote {
-  color: #808080;
+  color: #acb5c3;
   font-style: italic;
-  margin: 1em;
+  margin: 1.8em .5em;
+  font-size: 22px;
 }
 li {
   margin-bottom:.15em;
@@ -472,6 +473,10 @@ footer .theme-by {
   .post-preview .post-meta,
   .post-heading .post-meta {
       margin-bottom: 12px;
+  }
+
+  blockquote {
+    font-size: 16px;
   }
 
   .header-section.has-img .intro-header.no-img {
