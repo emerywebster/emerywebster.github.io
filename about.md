@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
-Hi there! I'm Webb &ndash; a UX and product generalist living in Denver, Colorado.
+Hi there! I'm Webb &ndash; a UX and product designer living in Denver, Colorado.
 
 I enjoy...
 
@@ -14,7 +14,7 @@ I enjoy...
 - Learning from others
 - Discovering new experiences
 
-I also like connecting with new people...so please feel free to [give me a shout](mailto:webb.henderson@gmail.com)!
+I also like connecting with new people...so please feel free to [give me a shout](mailto:webb.henderson@gmail.com).
 
 ---
 
