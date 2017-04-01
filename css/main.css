@@ -77,12 +77,12 @@ hr.small {
 }
 
 ::-moz-selection {
-  background-color: #1ABC9C;
+  background-color: #5DACB8;
   color: #ffffff;
   text-shadow: none;
 }
 ::selection {
-  background-color: #1ABC9C;
+  background-color: #5DACB8;
   color: #ffffff;
   text-shadow: none;
 }
@@ -482,6 +482,10 @@ footer .theme-by {
     font-size: 16px;
   }
 
+  form {
+    ;
+  }
+
   .header-section.has-img .intro-header.no-img {
     display: block;
   }
@@ -723,31 +727,32 @@ pre code, tt {
 
 .form-group {
   width: 100%;
-  margin: 12px 0;
+  margin: 14px 0;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-size: 14px;
   color: #ccc;
-  opacity: .5;
+  opacity: .4;
+
 
 }
 ::-moz-placeholder { /* Firefox 19+ */
   font-size: 14px;
   color: #ccc;
-  opacity: .5;
+  opacity: .4;
 
 }
 :-ms-input-placeholder { /* IE 10+ */
   font-size: 14px;
   color: #ccc;
-  opacity: .5;
+  opacity: .4;
 
 }
 :-moz-placeholder { /* Firefox 18- */
   font-size: 14px;
   color: #ccc;
-  opacity: .5;
+  opacity: .4;
 
 }
 
@@ -758,9 +763,14 @@ label {
   color: #758C98;
 }
 
-input: {
+.form-control {
   background-color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
+  padding: 0;
+  height: 40px;
+  padding: 10px;
+  line-height: 1.3333333;
+  border-radius: 4px;
 }
 
 input:hover, textarea:hover {
@@ -770,6 +780,13 @@ input:hover, textarea:hover {
 input:hover, input:focus, textarea:hover, textarea:focus {
   border-color: #25BBF3;
   box-shadow: 0 0 3px rgba(39,128,248,.15);
+}
+
+.form[disabled],
+.form[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
 }
 
 .btn, .btn:hover {
@@ -787,35 +804,3 @@ input:hover, input:focus, textarea:hover, textarea:focus {
 
 .btn:hover {
   opacity: .85;
-
-/*
-  display: block;
-  max-width: 480px;
-  height: 40px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #555555;
-  vertical-align: middle;
-  background-color: #ffffff;
-  background-image: none;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-}
-
-
-
-
-
-.form[disabled],
-.form[readonly],
-fieldset[disabled] .form-control {
-  cursor: not-allowed;
-  background-color: #eeeeee;
-}
-
-}*/
