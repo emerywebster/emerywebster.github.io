@@ -37,7 +37,7 @@ a {
 a:hover,
 a:focus {
   transition: all .15s ease-in-out;
-  background-color: #fcf5e3;
+  background-color: #D5DFE3;
   text-decoration: none;
   color: #38373d;
 }
@@ -774,11 +774,11 @@ label {
 }
 
 input:hover, textarea:hover {
-  border-color: #25BBF3;
+  border-color: #5DACB8;
 }
 
 input:hover, input:focus, textarea:hover, textarea:focus {
-  border-color: #25BBF3;
+  border-color: #5DACB8;
   box-shadow: 0 0 3px rgba(39,128,248,.15);
 }
 
