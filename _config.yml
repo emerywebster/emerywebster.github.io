@@ -23,6 +23,7 @@ description: Personal website of Webb Henderson
 
 # List of links in the navigation bar
 navbar-links:
+  Portfolio: ""
   About: "about"
   Writing: "thoughts"
   Contact: "contact"
