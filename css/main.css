@@ -793,7 +793,7 @@ fieldset[disabled] .form-control {
   background-color: #eeeeee;
 }
 
-.btn, .btn:hover {
+.btn, .btn:hover, .btn:focus {
        transition: all .15s ease-in-out;
        text-transform: uppercase;
        width: 100%;
@@ -806,5 +806,6 @@ fieldset[disabled] .form-control {
        margin-top: 20px;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   opacity: .85;
+}
