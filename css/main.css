@@ -245,6 +245,10 @@ img {
     border: 1px solid #eaeaea;
     border-width: 0 1px 1px;
   }
+  .container-fluid {
+    padding-left: 80px;
+    padding-right: 50px;
+  }
 }
 
 /* --- Footer --- */
@@ -808,4 +812,21 @@ fieldset[disabled] .form-control {
 
 .btn:hover, .btn:focus {
   opacity: .85;
+}
+
+/* Portfolio stuff */
+
+.portfolio-item {
+  padding: 100px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #efefef;
+}
+
+.portfolio-item-last {
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+
+.portfolio-desc {
+  margin-top: 60px;
 }
