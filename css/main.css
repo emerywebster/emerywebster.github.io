@@ -286,6 +286,10 @@ footer .theme-by {
     font-size: 16px;
   }
 }
+
+.footer-links a:hover {
+  background-color: transparent;
+}
  
 /* --- Post preview --- */
 
