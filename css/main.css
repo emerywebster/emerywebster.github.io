@@ -816,17 +816,17 @@ fieldset[disabled] .form-control {
 
 /* Portfolio stuff */
 
-.portfolio-item {
-  padding: 100px 0;
-  margin-bottom: 50px;
-  border-bottom: 1px solid #efefef;
-}
-
-.portfolio-item-last {
-  padding: 100px 0;
-  margin-bottom: 50px;
-}
-
-.portfolio-desc {
-  margin-top: 60px;
+@media only screen and (min-width: 768px) {
+  .portfolio-item {
+    padding: 120px 0;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .portfolio-item-last {
+    padding: 120px 0;
+  }
+  
+  .portfolio-desc {
+    margin-top: 60px;
+  }
 }
