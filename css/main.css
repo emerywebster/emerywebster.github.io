@@ -816,10 +816,29 @@ fieldset[disabled] .form-control {
 
 /* Portfolio stuff */
 
-@media only screen and (min-width: 768px) {
+.portfolio-desc a {
+  text-decoration: none;
+  color: #1ABC9C;
+}
+
+.portfolio-desc a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  color: #10A487;
+}
+
+.portfolio-heading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 17px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+@media only screen and (min-width: 990px) {
   .portfolio-item {
-    padding: 120px 0;
-    border-bottom: 1px solid #efefef;
+    padding: 90px 0;
+    border-bottom: 1px solid #ccc;
   }
   
   .portfolio-item-last {
@@ -827,6 +846,58 @@ fieldset[disabled] .form-control {
   }
   
   .portfolio-desc {
+    margin-top: 50px;
+    padding-left: 50px;
+  }
+
+  .portfolio-image img {
+    max-width: 280px;
+  }
+
+  .portfolio-image a:hover {
+    background-color: transparent;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .portfolio-item {
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  .portfolio-item-last {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .portfolio-desc {
     margin-top: 60px;
   }
+
+  .portfolio-image img {
+    width: 100%;
+    max-width: 160px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .portfolio-image a:hover {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .portfolio-heading {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0 30px 30px 30px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .portfolio-desc {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+
 }
