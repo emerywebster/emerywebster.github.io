@@ -3,10 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} - {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="author" content="{{ site.author.name }}" />
   
+  <meta name="description" content="{{ site.description }}" />
+
   {% if page.subtitle %}
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
@@ -101,5 +103,6 @@
   
   <script src="https://use.typekit.net/one8txm.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
 
 </head>

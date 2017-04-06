@@ -245,6 +245,10 @@ img {
     border: 1px solid #eaeaea;
     border-width: 0 1px 1px;
   }
+  .container-fluid {
+    padding-left: 80px;
+    padding-right: 50px;
+  }
 }
 
 /* --- Footer --- */
@@ -808,4 +812,142 @@ fieldset[disabled] .form-control {
 
 .btn:hover, .btn:focus {
   opacity: .85;
+}
+
+/* Portfolio (Home page) */
+
+.portfolio-desc a {
+  text-decoration: none;
+  color: #1ABC9C;
+}
+
+.portfolio-desc a:hover, a:active, a:focus {
+  background-color: transparent;
+  text-decoration: underline;
+  color: #10A487;
+}
+
+.portfolio-heading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 17px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+@media only screen and (min-width: 990px) {
+  .portfolio-item {
+    padding: 90px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .portfolio-item-last {
+    padding: 120px 0;
+  }
+  
+  .portfolio-desc {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .portfolio-desc h2 {
+    font-size: 36px;
+  }
+
+  .portfolio-image img {
+    max-width: 280px;
+  }
+
+  .portfolio-image a:hover {
+    background-color: transparent;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .portfolio-item {
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  .portfolio-item-last {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .portfolio-desc {
+    margin-top: 60px;
+  }
+
+  .portfolio-image img {
+    width: 100%;
+    max-width: 160px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .portfolio-image a:hover, a:active, a:focus {
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .portfolio-heading {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0 30px 30px 30px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .portfolio-desc {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+}
+
+/* Individual Portfolio elements ("Work") */
+
+.work {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.work-intro {
+  background-color: #1A1E23;
+  color: #fff;
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
+
+.work-intro h1 {
+  font-size: 44px;
+  text-align: center;
+  padding: 130px 0 40px 0 ;
+}
+
+.work-intro a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dashed #fff;
+}
+
+.work-intro blockquote {
+  font-size: 18px;
+  font-color: #777;
+}
+
+.work-regular p {
+  margin: 40px 0;
+}
+
+.tp {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  color: #666;
+  font-size: 16px;
+  margin: 25px 0;
+  padding: 24px;
+  font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+
 }

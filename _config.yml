@@ -14,17 +14,18 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Webb Henderson
+title: User Experience Design Portfolio of Webb Henderson
 
 # Short description of your site
-description: Personal website of Webb Henderson
+description: Webb Henderson is a Product Designer based in Denver Colorado. He practices User Research, Information Architecture, and Interaction Design for mobile and the web.
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  Portfolio: ""
+  Writing: "thoughts"
   About: "about"
-  Archive: "archive"
   Contact: "contact"
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
