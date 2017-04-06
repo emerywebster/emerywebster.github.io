@@ -2,6 +2,16 @@
 layout: portfolio-item
 title: Automox.com UX Review
 permalink: work/automox
-intro: In early 2017, I interviewed with SendGrid - a communication platform for transational and marketing email. As part of the interview process, they asked me to participate in a design challenge to present to their team.
-quote: Imagine that you are a design intern at a new marketing agency. Your boss has asked at the last minute that you put together an email to send to about 100 clients announcing your upcoming holiday event. You have very limited experience with HTML or sending emails and the agency doesn’t have an email tool in place yet. So you set off to Google to find a tool and stumble upon SendGrid.
+intro: In early 2017, I began consulting with [Automox](http://automox.com) - a Boulder startup working to solve common security problems for IT Managers.
 ---
+This story is a work in progress. You can view my latest work at [Automox.com](http://automox.com).
+
+
+
+### Tools & :
+
+- User Research
+- Qualitative Analysis (usability testing + heuristics via [UserTesting.com](http://usertesting.com))
+- Quantitative Analysis (heatmaps + conversion rates via [HotJar.com](http://hotjar.com))
+- Wireframes & Visual Design via Sketch + Invision
+- Front-End Development (`git`, `rails`, `haml`, `css`)
