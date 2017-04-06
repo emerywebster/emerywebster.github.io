@@ -18,3 +18,10 @@ This story is in-progress and coming soon. For now, feel free to review some bef
 ### Improve visceral reaction to an embarrasing interface
 
 - ReadyTalk Web Conferencing ("Core Product") Design
+
+
+---
+
+## Questions?
+
+If you're curious to learn more, please [contact me](/contact) :smile:

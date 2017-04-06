@@ -22,3 +22,8 @@ Other noteworthy features and initiatives:
 - [Marketing & Sales] In-room setup print collateral
 - [Marketing & Sales] In-room setup how-to video
 
+---
+
+## Questions?
+
+If you're curious to learn more, please [contact me](/contact) :smile:
