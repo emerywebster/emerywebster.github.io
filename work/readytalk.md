@@ -2,13 +2,19 @@
 layout: portfolio-item
 title: ReadyTalk Customer Experience
 permalink: work/readytalk
-intro: In early 2017, I began consulting with Automox - a Boulder startup working to solve common security problems for IT Managers.
+intro: In 2016, I worked with ReadyTalk's Director of Customer Experience, Kim Wachtel, and various cross-functional teams in an effort to review, quantify, and improve our overall customer experience. We gathered many insights from our customers and internal teams to identify where we succeeded, where we fell short, and where we could invest to make the greatest impact to the business and our customers.
 ---
-This story is a work in progress. You can view my latest work at [Automox.com](http://automox.com).
+This story is in-progress and coming soon. For now, feel free to review some before/after work regarding our initial round of CX initiatives:
 
-### Tools Used:
+### Reduce costs attributed to customer care
 
-- Qualitative Analysis (usability testing + heuristics via [UserTesting.com](http://usertesting.com))
-- Quantitative Analysis (heatmaps + conversion rates via [HotJar.com](http://hotjar.com))
-- Wireframes & Visual Design via Sketch + Invision
-- Front-End Development (`git`, `rails`, `haml`, `css`)
+- Invoices & Billing 
+- Self-Service Account Management
+
+### Remove friction to try and buy our products
+
+- Sign Up for Free Trial & Demo
+
+### Improve visceral reaction to an embarrasing interface
+
+- ReadyTalk Web Conferencing ("Core Product") Design
