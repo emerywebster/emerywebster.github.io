@@ -886,8 +886,9 @@ fieldset[disabled] .form-control {
     text-align: center;
   }
 
-  .portfolio-image a:hover {
+  .portfolio-image a:hover, a:active, a:focus {
     background-color: transparent;
+    text-decoration: none;
   }
 }
 
