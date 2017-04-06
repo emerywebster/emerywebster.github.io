@@ -814,14 +814,14 @@ fieldset[disabled] .form-control {
   opacity: .85;
 }
 
-/* Portfolio stuff */
+/* Portfolio (Home page) */
 
 .portfolio-desc a {
   text-decoration: none;
   color: #1ABC9C;
 }
 
-.portfolio-desc a:hover {
+.portfolio-desc a:hover, a:active, a:focus {
   background-color: transparent;
   text-decoration: underline;
   color: #10A487;
@@ -847,7 +847,11 @@ fieldset[disabled] .form-control {
   
   .portfolio-desc {
     margin-top: 50px;
-    padding-left: 50px;
+    margin-left: 40px;
+  }
+
+  .portfolio-desc h2 {
+    font-size: 36px;
   }
 
   .portfolio-image img {
@@ -899,5 +903,50 @@ fieldset[disabled] .form-control {
     margin-top: 30px;
     font-size: 17px;
   }
+}
+
+/* Individual Portfolio elements ("Work") */
+
+.work {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.work-intro {
+  background-color: #1A1E23;
+  color: #fff;
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
+
+.work-intro h1 {
+  font-size: 44px;
+  text-align: center;
+  padding: 130px 0 40px 0 ;
+}
+
+.work-intro a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dashed #fff;
+}
+
+.work-intro blockquote {
+  font-size: 18px;
+  font-color: #777;
+}
+
+.work-regular p {
+  margin: 40px 0;
+}
+
+.tp {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  color: #666;
+  font-size: 16px;
+  margin: 25px 0;
+  padding: 24px;
+  font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
