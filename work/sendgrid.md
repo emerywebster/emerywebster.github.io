@@ -97,6 +97,8 @@ A high-fidelity mock of this concept might look something like this:
 
 ![alt01-icons-hover](https://cloud.githubusercontent.com/assets/178044/24765164/fea9dcaa-1ab3-11e7-97d2-40dd73a53d6e.png)
 
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">A potential solution where we consider adding an icon next to the other <i>Preview</i> actions</p>
+
 We also explore an option to remove the preview icons altogether, and instead opt for a simple ‘Preview and Test’ dropdown in the top navigation. This would allow room to add some helper text that might help users quickly understand the preview actions AND quickly send a test email. 
 
 We also discuss trade-offs, including the effort required from the engineering team and the additional user action required to select a preview mode (hover/click). Ultimately, we decide that this is our leading concept to test.

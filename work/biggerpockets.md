@@ -63,39 +63,39 @@ Our goal is to get a working MVP in production as quickly as possible (based upo
 
 As such, we’re aiming for a ~4 week release schedule (1 long sprint). These estimates would need to be confirmed with the team during sprint planning.
 
-**Week 0** (includes the above assumptions)
+#### Week 0 (includes the above assumptions)
 
 - Company already has great personas built, we largely understand our initial customer needs
 - Sprint planning meeting with team to share learning, goals, etc.
 - Landing page in place to gauge interest; collect emails for announcements, surveys, potential user testing
 
-**Week 1**
+#### Week 1
 
 - Product: Create low-level prototypes of user workflow, validate assumptions with customers
 - Engineering: Research financial institution sign-on (technical implementation planning + security); Zillow integration, other property valuation tools.
 - Design: Draft working HTML (static) for sign up, login, and import views based on wireframes &amp; customer knowledge.
 
-**Week 2**
+#### Week 2
 
 - Product: Share learning from week 1; test sign up &amp; import views on customers (working prototype via InVision).
 - Engineering: (1 solo) Build &amp; test signup and login processes. (2, pair coding) Integrate account import functionality.
 - Design: Craft working HTML for profile/summary views.
 
-**Week 3**
+#### Week 3
 
 - Product: Share learning from week 2, test import functionality with target customers.
 - Engineering: (2, pair coding) Implement net worth summary view (charts)
 - Design: Refine look &amp; feel based on customer feedback from product.
 
 
-**Week 4**
+#### Week 4
 
 - All: Remaining bug fixes and minor changes based on user feedback.
 - Product: ensure all items meet acceptance criteria.
 - Ensure relevant analytics are in place / working.
 - Push to production
 
-**Week 5-6+**
+#### Week 5-6+
 
 - Shorten sprint cycle to 2 weeks for next feature release
 - Backlog refinement meeting (based on product backlog - history, trends, customer feedback)
@@ -265,3 +265,9 @@ If no: Based on our understanding of our customer needs (include supporting data
 ## Summary
 
 The goal of this plan is to set the tone for rapid learning, execution, and iteration (the more we understand our customer and their problem, the better we can shape our product and build a successful business). It also allows us to quickly update our project planning, product backlog, and shared understanding of both strategic and tactical decisions. It’s far from perfect, but it should serve as a reasonable starting point.
+
+---
+
+## Questions?
+
+I'd love to hear your thoughts on this project. Please feel free to [contact me](/contact) if you have any additional ideas or questions. :smile:
