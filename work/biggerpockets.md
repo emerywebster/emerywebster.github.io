@@ -147,8 +147,9 @@ We'll also need a firm understanding of stakeholder needs: marketing, sales, lea
 - Verify/Activate email
 - Integrate with existing user database (allowing upsells, opt-ins for other services)
 
+![sign up](https://cloud.githubusercontent.com/assets/178044/24765604/a61df7ea-1ab5-11e7-9925-c1db0863aa9c.png)
 
-<img src="http://wp-ux.sites.dev/wp-content/uploads/2016/04/nw-signup.png" alt="nw-signup" width="871" height="570" class="aligncenter size-full wp-image-175" />
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">NetWorth Sign Up</p>
 
 ### 2. Login
 
@@ -163,15 +164,17 @@ We'll also need a firm understanding of stakeholder needs: marketing, sales, lea
 - Login/connect → Success/failure
 - Add another OR Continue to ‘Add Property’
 
-<img src="http://wp-ux.sites.dev/wp-content/uploads/2016/04/nw-import1.png" alt="Step 1 of 3" width="871" height="570" class="size-full wp-image-174" />
+![import 1](https://cloud.githubusercontent.com/assets/178044/24765642/cd66d858-1ab5-11e7-9912-f2d991ad5ba5.png)
 
-Caption: Import: Step 1 of 3
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">Import Step 1 of 3: Find Financial Account</p>
 
-<img src="http://wp-ux.sites.dev/wp-content/uploads/2016/04/nw-import2.png" alt="nw-import2" width="871" height="570" class="aligncenter size-full wp-image-173" />
+![import 2](https://cloud.githubusercontent.com/assets/178044/24765643/cd7abc4c-1ab5-11e7-8c0b-cfb4f27cf38c.png)
 
-Caption: Import: Step 2 of 3
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">Import Step 2 of 3: Connect to Financial Account</p>
 
-<img src="http://wp-ux.sites.dev/wp-content/uploads/2016/04/nw-import3.png" alt="nw-import3" width="871" height="570" class="aligncenter size-full wp-image-172" />
+![import 3](https://cloud.githubusercontent.com/assets/178044/24765644/cd8b0016-1ab5-11e7-9d01-89c03de8292d.png)
+
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">Import Step 3 of 3: Success + Next Steps</p>
 
 ### 4. Add property
 **User Story**: As a user, I want to add/edit various types of property so that my Net Worth will accurately include my major assets & debt.
@@ -188,7 +191,9 @@ Caption: Import: Step 2 of 3
 
 - Current composition (line item) view + historical line chart
 
-<img src="http://wp-ux.sites.dev/wp-content/uploads/2016/04/nw-profile.png" alt="nw-profile" width="871" height="570" class="aligncenter size-full wp-image-171" />
+![my profile](https://cloud.githubusercontent.com/assets/178044/24765901/c6b92866-1ab6-11e7-81d9-82c21957badb.png)
+
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">NetWorth Dashboard</p>
 
 ### 6. Net Worth Composition (diversification)
 
