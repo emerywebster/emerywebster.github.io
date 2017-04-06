@@ -113,6 +113,7 @@ From here, we can quickly move into high-fidelity workflow:
 We can string this all together in a quick interactive prototype through Invision:
 
 <a href="https://invis.io/6KB765FJN" target="_blank"><img src="https://cloud.githubusercontent.com/assets/178044/24765338/afacb5fe-1ab4-11e7-86ba-8e11546e2f4e.png" alt="view invision prototype" /></a>
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">A simple, interactive prototype to demonstrate the user flow</p>
 
 ---
 
