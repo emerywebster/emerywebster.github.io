@@ -6,38 +6,28 @@ feature-img: "img/beav.jpg"
 ---
 Hi there! I'm Webb &ndash; a UX and product designer living in Denver, Colorado.
 
-I enjoy...
-
-- Technology and design
-- Problem solving
-- Art (music, writing, performance &ndash; all of it)
-- Learning from others
-- Discovering new experiences
-
-I also like connecting with new people...so please feel free to [give me a shout](mailto:webb.henderson@gmail.com).
+Looking to work together? [Give me a shout](/contact).
 
 ---
 
 ### Quick Facts
 
-- My full name is Emery Webster Henderson.
-    - I do not have a reasonable explanation for the extra _b_.
+- My full name is Emery Webster Henderson (I'm [@emerywebster](http://twitter.com/emerywebster) pretty much everywhere)
 - I grew up just outside of [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
-- I moved to the [DFW area](http://mavs.com) when I was sixteen.
+- I moved to the [DFW area](http://mavs.com) mid-way through High School.
 - I went to school in [Boulder, CO](http://leeds.colorado.edu).
 - I own a home near downtown [Denver, CO](http://denverbroncos.com).
-- [I love golf](http://ifl.golf) more than just about anything.
+- [I love golf](http://masters.com) more than just about anything.
 - I also like to ski, snowboard, camp, fish, run, and cook.
-- I've been to 16 countries and am hoping to double that number within the next 5-6 years.
-- I'm currently an experience designer at [ReadyTalk](http://readytalk.com).
-- I previously ran an eBay/Amazon resale business (I still dabble).
+- I'm currently a freelance UX and Product Designer.
+- Prior to an acquisition, I was a UX designer at [ReadyTalk](http://readytalk.com).
+- I previously ran an eBay/Amazon resale business (and still dabble).
 - Prior to that, I managed projects and sales at [Crowd Favorite](http://crowdfavorite.com).
 
 ---
 
-### Contact
+### Connect with me
 
-- [Email](mailto:webb.henderson@gmail.com)
 - [Facebook](http://facebook.com/emerywebster)
 - [Foursquare](http://foursquare.com/emerywebster)
 - [GitHub](http://github.com/emerywebster)
@@ -52,19 +42,14 @@ I also like connecting with new people...so please feel free to [give me a shout
 #### Active
 
 - [FoxDen](http://foxden.io) (ReadyTalk) : Simple & effective video meetings.
-- [IFLGolf](http://ifl.golf) (Personal) : Online publication/brand for next generation golf fans.
-- [SpiceGuide](http://spicegui.de) (Personal) : Because everyone needs a food blog.
-
-#### Learning
-
-- [Fetchy](http://fetchy.emerywebster.com/) : Interface crafted in Sketch and built in SublimeText (mostly to better understand simple API-based web apps).
-- [Hartl's Rails Tutorial](http://ewh-rails-sample.herokuapp.com/) : Twitter-like app to learn more about web development (in-progress).
 
 #### Inactive
 
+- [Fetchy](http://fetchy.emerywebster.com/) : Interface crafted in Sketch and built in SublimeText (mostly to better understand simple API-based web apps).
+- [Hartl's Rails Tutorial](http://ewh-rails-sample.herokuapp.com/) : Twitter-like app to learn more about web development.
 - [eBay Lessons Learned](http://ebay.emerywebster.com/) : Old WordPress blog for ebaylessonslearned.com (~2011-2014).
 - [Who Is Kaberon?](http://whoiskaberon.emerywebster.com) : Random afternoon project. More detail available on [GitHub](https://github.com/emerywebster/whoiskaberon) (~2009).
-- [wp.emerywebster.com](http://wp.emerywebster.com/) : Former WordPress version of this site (~2010-2012).
+- [wp.emerywebster.com](http://wp.emerywebster.com/) : Old WordPress version of this site (~2010-2012).
 
 ---
 
@@ -79,10 +64,10 @@ I also like connecting with new people...so please feel free to [give me a shout
 #### Software & Tools
 
 - [FoxDen](http://foxden.io) for video meetings
-- [iTerm](https://www.iterm2.com/) for bashing
-- [Invision](http://invisionapp.com) & [Proto.io](http://proto.io) for prototyping
 - [Sketch](http://www.sketchapp.com/) for designing
+- [Framer](http://framer.com), [Proto.io](http://proto.io), & [Invision](http://invisionapp.com) for prototyping
 - [Slack](http://slack.com) for chat
+- [iTerm](https://www.iterm2.com/) for bashing
 - [SublimeText](http://sublimetext.com) for text editing
 - [Trello](http://trello.com) & [Jira](https://www.atlassian.com/software/jira) for organizing &amp; prioritizing work
 - [Wunderlist](http://wunderlist.com) for organizing &amp; prioritizing life
@@ -95,13 +80,14 @@ I also like connecting with new people...so please feel free to [give me a shout
 
 - [Alex King](http://alexking.org)
 - [Andrew Austin](http://andrewjaustin.net)
+- [Ben Anderson](http://design-pathology.com)
 - [Chris Forgham](http://oldguysriptoo.com)
 - [Courtney Bregar](http://courtneybregar.com)
 - [Devin Reams](http://devin.reams.me)
 - [Jared Cornwall](http://jaredcornwall.com)
 - [Jonathan Johnson](http://jondavidjohn.com)
 - [Michael Lopp](http://randsinrepose.com)
-- [Nam Nguyen](https://www.linkedin.com/in/namydesign)
+- [Nam Nguyen](http://nam-ux.com)
 - [Rona Kilmer](http://ronakilmer.com)
 - [Sandy Sage](http://sandy-sage.com)
 
