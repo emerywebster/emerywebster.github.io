@@ -70,9 +70,9 @@ Overall, I found the simple task of **sending a test email** to be a fairly larg
 
 Again, our marketing intern just wants to quickly sign up, build an email, and send a test. If she becomes intimidated or confused at any point in the process, she'll go elsewhere and SendGrid will lose the opportunity.
 
-> Before building anything, I want to ensure that these assumptions are correct. If we build something that people don’t really care about (or has low impact), then it’s all a waste of time and we should’ve focused our efforts elsewhere. But let’s keep going as though we’ve already validated this need.
+> Before building anything, I want to ensure that these assumptions are correct. If we build something that people don’t really care about (or has low impact), then it’s all a waste of time and we should’ve focused our efforts elsewhere.
 
-Here’s a user story to spell out the work a bit more specifically:
+But let’s keep going as though we’ve already validated this need. Here’s a user story to spell out the work a bit more specifically:
 
 **As a marketer, I want to send a test email from within the editor, so I can quickly evaluate the product for continual use and/or purchase.**
 
@@ -84,12 +84,12 @@ Presumably, I’ve already done quite a bit of research and can also gather enou
 
 Next, I want to shift into the following:
 
-- Ideation/brainstorming (whiteboarding session with colleagues, stakeholders)
-- Hypothesize potential solutions to test (refine the whiteboarding session into wireframes, shareable documentation, or initial mocks)
-- If necessary, create interactive prototypes
-- Test potentialy solutions to validate/refine/iterate
-- Push to production and begin gathering real customer data
-- Continue to measure and iterate the solution as necessary
+1. Ideation/brainstorming (whiteboarding session with colleagues, stakeholders)
+2. Hypothesize potential solutions to test (refine the whiteboarding session into wireframes, shareable documentation, or initial mocks)
+3. Build interactive prototypes (in this case, we don't need to use anything overly complex).
+4. Test potential solutions to validate/refine/iterate
+5. Push to production and begin gathering real customer data
+6. Continue to measure and iterate the solution as necessary
 
 During the whiteboarding discussion, we also decide that there’s an opportunity to also improve the usability of the _Preview_ feature. One option is to add a ‘Send Test’ icon to the right of the other three preview options, and also add a hover-state tooltip for context (perhaps during user testing we learn that there’s pretty low recognition for the fact that those icons actual represent preview actions).
 
@@ -166,6 +166,10 @@ Which metrics are you trying to move? In our case we're likely looking at the fo
 - Reduction in operational costs (does our solution reduce custmer service issues?)
 - Engagement (how much time do users spend onboarding and using the product?)
 - Change to NPS (or any other metric that quantifies the customer experience)
+
+### Other considerations
+
+- In the above concept, I used the same 'paper plane' icon for the _send test_ action (which is already used for the _send campaign_ action). This might confuse some users, and we may want to consider replacing it with something else (e.g. a common 'share' icon...or no icon at all). In either case, we should be able to clarify the best option with both usability and evaluative test feedback.
 
 ---
 
