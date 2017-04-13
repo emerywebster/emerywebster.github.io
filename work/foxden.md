@@ -2,11 +2,11 @@
 layout: portfolio-item
 title: Foxden
 permalink: work/foxden
-intro: Foxden is a ridiculously simple, easy-to-use video collaboration product for desktop, mobile, and "in-room" use cases.
+intro: Foxden is a simple, easy-to-use video collaboration product with desktop, mobile, and "in-room" experiences.
 ---
 When I first joined ReadyTalk, I worked alongside Senior UX Designer, [Nam Nguyen](http://nam-ux.com), to ideate, test, and execute product design for [Foxden](http://foxden.io).
 
-After ~6 months with the company, I became the lead designer for a new product experience: PSTN functionality (which is an overly technical way of saying "send or receive a phone call").
+After ~6 months with the company, I moved into a lead design role for a new Foxden experience: PSTN functionality (which is a quick way of saying "send or receive a phone call").
 
 ---
 
@@ -18,12 +18,11 @@ Other noteworthy features and initiatives:
 
 - [Product] Onboarding & browser permission experience (shipped)
 - [Product] Screensharing experience (shipped)
-- [Product] Worked with R&D Engineers to research and test solutions for an 'Intelligent Recording' experience (not shipped)
+- [Product] Worked with R&D Engineers to research and test solutions for an 'Intelligent Recording' experience
 - [Marketing & Sales] In-room setup print collateral
-- [Marketing & Sales] In-room setup how-to video
 
 ---
 
 ## Questions?
 
-If you're curious to learn more, please [contact me](/contact) :smile:
+If you'd like to learn more, please [contact me](/contact) :smile:
