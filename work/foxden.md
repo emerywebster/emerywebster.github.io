@@ -10,7 +10,7 @@ After ~6 months with the company, I moved into a lead design role for a new Foxd
 
 ---
 
-This story is in-progress and coming soon. For now, feel free to try out this interactive prototype for the mobile 'invite' experience.
+This story is in-progress and coming soon. For now, feel free to try this working prototype (all features are now live in the mobile app):
 
 <a href="http://ux.emerywebster.com/foxden/ios/frame.html" target="_blank"><img src="https://cloud.githubusercontent.com/assets/178044/24775315/83c31a1c-1ad9-11e7-9af5-126259155120.png" alt="foxden mobile prototype" /></a>
 
