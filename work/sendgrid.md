@@ -68,7 +68,7 @@ Below are some notes that I took during the UX review. Again, this is all based 
 
 Overall, I found the simple task of **sending a test email** to be a fairly large problem. Improving it will (potentially) require little effort and also result in a high impact for both the user and the business.
 
-![sendgrid-problems](https://cloud.githubusercontent.com/assets/178044/25019639/8df159a8-2048-11e7-97ac-a9abecb613b4.png)
+[![sendgrid-problems](https://cloud.githubusercontent.com/assets/178044/25019639/8df159a8-2048-11e7-97ac-a9abecb613b4.png)](https://cloudup.com/cihPIC4IAi1)
 
 Again, our marketing intern just wants to quickly sign up, build an email, and send a test. If she becomes intimidated or confused at any point in the process, she'll go elsewhere and SendGrid will lose the opportunity.
 
