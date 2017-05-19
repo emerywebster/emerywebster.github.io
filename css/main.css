@@ -827,6 +827,16 @@ fieldset[disabled] .form-control {
   color: #10A487;
 }
 
+.portfolio-desc h2 a {
+  text-decoration: none;
+  color: #38373D;
+}
+
+.portfolio-desc h2 a:hover, a:active {
+  text-decoration: none;
+  color: #404040;
+}
+
 .portfolio-heading {
   text-align: center;
   margin-top: 30px;
