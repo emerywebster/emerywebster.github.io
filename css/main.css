@@ -834,7 +834,7 @@ fieldset[disabled] .form-control {
 
 .portfolio-desc h2 a:hover, a:active {
   text-decoration: none;
-  color: #404040;
+  color: #777;
 }
 
 .portfolio-heading {
