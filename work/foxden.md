@@ -7,22 +7,14 @@ quote: I joined the team shortly after the launch of the initial MVP, and I'm ex
 ---
 When I first joined ReadyTalk, I worked alongside lead designer [Nam Nguyen](http://nam-ux.com) to build, test, and release new features for [Foxden](http://foxden.io) - all with the goal of acquiring and retaining new customers.
 
-My initial contributions to the project included:
+Some of my initial contributions to the project include:
 
-- Mobile & Desktop
-    - Screenshare
-    - Browser permissions (mic + webcam access)
-    - Recordings
-    - Intelligent meeting summaries
-    - Invite participants
-- In-room (aka 'Foxden Connect')
-    - Connectivity via laptop
-    - Connectivity via mobile
-    - Maintenance mode
-
-_Please [contact me](/contact) for specific examples of work. Thanks!_
-
----
+- [Invite via desktop](http://ux.emerywebster.com/foxden/desktop-invite/frame.html) [proto.io]
+- [Invite via mobile](http://ux.emerywebster.com/foxden/ios/frame.html) [proto.io]
+- [Browser permissions workflow](https://invis.io/CXBVAXL95) [invision]
+- [Intelligent meeting summaries](https://cloudup.com/clPW0RxQ0Ur) [static]
+- [In-room mobile 'remote'](https://cloudup.com/cv-dynIgps8) [static]
+- [In-room Maintenance mode](https://cloudup.com/cNSCIBaQ_Lp) [static]
 
 After ~6 months with ReadyTalk, I moved into a lead design role to introduce dial-in/dial-out experiences to Foxden. The process for building any new feature looked something like this:
 
