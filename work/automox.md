@@ -5,7 +5,7 @@ permalink: work/automox
 custom-js: automox
 intro: In early 2017, I began consulting with Automox - a Boulder startup working to solve common security problems for IT Managers.
 ---
-This story is a work in progress. You can view my latest work at [Automox.com](http://automox.com).
+This story is a work in progress. You can view my latest work at [Automox.com](http://automox.com/how-it-works).
 
 <div id="container1" class="twentytwenty-container">
  <img src="https://cloud.githubusercontent.com/assets/178044/24768109/a7c16254-1abe-11e7-876f-606e48225f7e.png" />
