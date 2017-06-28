@@ -4,7 +4,7 @@ title: Bonusly <em>Rewards</em> Design
 permalink: work/bonusly
 intro: In 2017, I met with the folks at <a href="http://bonus.ly">Bonusly</a>, a desktop and mobile application that helps teams create a culture of recognition through "microbonuses" and rewards, to improve their <em>Pick a reward</em> experience.
 ---
-For reference, here's a look at [their original desktop design](https://cloudup.com/cE_woeVvBgX) and [original mobile design](https://cldup.com/W7lhhjVbJb-3000x3000.png). You can also review this project as a [presentation](https://cloudup.com/cVR0bwcd4Sp) or a [Google Doc](https://docs.google.com/document/d/1tJiILMvIzQ1kHKzWlhlS_Jk8_mQafdbYB9ZxmGV0Nlw/edit).
+For reference, here's a look at their original [desktop](https://cloudup.com/cE_woeVvBgX) and [mobile](https://cldup.com/W7lhhjVbJb-3000x3000.png) designs. You can also review this project as a [presentation](https://cloudup.com/cVR0bwcd4Sp) or a [Google Doc](https://docs.google.com/document/d/1tJiILMvIzQ1kHKzWlhlS_Jk8_mQafdbYB9ZxmGV0Nlw/edit).
 
 ---
 
