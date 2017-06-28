@@ -15,8 +15,8 @@ p {
   font-weight: 400;
 }
 p a {
-  border-bottom: 1px dashed #38373d;
-  color: #38373d;
+  border-bottom: 1px dotted #cbcece;
+  color: #1ABC9C;
   text-decoration: none;
   cursor: pointer;
 }
@@ -35,11 +35,12 @@ a {
   color: #008AFF;
 }
 a:hover,
-a:focus {
+a:focus,
+a:active {
   transition: all .15s ease-in-out;
-  background-color: #D5DFE3;
   text-decoration: none;
-  color: #38373d;
+  color: #10A487;
+  border-color: #10A487;
 }
 blockquote {
   color: #acb5c3;
@@ -623,10 +624,13 @@ a.button:hover {
   text-decoration: none;
 }
 .blog-post li a {
-  border-bottom: 1px dashed #38373d;
-  color: #38373d;
+  border-bottom: 1px dotted #cbcece;
+  color: #10A487;
   text-decoration: none;
   cursor: pointer;
+}
+.blog-post li a:hover {
+  border-color: #10A487;
 }
 .navbar-brand {
   font-size: 18px;
@@ -643,12 +647,32 @@ a.button:hover {
   color: #404040;
 }
 .page-content li a {
-  border-bottom: 1px dashed #38373d;
-  color: #38373d;
+  border-bottom: 1px dotted #cbcece;
+  color: #1ABC9C;
   text-decoration: none;
   cursor: pointer;
 }
 
+.page-content li a:hover {
+  color: #10A487;
+  border-color: #10A487;
+}
+
+.page-content p a {
+  border-bottom: 1px dotted #cbcece;
+  color: #1ABC9C;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.page-content p a:hover {
+  color: #10A487;
+  border-color: #10A487;
+}
+
+.page-content p a:active {
+  text-decoration: none;
+}
 /* --- */
 
 blockquote small {
