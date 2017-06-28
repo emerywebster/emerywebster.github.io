@@ -4,9 +4,9 @@ title: Bonusly 'Rewards' View
 permalink: work/bonusly
 intro: In 2017, I met with the folks at <a href="http://bonus.ly">Bonusly</a> - a unique product that helps teams create a <em>culture of recognition</em> through "microbonuses". In 2017, I worked with them to to review and improve their "Rewards" page experience.
 ---
-[You can also review this project as a [presentation](https://cloudup.com/cVR0bwcd4Sp) or a [Google Doc](https://docs.google.com/document/d/1tJiILMvIzQ1kHKzWlhlS_Jk8_mQafdbYB9ZxmGV0Nlw/edit) if you prefer.]
+For reference, here's a look at [their original desktop design](https://cloudup.com/cE_woeVvBgX) and [original mobile design](https://cldup.com/W7lhhjVbJb-3000x3000.png).
 
-For reference, here's a look at [their original design](https://cloudup.com/cE_woeVvBgX).
+You can also review this project as a [presentation](https://cloudup.com/cVR0bwcd4Sp) or a [Google Doc](https://docs.google.com/document/d/1tJiILMvIzQ1kHKzWlhlS_Jk8_mQafdbYB9ZxmGV0Nlw/edit) if you prefer.
 
 ---
 
