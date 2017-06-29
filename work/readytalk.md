@@ -6,7 +6,7 @@ intro: In 2016, I worked with various cross-fuctional teams at ReadyTalk to unde
 ---
 This story is in-progress and coming soon. 
 
-Below is a list of initiatives from the round of CX work:
+Below is a list of projects from the first set of CX initiatives:
 
 ### Improve visceral reaction to our core product
 
