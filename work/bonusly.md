@@ -1,6 +1,6 @@
 ---
 layout: portfolio-item
-title: Bonusly <em>Rewards</em> Design
+title: Bonusly Rewards Design
 permalink: work/bonusly
 intro: In 2017, I met with the folks at <a href="http://bonus.ly">Bonusly</a>, a desktop and mobile application that helps teams create a culture of recognition through "microbonuses" and rewards, to improve their <em>Pick a reward</em> experience.
 ---
