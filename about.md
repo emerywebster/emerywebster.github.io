@@ -12,13 +12,15 @@ If you'd like to discuss a project, please [give me a shout](/contact).
 
 ### Quick Facts
 
-- My full name is Emery Webster Henderson ([@emerywebster](http://twitter.com/emerywebster) pretty much everywhere)
+- My full name is Emery Webster Henderson 
+- Find me [@emerywebster](http://twitter.com/emerywebster) pretty much everywhere.
 - I grew up near [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
 - I moved to the [DFW area](http://mavs.com) when I was 16.
 - I went to school in [Boulder, CO](http://leeds.colorado.edu).
 - I own a home near downtown [Denver, CO](http://denverbroncos.com).
 - [I love golf](http://masters.com) more than just about anything.
 - I also like to ski, snowboard, camp, fish, run, read, and cook.
+- I currently lead design at [TrueCoach](http://truecoach.co) :purple_heart: :muscle:
 - I'm a former UX Designer at [ReadyTalk](http://readytalk.com).
 - Prior to that, I managed development projects at [Crowd Favorite](http://crowdfavorite.com).
 - I once ran an eBay/Amazon resale business (and still dabble).
@@ -37,24 +39,12 @@ If you'd like to discuss a project, please [give me a shout](/contact).
 
 ---
 
-### Side Projects
-
-Some fun, random projects that I'm pursuing in my spare time.
-
-- [IFLGolf](http://ifl.golf) : Golf news & humor
-- [PGATourGuide](http://pgatourguide.com) : PGA Tour player/equipment database
-- [SpiceGuide](http://spicegui.de) : A food blog that needs a lot more love and attention than it gets.
-
----
-
 ### Influences & Recommendations
 
 #### People I know
 
 - [Alex King](http://alexking.org)
-- [Andrew Austin](http://andrewjaustin.net)
 - [Ben Anderson](http://design-pathology.com)
-- [Chris Forgham](http://oldguysriptoo.com)
 - [Courtney Bregar](http://courtneybregar.com)
 - [Devin Reams](http://devin.reams.me)
 - [Jared Cornwall](http://jaredcornwall.com)
@@ -62,7 +52,6 @@ Some fun, random projects that I'm pursuing in my spare time.
 - [Michael Lopp](http://randsinrepose.com)
 - [Nam Nguyen](http://nam-ux.com)
 - [Rona Kilmer](http://ronakilmer.com)
-- [Sandy Sage](http://sandy-sage.com)
 
 #### People I follow
 

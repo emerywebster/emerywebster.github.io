@@ -872,6 +872,9 @@ fieldset[disabled] .form-control {
 .tcs {
   color: #bbb;
 }
+.mbf {
+  margin-bottom: 0;
+}
 
 @media only screen and (min-width: 990px) {
   .portfolio-item {
