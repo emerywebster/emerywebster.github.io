@@ -106,7 +106,7 @@ exclude:
   - CNAME
   - Vagrantfile
 
-gems:
+plugins:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
