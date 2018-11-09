@@ -869,6 +869,10 @@ fieldset[disabled] .form-control {
   border-bottom: 1px solid #ccc;
 }
 
+.tcs {
+  color: #bbb;
+}
+
 @media only screen and (min-width: 990px) {
   .portfolio-item {
     padding: 90px 0;
