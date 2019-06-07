@@ -1,10 +1,3 @@
-# source 'https://rubygems.org'
-# 
-# gem 'execjs'
-# gem 'therubyracer'
-# gem 'github-pages'
-# gem "jemoji"
-
 source 'https://rubygems.org'
 
 require 'json'
