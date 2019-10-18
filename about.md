@@ -32,7 +32,7 @@ If you'd like to discuss a project, please [give me a shout](/contact).
 - [Facebook](http://facebook.com/emerywebster)
 - [Foursquare](http://foursquare.com/emerywebster)
 - [GitHub](http://github.com/emerywebster)
-- [Golfshot](http://golfshot.com/members/0871088840/statistics)
+- [Golfshot](https://play.golfshot.com/profiles/589Rq/rounds)
 - [Goodreads](https://www.goodreads.com/user/show/5677497-webb-henderson)
 - [Instagram](http://instagram.com/emerywebster)
 - [Twitter](http://twitter.com/emerywebster)
