@@ -5,9 +5,12 @@ require 'open-uri'
 
 gem 'github-pages', JSON.parse(open('https://pages.github.com/versions.json').read)['github-pages']
 
-gem "jekyll-mentions"
-gem "jemoji"
-gem "jekyll-redirect-from"
-gem "jekyll-sitemap"
-gem "jekyll-feed"
-gem "jekyll-paginate"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-mentions"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-sitemap"
+  gem "jemoji"
+end
+

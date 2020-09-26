@@ -27,14 +27,10 @@ navbar-links:
   Writing: "thoughts"
   About: "about"
   Contact: "contact"
-#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-#    - Learn markdown: "http://www.markdowntutorial.com/"
-#    - GitHub Pages: "https://pages.github.com/"
-  # Portfolio: "http://ux.emerywebster.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: /img/avatar.jpg
+avatar: /assets/img/avatar.jpg
 
 # --- Footer options --- #
 
@@ -43,11 +39,11 @@ avatar: /img/avatar.jpg
 author:
   name: Webb Henderson
   email: "webb.henderson@gmail.com"
-  facebook: emerywebster  # eg. daattali
-  github: emerywebster    # eg. daattali
-  twitter: emerywebster   # eg. daattali
-  linkedin: in/emerywebster  # eg. "pub/dean-attali/8/946/143"
-  # stackoverflow: emerywebster  # eg. "3943160/daattali"
+  facebook: emerywebster
+  github: emerywebster 
+  twitter: emerywebster
+  linkedin: in/emerywebster
+  # stackoverflow: emerywebster
  
 # Select which links to show in the footer
 footer-links-active:
@@ -107,12 +103,9 @@ exclude:
   - Vagrantfile
 
 plugins:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-paginate
-  
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
