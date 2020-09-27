@@ -9,3 +9,8 @@ _drafts
 Thumbs.db
 ehthumbs.db
 Gemfile.lock
+
+# dependencies
+node_modules
+yarn.lock
+package-lock.json
