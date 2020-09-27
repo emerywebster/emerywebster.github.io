@@ -1,5 +1,14 @@
 @import url("pygment_highlights.css");
 
+@tailwind base;
+@import "tailwindcss/base";
+
+@tailwind components;
+@import "tailwindcss/components";
+
+@tailwind utilities;
+@import "tailwindcss/utilities";
+
 /* --- General --- */
 
 body {
