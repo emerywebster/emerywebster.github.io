@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-mentions"
   gem "jekyll-paginate"
+  gem "jekyll-postcss"
   gem "jekyll-redirect-from"
   gem "jekyll-sitemap"
   gem "jemoji"
