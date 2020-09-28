@@ -104,14 +104,15 @@ plugins:
 
 # Exclude these files from production site
 exclude:
+  - .gitignore
+  - CNAME
   - Gemfile
   - Gemfile.lock
+  - github-pages-deploy.sh
   - LICENSE
-  - README.md
-  - CNAME
   - node_modules
-  - yarn.lock
   - package-lock.json
-  - README.md
   - postcss.config.js
-  - .gitignore
+  - tailwind.config.js
+  - README.md
+  - yarn.lock
