@@ -4,7 +4,6 @@ Made with:
 
 - [Jekyll](https://jekyllrb.com/)
 - [Github Pages](https://pages.github.com/)
-- A modified version of the [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll) theme
 
 ### Setup
 
@@ -13,7 +12,7 @@ Made with:
 3. Run `bundle install`.
 4. Run `bundle exec jekyll serve`.
 5. Go to [http://localhost:4000](http://localhost:4000).
-6. You're done. High five.
+6. You're done ✨
 
 ### License
 
