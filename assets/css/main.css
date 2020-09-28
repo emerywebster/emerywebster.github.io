@@ -1,3 +1,5 @@
+@import url("pygment_highlights.css");
+
 /* --- General --- */
 
 body {
@@ -989,4 +991,8 @@ fieldset[disabled] .form-control {
   padding: 24px;
   font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 
+}
+
+.emoji {
+  display: inline;
 }
