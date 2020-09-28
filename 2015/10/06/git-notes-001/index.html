@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Git Notes 001 - User Experience Design Portfolio of Webb Henderson</title>
+
+  <meta name="author" content="Webb Henderson" />
+  
+  <meta name="description" content="Webb Henderson is a Product Designer based in Denver Colorado. He practices User Research, Information Architecture, and Interaction Design for mobile and the web." />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="User Experience Design Portfolio of Webb Henderson - Webb Henderson is a Product Designer based in Denver Colorado. He practices User Research, Information Architecture, and Interaction Design for mobile and the web." href="/feed.xml" />
+
+    
+  
+    
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    
+      
+  
+  
+  
+    
+      <link rel="stylesheet" href="/assets/css/tailwind.css" />
+    
+      <link rel="stylesheet" href="/assets/css/twentytwenty.css" />
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/assets/css/main.css" />
+    
+    
+  
+  
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+    
+    
+  
+  
+  
+  
+  
+     
+  
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content="Git Notes 001" />
+  <meta property="og:type" content="website" />
+  
+  
+  <meta property="og:url" content="//2015/10/06/git-notes-001//" />
+  
+  
+  
+  <meta property="og:image" content="//assets/img/avatar.jpg" />
+  
+  
+  <script src="https://use.typekit.net/one8txm.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link rel="stylesheet" href="/assets/css/twentytwenty.css" type="text/css" media="screen" />
+
+  <!-- Hotjar Tracking Code for emerywebster.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:473853,hjsv:5};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+</head>
+
+
+  <body>
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Webb Henderson</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/">Portfolio</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/thoughts">Writing</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/about">About</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/contact">Contact</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="/">
+	      <img class="avatar-img" src="/assets/img/avatar.jpg">
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Git Notes 001</h1>
+		  
+		  
+		  
+		  <span class="post-meta">October 6, 2015</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+<div class="ssk-sticky ssk-left ssk-center ssk-lg">
+  <a href="" class="ssk ssk-twitter" data-text="Git Notes 001"></a>
+  <a href="" class="ssk ssk-facebook"></a>
+  <a href="" class="ssk ssk-linkedin"></a>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <div class="top-share ssk-group">
+          <a href="" class="ssk ssk-text ssk-twitter" data-text="Git Notes 001">Tweet</a>
+          <a href="" class="ssk ssk-text ssk-facebook">Share</a>
+          <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
+        </div>
+	      <p>I use an alias in my <strong>~/.gitconfig</strong> called <code class="language-plaintext highlighter-rouge">git hist</code><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>, which looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">hist <span class="o">=</span> log <span class="nt">--graph</span> <span class="nt">--pretty</span><span class="o">=</span>format:<span class="s1">'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset'</span> <span class="nt">--abbrev-commit</span> <span class="nt">--date</span><span class="o">=</span>relative</code></pre></figure>
+
+<p>And outputs as (using this site as an example):</p>
+
+<p><img src="/img/2015-10-06-git-hist.jpg" alt="git hist command output"></p>
+
+<p>It’s insanely helpful <strong>but I had no idea how it worked (or what it meant)</strong> until just now.</p>
+
+<p>So, here’s a quick look at what I learned:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">hist = log</code> : create/start the alias identical to <code class="language-plaintext highlighter-rouge">git log</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">--graph</code> : adds graphic on the left side to ‘illustrate’ commits, merges, rebases, etc.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">--pretty=format:[options]</code> : show certain details (placeholders) about each commit and format them as specified.</li>
+</ul>
+
+<p>Below is a list of those placeholders used here<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">%h</code> = abbreviated hash</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">%d</code> = ref name</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">%s</code> = subject (message in the commit; not decorated)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">%cr</code> = committer date</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">%an</code> = author name</li>
+</ul>
+
+<p>Colors are then added  via <code class="language-plaintext highlighter-rouge">%C[color-name]%[text-to-color]%Creset</code><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>.</p>
+
+<p><strong>Back to the point</strong> — the whole reason I started down this path is because I didn’t know how or why the refs are shown as they are:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="o">(</span>HEAD, origin/master, <span class="o">[</span>other]/master], master<span class="o">)</span></code></pre></figure>
+
+<p>I knew what <code class="language-plaintext highlighter-rouge">HEAD</code> meant (sort of). I knew what <code class="language-plaintext highlighter-rouge">master</code> meant (for sure). And I <em>think</em> I understood what was happening with <code class="language-plaintext highlighter-rouge">origin/master</code>.</p>
+
+<p>Again, after more digging, I’ve found a more concise explanation:</p>
+
+<ul>
+  <li>
+<strong>HEAD</strong> : A reference to the last commit in the current checked out branch (via <a href="http://stackoverflow.com/questions/2529971/what-is-the-head-in-git">Stack Overflow</a>).</li>
+  <li>
+<strong>origin/master</strong> : A reference to the remote you cloned the repo from…and where it will push to.</li>
+  <li>
+<strong>[other]/master</strong> : Additional remotes that you can push to. In the case of Hartl’s rails tutorial, I have one that deploys to heroku via <code class="language-plaintext highlighter-rouge">git push heroku</code>.</li>
+  <li>
+<strong>master</strong> : The branch I’m using and committing to locally.</li>
+</ul>
+
+<p>It’s worth noting that I can use <code class="language-plaintext highlighter-rouge">git remote show origin</code> and <code class="language-plaintext highlighter-rouge">git remote show heroku</code> to see where they each point.</p>
+
+<p>Whew! This took a while but even if it doesn’t stick I’ll have a place to jump back to! <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" height="20" width="20"></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Admittedly I stole much of this from the <a href="http://gitimmersion.com/lab_11.html">GitImmersion tutorial</a> and then again on <a href="https://coderwall.com/p/euwpig/a-better-git-log">coderwall.com</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>After some digging I found a full list of these options in the <a href="https://git-scm.com/docs/git-show/1.8.2.2">git documentation</a>…plus everything else I needed to learn in this post. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>You can find a full list of <code class="language-plaintext highlighter-rouge">pretty</code> format options in the <a href="http://git-scm.com/docs/pretty-formats">git documentation</a> as well. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+	    </article>
+	  	  
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/2015/10/05/current-to-do-list-for-ew-com/" data-toggle="tooltip" data-placement="top" title="Current TO DO list for this site">← Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/2015/10/07/scrum-findings/" data-toggle="tooltip" data-placement="top" title="Scrum Findings">Next Post →</a>
+        </li>
+        
+      </ul>
+      
+      <div class="disqus-comments">
+        
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'emerywebster';
+	    // ensure that pages with query string get the same discussion
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];	    
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+</div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- SSK -->
+<script type="text/javascript" src="/assets/js/social-share-kit.js"></script>
+<script type="text/javascript">
+SocialShareKit.init();
+</script>
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          <li>
+            <a href="https://linkedin.com/in/emerywebster" title="LinkedIn">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="https://github.com/emerywebster" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="https://twitter.com/emerywebster" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="mailto:webb.henderson@gmail.com" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+		      		  
+        </ul>
+        <p class="copyright text-muted">
+      © 2020 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+	    </p>  
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+
+
+
+  
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/assets/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    
+	<script src="/assets/js/bootstrap.min.js"></script>
+    
+  
+    
+	<script src="/assets/js/main.js"></script>
+    
+  
+
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-8462524-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>BiggerPockets MVP Product Strategy - User Experience Design Portfolio of Webb Henderson</title>
+
+  <meta name="author" content="Webb Henderson" />
+  
+  <meta name="description" content="Webb Henderson is a Product Designer based in Denver Colorado. He practices User Research, Information Architecture, and Interaction Design for mobile and the web." />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="User Experience Design Portfolio of Webb Henderson - Webb Henderson is a Product Designer based in Denver Colorado. He practices User Research, Information Architecture, and Interaction Design for mobile and the web." href="/feed.xml" />
+
+    
+  
+    
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    
+      
+  
+  
+  
+    
+      <link rel="stylesheet" href="/assets/css/tailwind.css" />
+    
+      <link rel="stylesheet" href="/assets/css/twentytwenty.css" />
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/assets/css/main.css" />
+    
+    
+  
+  
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+    
+    
+  
+  
+  
+  
+  
+     
+  
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content="BiggerPockets MVP Product Strategy" />
+  <meta property="og:type" content="website" />
+  
+  
+  <meta property="og:url" content="//work/biggerpockets" />
+  
+  
+  
+  <meta property="og:image" content="//assets/img/avatar.jpg" />
+  
+  
+  <script src="https://use.typekit.net/one8txm.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link rel="stylesheet" href="/assets/css/twentytwenty.css" type="text/css" media="screen" />
+
+  <!-- Hotjar Tracking Code for emerywebster.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:473853,hjsv:5};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+</head>
+
+
+  <body>
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Webb Henderson</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/">Portfolio</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/thoughts">Writing</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/about">About</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/contact">Contact</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="/">
+	      <img class="avatar-img" src="/assets/img/avatar.jpg">
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    	<div class="work-intro">
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<h1>BiggerPockets MVP Product Strategy</h1>
+				
+				
+				<p>In 2016, I interviewed for a Product Management role with BiggerPockets.com - a real estate investing network &amp; information hub. Prior to meeting the team, they asked me to present an MVP launch strategy for this product.</p>
+				
+				
+				
+				<blockquote>
+					Consider a hypothetical web/mobile tool to track net worth, stocks, bonds, bank accounts, real estate, other random investments. It should be simple, easy to use, and tap into 3rd party APIs. It should have the ability to display graphs with snapshots of one's net worth over time - that is the ultimate goal for the product. How would you research, model, design, spec, and create timelines for developing this project? (assume you've got 3 devs, 1 designer, and any other stakeholders at your disposal).
+				</blockquote>
+				
+				
+			</div>
+		</div>
+	</div>
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="page-content">
+        <p>Let’s frame the product within a <strong>customer → problem → solution context</strong>. This will allow the team and stakeholders to better understand product development decisions (i.e. we are building feature <em>X</em> to address problem <em>Y</em>, which is a known need for customer segment <em>Z</em>).</p>
+
+<h1 id="1-customer--problem">1. Customer → Problem</h1>
+
+<p class="tp"><strong>Thought process</strong>: we want to establish an understanding of our customers before building anything. If we start developing a product without understanding customer problems/needs, then we run the risk of wasting time and pursuing the wrong solutions. We also want to document any learning throughout the product life cycle so we can better shape our solution in the future.</p>
+
+<h3 id="questions--assumptions">Questions &amp; Assumptions</h3>
+
+<p>Let’s assume we spend ~2-3 weeks performing customer (and technical) research on the following:</p>
+
+<h4 id="does-the-market-need-another-way-to-viewanalyze-net-worth">Does the market need another way to view/analyze net worth?</h4>
+
+<ul>
+  <li>Yes, we’ve identified a clear need.</li>
+</ul>
+
+<h4 id="what-app-features-do-users-care-the-most-about">What app features do users care the most about?</h4>
+
+<ol>
+  <li>Security!</li>
+  <li>Easy setup process</li>
+  <li>Quick understanding of net worth (current snapshot, historical data, composition, trends)</li>
+  <li>Access to tools/knowledge that allow them to make better financial decisions (derived from #3)</li>
+</ol>
+
+<h4 id="what-other-features-do-users-care-about">What other features do users care about?</h4>
+
+<ul>
+  <li>We’ll identify them once we have a working MVP, with real customers and real data.</li>
+</ul>
+
+<h4 id="who-is-our-target-customer">Who is our target customer?</h4>
+
+<ul>
+  <li>
+<strong>Rhonda Realtor</strong>: 37 year old real estate juggernaut and active user of [our company]. Loves seeing her numbers go up and understanding trends in her history. She’s most interested in ease-of-use and tools to help her make better decisions.</li>
+  <li>Marty Manager: 54 year old middle-class executive with a myriad of investments and little time to track them all. Needs a single, secure place to quickly stay up to speed with his number (for retirement, etc).</li>
+  <li>Scott Super Saver: 29 year old professional who is starting to get serious about life, saving, and diversifying. He plays with stocks constantly and is saving for his first house. He wants steady updates/reminders of his number and also wants to learn to invest better.</li>
+</ul>
+
+<h4 id="can-we-collect-data-from-our-users-financial-institutions-and-keep-them-up-to-date">Can we collect data from our users’ financial institutions (and keep them up-to-date)?</h4>
+
+<ul>
+  <li>Yes, this is technically feasible.</li>
+</ul>
+
+<h4 id="are-all-features-going-to-be-free-what-aspects-can-we-monetize-now--in-the-future">Are all features going to be free? What aspects can we monetize now / in the future?</h4>
+
+<ul>
+  <li>Everything will be free for the initial release. We may identify premium features in future iterations of the product (or make available only to ‘Pro members’).</li>
+</ul>
+
+<h3 id="potential-risks">Potential Risks</h3>
+
+<ul>
+  <li>
+<strong>Security &amp; retaining customer trust</strong>: Since we know this is a strong need for our customers, we’ll need to dedicate time to ensuring a well-guarded solution. We’ll also need to clearly communicate this within the user experience. This is a top-priority for the app.</li>
+  <li>
+<strong>Ease of use &amp; customers buy in (acquisition)</strong>: If users become confused or stuck, they’re not going to continue using our product. It needs to be simple and require minimal effort.</li>
+  <li>
+<strong>Accuracy &amp; ensuring customer value (retention)</strong>: If the product doesn’t solve specific customer needs, they will not see any value, and we will not be able to retain for repeat use.</li>
+  <li>
+<strong>Reliance on third-party APIs</strong>: This will require a close eye on general code maintenance and is an expected cost of development throughout the product life cycle.</li>
+</ul>
+
+<hr>
+
+<h1 id="2-problem--solution">2. Problem → Solution</h1>
+
+<h3 id="timeline">Timeline</h3>
+
+<p class="tp"><strong>Thought process</strong>: No matter how much research/testing is performed during discovery/development, we won’t be able to truly validate our product-solution until we have real customers, connecting real accounts, and generating real data. The sooner we can get there, the better.</p>
+
+<p>Our goal is to get a working MVP in production as quickly as possible (based upon learning/testing from customer discovery phase).</p>
+
+<p>As such, we’re aiming for a ~4 week release schedule (1 long sprint). These estimates would need to be confirmed with the team during sprint planning.</p>
+
+<h4 id="week-0-includes-the-above-assumptions">Week 0 (includes the above assumptions)</h4>
+
+<ul>
+  <li>Company already has great personas built, we largely understand our initial customer needs</li>
+  <li>Sprint planning meeting with team to share learning, goals, etc.</li>
+  <li>Landing page in place to gauge interest; collect emails for announcements, surveys, potential user testing</li>
+</ul>
+
+<h4 id="week-1">Week 1</h4>
+
+<ul>
+  <li>Product: Create low-level prototypes of user workflow, validate assumptions with customers</li>
+  <li>Engineering: Research financial institution sign-on (technical implementation planning + security); Zillow integration, other property valuation tools.</li>
+  <li>Design: Draft working HTML (static) for sign up, login, and import views based on wireframes &amp; customer knowledge.</li>
+</ul>
+
+<h4 id="week-2">Week 2</h4>
+
+<ul>
+  <li>Product: Share learning from week 1; test sign up &amp; import views on customers (working prototype via InVision).</li>
+  <li>Engineering: (1 solo) Build &amp; test signup and login processes. (2, pair coding) Integrate account import functionality.</li>
+  <li>Design: Craft working HTML for profile/summary views.</li>
+</ul>
+
+<h4 id="week-3">Week 3</h4>
+
+<ul>
+  <li>Product: Share learning from week 2, test import functionality with target customers.</li>
+  <li>Engineering: (2, pair coding) Implement net worth summary view (charts)</li>
+  <li>Design: Refine look &amp; feel based on customer feedback from product.</li>
+</ul>
+
+<h4 id="week-4">Week 4</h4>
+
+<ul>
+  <li>All: Remaining bug fixes and minor changes based on user feedback.</li>
+  <li>Product: ensure all items meet acceptance criteria.</li>
+  <li>Ensure relevant analytics are in place / working.</li>
+  <li>Push to production</li>
+</ul>
+
+<h4 id="week-5-6">Week 5-6+</h4>
+
+<ul>
+  <li>Shorten sprint cycle to 2 weeks for next feature release</li>
+  <li>Backlog refinement meeting (based on product backlog - history, trends, customer feedback)</li>
+  <li>Review analytics daily — share learning (user behavior) with the team</li>
+  <li>Stakeholder management:
+    <ul>
+      <li>Meet with marketing/sales to craft product announcements, messaging, etc. Make this a fairly routine practice as the product matures.</li>
+      <li>Meet with leadership to ensure business needs are continually met — discuss strategic goals and learning regarding customers, users, market, team, etc.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="necessary-resources">Necessary Resources</h3>
+
+<p>Organizational communication tools (PivotalTracker, JIRA, Slack, etc.)</p>
+
+<ul>
+  <li>To ensure clear communication and visibility within the product roadmap or development plan — particularly regarding user/feature goals, backlog prioritization, workflow, acceptance criteria, and projections.</li>
+  <li>No ‘right answer’ here — whatever works best for the team.</li>
+</ul>
+
+<h3 id="customer-research">Customer research</h3>
+
+<ul>
+  <li>Interviews and usability testing</li>
+  <li>Coffee shops, professional networks, existing users (via email marketing), volunteers</li>
+</ul>
+
+<h3 id="ideafeature-validation">Idea/feature validation</h3>
+
+<ul>
+  <li>Low fidelity prototypes (paper, Balsamiq, hallway tests)</li>
+  <li>High fidelity prototypes (functional, InVision)</li>
+</ul>
+
+<h3 id="scaling--optimizing">Scaling &amp; Optimizing</h3>
+
+<ul>
+  <li>A/B testing (Optimizely, Segment.io, etc.)</li>
+</ul>
+
+<h3 id="development-methodology">Development methodology</h3>
+
+<ul>
+  <li>Agile + Lean (we need to iterate quickly, which should make this a good fit)
+-Can be scrum/kanban, whichever will work best for the team. Some modification of scrum seems like an appropriate choice as it aligns with our goals (daily stand up, emphasis on user needs, maximizing ROI, testing ideas in working software as quickly as possible, etc).</li>
+</ul>
+
+<p>We’ll also need a firm understanding of stakeholder needs: marketing, sales, leadership, etc.</p>
+
+<h1 id="3-mvp-feature-spec--user-stories--8-features-for-engineering">3. MVP (Feature Spec + User Stories + 8 Features for Engineering)</h1>
+
+<p class="tp"><strong>Thought process</strong>: We want each feature to match a user story (which points to a specific customer problem/need). Some of them may need to be further refined or specified during sprint planning. I’ve just included a few of the key wireframes for this process (sign up, import/connect, and net worth summary).</p>
+
+<h3 id="1-sign-up">1. Sign Up</h3>
+
+<p><strong>User Story</strong>: As a new user, I want to sign up, so I can become an active user within the app.</p>
+
+<ul>
+  <li>Input field for Email, Password</li>
+  <li>Enforce strong password requirements</li>
+  <li>Verify/Activate email</li>
+  <li>Integrate with existing user database (allowing upsells, opt-ins for other services)</li>
+</ul>
+
+<p><img src="https://cloud.githubusercontent.com/assets/178044/24765604/a61df7ea-1ab5-11e7-9925-c1db0863aa9c.png" alt="sign up"></p>
+
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">NetWorth Sign Up</p>
+
+<h3 id="2-login">2. Login</h3>
+
+<ul>
+  <li>[Standard / same as above]</li>
+  <li>Existing user? Allow login from existing database.</li>
+</ul>
+
+<h3 id="3-import-accounts-via-oauth-login--financial-institution-apis">3. Import Accounts (via oauth login / financial institution APIs)</h3>
+
+<p><strong>User story</strong>: As a user, I want to easily and securely import my financial accounts, so I can view them together.</p>
+
+<ul>
+  <li>Find my account (Search + Popular institutions, e.g. Chase, Wells Fargo, PayPal)</li>
+  <li>Login/connect → Success/failure</li>
+  <li>Add another OR Continue to ‘Add Property’</li>
+</ul>
+
+<p><img src="https://cloud.githubusercontent.com/assets/178044/24765642/cd66d858-1ab5-11e7-9912-f2d991ad5ba5.png" alt="import 1"></p>
+
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">Import Step 1 of 3: Find Financial Account</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/178044/24765643/cd7abc4c-1ab5-11e7-8c0b-cfb4f27cf38c.png" alt="import 2"></p>
+
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">Import Step 2 of 3: Connect to Financial Account</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/178044/24765644/cd8b0016-1ab5-11e7-9d01-89c03de8292d.png" alt="import 3"></p>
+
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">Import Step 3 of 3: Success + Next Steps</p>
+
+<h3 id="4-add-property">4. Add property</h3>
+<p><strong>User Story</strong>: As a user, I want to add/edit various types of property so that my Net Worth will accurately include my major assets &amp; debt.</p>
+
+<ul>
+  <li>Home (find via Zillow, add manually)</li>
+  <li>Vehicles (cars, boats, etc, add manually)</li>
+  <li>Loan balances</li>
+  <li>Other (artwork, furniture, equipment, add manually)</li>
+</ul>
+
+<h3 id="5-dashboardsnapshot">5. Dashboard/Snapshot</h3>
+
+<p><strong>User Story</strong>:As a user, I want to view and understand my net worth over time</p>
+
+<ul>
+  <li>Current composition (line item) view + historical line chart</li>
+</ul>
+
+<p><img src="https://cloud.githubusercontent.com/assets/178044/24765901/c6b92866-1ab6-11e7-81d9-82c21957badb.png" alt="my profile"></p>
+
+<p style="font-family: avenir, montserrat, proxima-nova, helvetica, sans-serif; font-size:14px; text-align:center; color: #a4a4a4; margin-top: -10px; margin-bottom: 20px;">NetWorth Dashboard</p>
+
+<h3 id="6-net-worth-composition-diversification">6. Net Worth Composition (diversification)</h3>
+
+<p><strong>User Story</strong>: As a user, I want to be able to see what % of my assets (and debt) make up the entirety of my net worth.</p>
+
+<ul>
+  <li>Pie chart</li>
+  <li>Relevant percentages</li>
+  <li>Color designation / legend</li>
+</ul>
+
+<h3 id="7-view-history">7. View History</h3>
+
+<p><strong>User Story</strong>: As a user, I want to zoom into my net worth to better understand my history and make more informed financial decisions in the future.</p>
+
+<ul>
+  <li>Timeline (YOY net worth + composition)</li>
+  <li>High/low spending periods</li>
+  <li>Events (indicate large purchases, add major life changes)</li>
+</ul>
+
+<h3 id="8-trends">8. Trends</h3>
+<p><strong>User Story</strong>: As a user, I want to identify patterns in my financial history so that I can make better decisions in the future.</p>
+
+<ul>
+  <li>Income expectations/changes</li>
+  <li>Savings contributions/changes</li>
+</ul>
+
+<p><em>[Product backlog items (and epics) that did not make the cut for initial release — to re-prioritize once we understanding our next set of users goals are most important]</em></p>
+
+<ul>
+  <li>Introductory walk-through views (after sign-up)</li>
+  <li>Profile completeness or progress bar (“you’re 80% done!” Add detail)</li>
+  <li>Integrate other tools for saving, learning, diversifying</li>
+  <li>Transactions View
+    <ul>
+      <li>Zoom into spending history</li>
+      <li>Categorize individual purchases for budgeting, history, etc.</li>
+    </ul>
+  </li>
+  <li>Planning/Goals
+    <ul>
+      <li>Save for purchase/event (retirement, pay off loans, buy home/car)</li>
+    </ul>
+  </li>
+  <li>iOS app</li>
+  <li>Android app</li>
+  <li>Invite collaborators (accountants, family)
+    <ul>
+      <li>Limit view/update permissions</li>
+    </ul>
+  </li>
+  <li>Premium feature gateway</li>
+</ul>
+
+<hr>
+
+<h2 id="additional-scenarios">Additional scenarios</h2>
+
+<blockquote>
+  <p>Engineering tells you 2 of your requirements are not possible, but they can implement the other 6.</p>
+</blockquote>
+
+<p>Is this a timeline constraint? Can we accomplish 1-6 in the list above within it? If so, let’s push 7 &amp; 8 to our next release. 1-6 are critical to the MVP based on our customer needs and initial problem-solution. We do not have a working app without them.</p>
+
+<p>Also, are there technical constraints that we need to prepare for (and research further)? Can we leverage other technologies for now? Can we build a landing page to gauge interest?</p>
+
+<p class="tp"><strong>Thought process</strong>: Understand why these aren’t possible so you can help work through the problem and reach some solution. Get creative with your resources. What *can* we do in the meantime? Take this as an opportunity to bring value to your engineering team and foster a trusting relationship.</p>
+
+<blockquote>
+  <p>They also say they would like to add two additional requirements of their own. How do you respond?</p>
+</blockquote>
+
+<p>Quickly assess if these requests overlay any of our existing customer data. What exactly are they suggesting (and why)? Does this address any of our customer needs/problems? Should we reprioritize our backlog because of this?</p>
+
+<p>If yes (and there is time/budget): review and re-prioritize the backlog accordingly. As the product manager / product owner, you are ultimately responsible for the backlog (as you are providing the voice of the customer.</p>
+
+<p>If yes, but we don’t have time/budget: These are great suggestions — they even align with our customer needs/data. Unfortunately, all of the other features are a higher priority for this sprint. I’ve added them to the backlog and we will revisit them during the next planning meeting.</p>
+
+<p>If we don’t know: These are great suggestions —but we need to ensure that they fit a customer need. We’ll work them into our next set of customer interviews (or other form of customer feedback). Once we have enough supporting data, we’ll revisit this and re-prioritize our product backlog / roadmap accordingly.</p>
+
+<p>If we don’t know, and we don’t have time/budget: These are great suggestions — unfortunately we don’t have time to validate these ideas for this sprint. We also need to ensure that they fit a customer need before introducing them to the backlog. I’ll work on that ASAP so we can potentially introduce them in the next sprint (or determine that they’re not a worthwhile use of development effort).</p>
+
+<p>If no: Based on our understanding of our customer needs (include supporting data), this feature won’t enhance the user experience or provide any immediate/long-term value to the customer. I completely understand why you think it’s a great idea, but we need to tailor our product to our customers…and the data tells us that they don’t really care about features y and z. Still, I’ll keep an eye on it and let you know if the landscape changes in any way.</p>
+
+<p class="tp"><strong>Thought process</strong>: A big part of product management is knowing when to say “no” (but also understanding when suggestions might match up with your customer needs). This is best accomplished when you have supporting data to determine if product decisions are good or bad. You need to validate every decision with customer data — qualitative problem solving in the beginning of a product/feature (customer interviews, prototyping, etc), quantitative validation once those features are gathering useful analytics data (A/B testing, etc for growth and optimization). Again, you are providing expertise in customer needs...so it’s important to communicate the ‘why’ behind all product decisions.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>The goal of this plan is to set the tone for rapid learning, execution, and iteration (the more we understand our customer and their problem, the better we can shape our product and build a successful business). It also allows us to quickly update our project planning, product backlog, and shared understanding of both strategic and tactical decisions. It’s far from perfect, but it should serve as a reasonable starting point.</p>
+
+<hr>
+
+<h2 id="questions">Questions?</h2>
+
+<p>I’d love to hear your thoughts on this project. Please feel free to <a href="/contact">contact me</a> if you have any additional ideas or questions. <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          <li>
+            <a href="https://linkedin.com/in/emerywebster" title="LinkedIn">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="https://github.com/emerywebster" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="https://twitter.com/emerywebster" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="mailto:webb.henderson@gmail.com" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+		      		  
+        </ul>
+        <p class="copyright text-muted">
+      © 2020 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+	    </p>  
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+
+
+
+  
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/assets/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    
+	<script src="/assets/js/bootstrap.min.js"></script>
+    
+  
+    
+	<script src="/assets/js/main.js"></script>
+    
+  
+
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-8462524-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+
+  
+  </body>
+</html>
