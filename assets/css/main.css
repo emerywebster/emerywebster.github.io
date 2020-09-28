@@ -48,6 +48,9 @@ blockquote {
   margin: 1.8em .5em;
   font-size: 22px;
 }
+ul {
+  list-style: inside;
+}
 li {
   margin-bottom:.15em;
 }
