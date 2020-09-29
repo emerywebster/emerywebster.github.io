@@ -105,7 +105,6 @@ plugins:
 # Exclude these files from production site
 exclude:
   - .gitignore
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - github-pages-deploy.sh
