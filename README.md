@@ -14,6 +14,10 @@ Made with:
 5. Go to [http://localhost:4000](http://localhost:4000).
 6. You're done ✨
 
+### Deploy to Github Pages
+
+Based on https://sangsoonam.github.io/2019/02/08/using-git-worktree-to-deploy-github-pages.html
+
 ### License
 
 All original content (posts) on emerywebster.com is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/) attributable to [Webb Henderson](https://emerywebster.com/).
