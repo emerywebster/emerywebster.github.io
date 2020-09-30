@@ -5,22 +5,24 @@ permalink: /contact.html
 ---
 
 <section id="contact">
-  <form action="https://formspree.io/webb.henderson@gmail.com" method="POST" class="form" id="contact-form">
-<!--     <div class="form-group">
-      <label>YOUR NAME</label>
-      <input type="text" name="name" class="form-control input-lg" placeholder="Ben Franklin" title="Name">
-   </div> -->
+
+  <p class="mb-6 text-center">
+    Let's chat! You can reach me <a href="http://twitter.com/emerywebster">@emerywebster</a> or via the form below.
+  </p>
+
+  <form class="max-w-4xl mx-auto" accept-charset="UTF-8" action="https://getform.io/f/63948a14-2414-499c-878a-24ad60fe01ba" method="POST" enctype="multipart/form-data">
     <div class="form-group">
-      <label>YOUR EMAIL ADDRESS</label>
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="you@example.com" title="Email">
+      <label for="name">Name</label>
+      <input type="text" name="name" class="form-control" id="exampleInputName" required="required">
     </div>
     <div class="form-group">
-      <input type="hidden" name="_subject" value="Contact form submission from emerywebster.com">
-      <label>YOUR MESSAGE</label>
-      <textarea type="text" name="content" class="form-control input-lg" title="Message" required="required" rows="4"></textarea>
+      <label for="email" required="required">Email</label>
+      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="hidden" name="_next" value="/thanks/" />
-    <button type="submit" class="btn btn-lg btn-primary">Send</button>
+    <div class="form-group">
+      <label>What's up?</label>
+      <textarea for="message" type="text" name="content" class="form-control input-lg" title="Message" required="required" rows="4"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send message</button>
   </form>
 </section>
