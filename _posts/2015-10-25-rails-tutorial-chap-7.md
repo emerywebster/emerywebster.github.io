@@ -4,7 +4,7 @@ title: Rails Tutorial - Chapter 7
 categories: Development
 tags: Rails Ruby Learning
 ---
-Soooo I now have a <img src="/img/ak_scare1.gif" alt=":scare:"> working <img src="/img/ak_scare2.gif" alt=":scare:" class="wp-smiley"> version of the app live on [heroku](https://ewh-rails-sample.herokuapp.com). 
+Soooo I now have a <img src="/assets/img/ak_scare1.gif" alt=":scare:"> working <img src="/assets/img/ak_scare2.gif" alt=":scare:" class="wp-smiley"> version of the app live on [heroku](https://ewh-rails-sample.herokuapp.com). 
 
 **Things you can do with it...**
 
