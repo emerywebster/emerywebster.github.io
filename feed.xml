@@ -3,8 +3,8 @@
   <channel>
     <title>User Experience Design Portfolio of Webb Henderson</title>
     <description>Webb Henderson is a Product Designer based in Denver Colorado. He practices User Research, Information Architecture, and Interaction Design for mobile and the web.</description>
-    <link>/</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://emerywebster.com</link>
+    <atom:link href="http://emerywebster.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Framer</title>
@@ -13,8 +13,8 @@
           Prototyping is easily my favorite part of the design process. It’s the best opportunity to test your vision for an actual product experience (and better understand any assumptions, hypotheses, and decisions made along the way). Plus it’s fun to build out your ideas with a little movement and personality. TL;DR...
         </description>
         <pubDate>Sun, 26 Mar 2017 00:00:00 -0600</pubDate>
-        <link>//2017/03/26/framer/</link>
-        <guid isPermaLink="true">//2017/03/26/framer/</guid>
+        <link>http://emerywebster.com/2017/03/26/framer/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2017/03/26/framer/</guid>
       </item>
     
       <item>
@@ -24,8 +24,8 @@
           I recently went through Joel Marsh’s crash course on UX fundamentals. It’s an extremely introductory, high-level guide…but definitely a useful and worthwhile exercise. As usual, I jotted some notes on certain concepts to revisit. Here are the main takeaways: Key Concepts 1. Defining UX The goal of a UX designer...
         </description>
         <pubDate>Mon, 21 Mar 2016 00:00:00 -0600</pubDate>
-        <link>//2016/03/21/ux-principles/</link>
-        <guid isPermaLink="true">//2016/03/21/ux-principles/</guid>
+        <link>http://emerywebster.com/2016/03/21/ux-principles/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2016/03/21/ux-principles/</guid>
       </item>
     
       <item>
@@ -35,8 +35,8 @@
           Sketch is really, really, really awesome. It’s a simple, useful, and surprisingly powerful design tool. Here are a few things I built with it recently… Fetchy A simple web app that serves icon art from the iTunes API — give it a try. Simple Login UI There seem to be a...
         </description>
         <pubDate>Wed, 16 Mar 2016 00:00:00 -0600</pubDate>
-        <link>//2016/03/16/sketch/</link>
-        <guid isPermaLink="true">//2016/03/16/sketch/</guid>
+        <link>http://emerywebster.com/2016/03/16/sketch/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2016/03/16/sketch/</guid>
       </item>
     
       <item>
@@ -46,8 +46,8 @@
           So…I have a food blog now. And yeah, it’s extremely cliché…but who cares? I’m pretty sure worse things happen on the internet. [If you’re not into stories, just check out spicegui.de &amp;amp; @spiceguide]. Some Background I love spicy food I collect hot sauces (seriously). I add unreasonable amounts of heat...
         </description>
         <pubDate>Mon, 29 Feb 2016 00:00:00 -0700</pubDate>
-        <link>//2016/02/29/spiceguide/</link>
-        <guid isPermaLink="true">//2016/02/29/spiceguide/</guid>
+        <link>http://emerywebster.com/2016/02/29/spiceguide/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2016/02/29/spiceguide/</guid>
       </item>
     
       <item>
@@ -57,8 +57,8 @@
           I’m reading a fantastic pretty good book called I Am Pilgrim by Terry Hayes. Today this quote jumped out at me: …and for a moment he remembered what it was like to have so much road in front of you and barely any behind.” I also turned 31 today. Which...
         </description>
         <pubDate>Fri, 26 Feb 2016 00:00:00 -0700</pubDate>
-        <link>//2016/02/26/the-road/</link>
-        <guid isPermaLink="true">//2016/02/26/the-road/</guid>
+        <link>http://emerywebster.com/2016/02/26/the-road/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2016/02/26/the-road/</guid>
       </item>
     
       <item>
@@ -68,8 +68,8 @@
           This is the first time I’ve ever written something like this…so I’ll start as simply as I can: I made enormous personal and professional strides in 2015, and I am so lucky and thankful to continue leading such a fun, crazy, and experience-rich life. I have a loving family, amazing...
         </description>
         <pubDate>Mon, 11 Jan 2016 00:00:00 -0700</pubDate>
-        <link>//2016/01/11/year-in-review-2015/</link>
-        <guid isPermaLink="true">//2016/01/11/year-in-review-2015/</guid>
+        <link>http://emerywebster.com/2016/01/11/year-in-review-2015/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2016/01/11/year-in-review-2015/</guid>
       </item>
     
       <item>
@@ -79,8 +79,8 @@
           Also known as a “sensory deprivation chamber” (which sounds terrifying) or an isolation tank (which isn’t much better). I know, it seems pretty strange. Perhaps dangerous even — but it’s not. It’s amazing, and here’s why you should find one and take a test drive: 1. Why Not? Try something new. It’s...
         </description>
         <pubDate>Thu, 07 Jan 2016 00:00:00 -0700</pubDate>
-        <link>//2016/01/07/float-tanks/</link>
-        <guid isPermaLink="true">//2016/01/07/float-tanks/</guid>
+        <link>http://emerywebster.com/2016/01/07/float-tanks/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2016/01/07/float-tanks/</guid>
       </item>
     
       <item>
@@ -90,8 +90,8 @@
           We are constantly entrenched in the practical use of language. Sometimes it’s nice to step away from that and appreciate its artistic expression as well. I received this email from Alison this morning (which inspired this post entirely): Wanted to take 5 minutes today, and might start to do so...
         </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 -0700</pubDate>
-        <link>//2015/12/16/poems/</link>
-        <guid isPermaLink="true">//2015/12/16/poems/</guid>
+        <link>http://emerywebster.com/2015/12/16/poems/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/12/16/poems/</guid>
       </item>
     
       <item>
@@ -101,8 +101,8 @@
           Today I had a simple, yet totally profound interaction on Twitter. Here’s what happened: While reading Dan Olsen’s The Lean Product Playbook I found myself with a lot of unanswered questions — primarily around his central case study (which is used to illustrate his lean process with an actual product)....
         </description>
         <pubDate>Tue, 08 Dec 2015 00:00:00 -0700</pubDate>
-        <link>//2015/12/08/social-media-engagement/</link>
-        <guid isPermaLink="true">//2015/12/08/social-media-engagement/</guid>
+        <link>http://emerywebster.com/2015/12/08/social-media-engagement/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/12/08/social-media-engagement/</guid>
       </item>
     
       <item>
@@ -112,8 +112,8 @@
           Last night I headed up to Galvanize Boulder to check out the Colorado Product Meetup. Quick version: they crushed it — super fun, well organized, and a friendly/smart/diverse crowd. I’m looking forward to the next event and learning from more product folks down the road. So what’s it all about?...
         </description>
         <pubDate>Fri, 04 Dec 2015 00:00:00 -0700</pubDate>
-        <link>//2015/12/04/colorado-product-meetup/</link>
-        <guid isPermaLink="true">//2015/12/04/colorado-product-meetup/</guid>
+        <link>http://emerywebster.com/2015/12/04/colorado-product-meetup/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/12/04/colorado-product-meetup/</guid>
       </item>
     
       <item>
@@ -123,8 +123,8 @@
           While working on concepts for a recent side project I decided it would be a good time to dig deeper into wireframing/prototyping with Balsamiq Mockups. After a quick test drive (and watching their super helpful guides and video tutorials) I quickly understood why Mockups is the go-to tool for UX...
         </description>
         <pubDate>Mon, 23 Nov 2015 00:00:00 -0700</pubDate>
-        <link>//2015/11/23/mockups/</link>
-        <guid isPermaLink="true">//2015/11/23/mockups/</guid>
+        <link>http://emerywebster.com/2015/11/23/mockups/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/11/23/mockups/</guid>
       </item>
     
       <item>
@@ -134,8 +134,8 @@
           When I started rebuilding this site I also took some time to clean up (and properly establish) all my dev stuff — organizing old projects, establishing backup/deploy processes, and reworking my local dev environment. Along the way I discovered The Perfect Web Development Environment from Chris Mallinson and replicated it...
         </description>
         <pubDate>Fri, 20 Nov 2015 00:00:00 -0700</pubDate>
-        <link>//2015/11/20/local-home-page/</link>
-        <guid isPermaLink="true">//2015/11/20/local-home-page/</guid>
+        <link>http://emerywebster.com/2015/11/20/local-home-page/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/11/20/local-home-page/</guid>
       </item>
     
       <item>
@@ -145,8 +145,8 @@
           …is one of the most helpful and insightful business books I’ve read. If you’re reading this and have any interest in building a new idea (or gathering better feedback in general) definitely pick it up now. The Mom Test serves as a guide to customer conversations so you can build...
         </description>
         <pubDate>Thu, 19 Nov 2015 00:00:00 -0700</pubDate>
-        <link>//2015/11/19/the-mom-test/</link>
-        <guid isPermaLink="true">//2015/11/19/the-mom-test/</guid>
+        <link>http://emerywebster.com/2015/11/19/the-mom-test/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/11/19/the-mom-test/</guid>
       </item>
     
       <item>
@@ -156,8 +156,8 @@
           [Full disclosure, this post is all over the place] — Last night I went on a mini TED binge and somehow ended on the path of public speaking (and confidence in general). Throughout The 7 Secrets of the Greatest Speakers in History, Robert Greene compiles some incredible speeches to discuss why...
         </description>
         <pubDate>Tue, 10 Nov 2015 00:00:00 -0700</pubDate>
-        <link>//2015/11/10/mysterious/</link>
-        <guid isPermaLink="true">//2015/11/10/mysterious/</guid>
+        <link>http://emerywebster.com/2015/11/10/mysterious/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/11/10/mysterious/</guid>
       </item>
     
       <item>
@@ -167,8 +167,8 @@
           Learning (or building upon) any skill typically comes with a series of epiphanies — a collection of AHA! moments that push you closer and closer to mastery. This October I found one of these :bulb: moments in the golf swing (via Ben Hogan) that immediately lowered my scores and improved...
         </description>
         <pubDate>Mon, 09 Nov 2015 00:00:00 -0700</pubDate>
-        <link>//2015/11/09/golf-swing-epiphanies/</link>
-        <guid isPermaLink="true">//2015/11/09/golf-swing-epiphanies/</guid>
+        <link>http://emerywebster.com/2015/11/09/golf-swing-epiphanies/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/11/09/golf-swing-epiphanies/</guid>
       </item>
     
       <item>
@@ -178,8 +178,8 @@
           I’ll be honest, I had to go through this chapter twice just to get it. It’s a beast. And the concepts are much more complex than previous chapters. Part of the reason I’m posting notes throughout this tutorial is to ensure it sticks. With that, I’m divvying this chapter into...
         </description>
         <pubDate>Thu, 05 Nov 2015 00:00:00 -0700</pubDate>
-        <link>//2015/11/05/rails-tutorial-chap-8-1/</link>
-        <guid isPermaLink="true">//2015/11/05/rails-tutorial-chap-8-1/</guid>
+        <link>http://emerywebster.com/2015/11/05/rails-tutorial-chap-8-1/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/11/05/rails-tutorial-chap-8-1/</guid>
       </item>
     
       <item>
@@ -189,8 +189,8 @@
           Last year I began the process of switching from :snowboarder: to :ski: — trying out new equipment, falling a lot, harnessing my inner Jerry. Like anything else it required a bit of patience (and some pain) but I’m excited to get back up there and get better. To make matters...
         </description>
         <pubDate>Wed, 04 Nov 2015 00:00:00 -0700</pubDate>
-        <link>//2015/11/04/skiing/</link>
-        <guid isPermaLink="true">//2015/11/04/skiing/</guid>
+        <link>http://emerywebster.com/2015/11/04/skiing/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/11/04/skiing/</guid>
       </item>
     
       <item>
@@ -200,8 +200,8 @@
           I developed a new obsession today at Movement Denver. Alison and I decided to take a belay class (super intro beginner class) to see if it’s something we might want to get into… We f*cking loved it. We’re going back tomorrow to take the belay test so we can hook...
         </description>
         <pubDate>Sat, 31 Oct 2015 00:00:00 -0600</pubDate>
-        <link>//2015/10/31/climbing/</link>
-        <guid isPermaLink="true">//2015/10/31/climbing/</guid>
+        <link>http://emerywebster.com/2015/10/31/climbing/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/10/31/climbing/</guid>
       </item>
     
       <item>
@@ -211,8 +211,8 @@
           Soooo I now have a working version of the app live on heroku. Things you can do with it… Sign up Look at static pages (Literally that’s it) Things you can’t do with it (for now)… Login Post anything View/follow other users Update your profile Delete your account Modify users...
         </description>
         <pubDate>Sun, 25 Oct 2015 00:00:00 -0600</pubDate>
-        <link>//2015/10/25/rails-tutorial-chap-7/</link>
-        <guid isPermaLink="true">//2015/10/25/rails-tutorial-chap-7/</guid>
+        <link>http://emerywebster.com/2015/10/25/rails-tutorial-chap-7/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/10/25/rails-tutorial-chap-7/</guid>
       </item>
     
       <item>
@@ -222,8 +222,8 @@
           Before I get to the meat of this I have to note the significance of today, October 21, 2015, which is the day Marty McFly arrives in the future and we’re introduced to all kinds of iconic inventions like hoverboards and self-lacing shoes. My favorite tribute is (predictably) golf-related… :golf:...
         </description>
         <pubDate>Wed, 21 Oct 2015 00:00:00 -0600</pubDate>
-        <link>//2015/10/21/rails-tutorial-chap-6/</link>
-        <guid isPermaLink="true">//2015/10/21/rails-tutorial-chap-6/</guid>
+        <link>http://emerywebster.com/2015/10/21/rails-tutorial-chap-6/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2015/10/21/rails-tutorial-chap-6/</guid>
       </item>
     
   </channel>
