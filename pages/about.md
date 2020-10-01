@@ -6,13 +6,20 @@ feature-img: "img/beav.jpg"
 ---
 Oh hey. I'm Webb &ndash; I live in Denver, Colorado and spend most of my time thinking about difficult problems so users don't have to.
 
-If you'd like to discuss a project, please [give me a shout](/contact).
+If you'd like to discuss a project, [give me a shout](/contact).
 
 ---
 
-### Quick Facts
+### Professional stuff
 
-- My full name is Emery Webster Henderson 
+- I currently lead design at [TrueCoach](http://truecoach.co) :purple_heart::muscle:.
+- I'm a former UX Designer at [ReadyTalk](http://readytalk.com).
+- Prior to that, I managed development projects at [Crowd Favorite](http://crowdfavorite.com).
+- I once ran an eBay/Amazon resale business (and still dabble).
+
+### Personal stuff
+
+- My full name is Emery Webster Henderson.
 - Find me [@emerywebster](http://twitter.com/emerywebster) pretty much everywhere.
 - I grew up near [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
 - I moved to the [DFW area](http://mavs.com) when I was 16.
@@ -20,17 +27,11 @@ If you'd like to discuss a project, please [give me a shout](/contact).
 - I own a home near downtown [Denver, CO](http://denverbroncos.com).
 - [I love golf](http://masters.com) more than just about anything.
 - I also like to ski, snowboard, camp, fish, run, read, and cook.
-- I currently lead design at [TrueCoach](http://truecoach.co) :purple_heart: :muscle:
-- I'm a former UX Designer at [ReadyTalk](http://readytalk.com).
-- Prior to that, I managed development projects at [Crowd Favorite](http://crowdfavorite.com).
-- I once ran an eBay/Amazon resale business (and still dabble).
 
 ---
 
 ### Connect
 
-- [Facebook](http://facebook.com/emerywebster)
-- [Foursquare](http://foursquare.com/emerywebster)
 - [GitHub](http://github.com/emerywebster)
 - [Golfshot](https://play.golfshot.com/profiles/589Rq/rounds)
 - [Goodreads](https://www.goodreads.com/user/show/5677497-webb-henderson)
@@ -84,8 +85,7 @@ If you'd like to discuss a project, please [give me a shout](/contact).
 
 #### Podcasts
 
-- [User Interface Engineering](https://www.uie.com/brainsparks/)
-- [UI Breakfast](http://uibreakfast.com/)
-- [The UX Intern](http://theuxintern.com/)
-- [Trav & Los](http://www.travandlos.com/)
-- [99% Invisible](http://99percentinvisible.org/)
+- [Design Details](https://designdetails.fm/)
+- [Intercom on Product Management](http://art19.com/)
+- [UI Breakfast](https://uibreakfast.com/category/podcast/)
+- [User Interface Engineering](https://uie.fm/)
