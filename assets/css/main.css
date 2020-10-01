@@ -60,6 +60,9 @@ ul {
 li {
   margin-bottom:.15em;
 }
+hr {
+  margin: 32px 0;
+}
 hr.small {
   max-width: 100px;
   margin: 15px auto;
