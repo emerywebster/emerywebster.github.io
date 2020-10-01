@@ -495,7 +495,7 @@ footer .theme-by {
   }
 
   form {
-    ;
+    font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   }
 
   .header-section.has-img .intro-header.no-img {
@@ -757,45 +757,39 @@ pre code, tt {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-  font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .form-group {
+  font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   width: 100%;
   margin: 14px 0;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-size: 14px;
-  color: #ccc;
-  opacity: .4;
-
+  color: #CBD5E0c;
 
 }
 ::-moz-placeholder { /* Firefox 19+ */
   font-size: 14px;
-  color: #ccc;
-  opacity: .4;
+  color: #CBD5E0c;
 
 }
 :-ms-input-placeholder { /* IE 10+ */
   font-size: 14px;
-  color: #ccc;
-  opacity: .4;
+  color: #CBD5E0c;
 
 }
 :-moz-placeholder { /* Firefox 18- */
   font-size: 14px;
-  color: #ccc;
-  opacity: .4;
+  color: #CBD5E0c;
 
 }
 
 label {
   font-size: 14px;
-  text-transform: uppercase;
   font-weight: bold;
-  color: #758C98;
+  color: #404040
 }
 
 .form-control {
@@ -826,7 +820,6 @@ fieldset[disabled] .form-control {
 
 .btn, .btn:hover, .btn:focus {
        transition: all .15s ease-in-out;
-       text-transform: uppercase;
        width: 100%;
        height: 45px;
        font-color: #FFFFFF;
