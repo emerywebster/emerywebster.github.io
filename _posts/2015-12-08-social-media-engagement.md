@@ -10,7 +10,6 @@ Twitter provided the easiest path, and within an hour he followed me back and of
 
 <blockquote align="center" class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/emerywebster">@emerywebster</a> good question :-) The MVP validation after we pivoted led the company to acquire a startup in that space</p>&mdash; Dan Olsen (@danolsen) <a href="https://twitter.com/danolsen/status/674391006851166208">December 9, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
 
 Admittedly, this answer left me half-satisfied (and with even more questions)...but still, he got back to me. _Within an hour._ 
 
@@ -28,5 +27,5 @@ One of my favorite quotes of his:
 
 I highly recommend you give him a follow on [Twitter](http://twitter.com/garyvee) and [Medium](https://medium.com/@garyvee). After digging a bit I'm sure you'll learn something new (and understand why he's so successful).
 
-[^1]:    Watch the video here: [Author and Entrepreneur Gary VaynerChuk | The Cain Conversation](https://www.youtube.com/watch?v=lsqaqRBTj_s). GREAT interview.
-[^2]:    From [Why Advice from Gurus is Mostly Meaningless](https://medium.com/@garyvee/why-listening-to-gurus-won-t-change-your-lifestyle-cea34330ae76#.ca5l08wrp).
+[^1]: Watch the video here: [Author and Entrepreneur Gary VaynerChuk | The Cain Conversation](https://www.youtube.com/watch?v=lsqaqRBTj_s). GREAT interview.
+[^2]: From [Why Advice from Gurus is Mostly Meaningless](https://medium.com/@garyvee/why-listening-to-gurus-won-t-change-your-lifestyle-cea34330ae76#.ca5l08wrp).
