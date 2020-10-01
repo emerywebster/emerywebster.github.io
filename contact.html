@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -84,10 +83,9 @@
 
 </head>
 
-
   <body>
-  
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <div class="content">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -165,7 +163,7 @@
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
 	    <a href="/">
-	      <img class="avatar-img" src="/assets/img/avatar.jpg" />
+	      <img class="avatar-img" src="/assets/img/avatar.jpg">
 		</a>
 	  </div>
 	</div>
@@ -174,8 +172,7 @@
   </div>
 </nav>
 
-
-    
+      
 
 
 
@@ -205,23 +202,21 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <div class="page-content">
         <section id="contact">
-  <form action="https://formspree.io/webb.henderson@gmail.com" method="POST" class="form" id="contact-form">
-<!--     <div class="form-group">
-      <label>YOUR NAME</label>
-      <input type="text" name="name" class="form-control input-lg" placeholder="Ben Franklin" title="Name">
-   </div> -->
+
+  <p class="mb-6 text-center">
+    Let's chat! You can reach me <a href="http://twitter.com/emerywebster">@emerywebster</a> or via the form below.
+  </p>
+
+  <form class="max-w-5xl mb-20 mx-auto" accept-charset="UTF-8" action="https://getform.io/f/63948a14-2414-499c-878a-24ad60fe01ba" method="POST" enctype="multipart/form-data">
     <div class="form-group">
-      <label>YOUR EMAIL ADDRESS</label>
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="you@example.com" title="Email">
+      <label for="email" required="required">Your email</label>
+      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
     </div>
     <div class="form-group">
-      <input type="hidden" name="_subject" value="Contact form submission from emerywebster.com">
-      <label>YOUR MESSAGE</label>
-      <textarea type="text" name="content" class="form-control input-lg" title="Message" required="required" rows="4"></textarea>
+      <label>What's up?</label>
+      <textarea for="message" type="text" name="content" class="form-control input-lg" title="Message" required="required" rows="4"></textarea>
     </div>
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="hidden" name="_next" value="/thanks/" />
-    <button type="submit" class="btn btn-lg btn-primary">Send</button>
+    <button type="submit" class="btn btn-primary">Send message</button>
   </form>
 </section>
 
@@ -231,9 +226,9 @@
   </div>
 </div>
 
-
+    </div>
     <footer>
-  <div class="container beautiful-jekyll-footer">
+  <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
@@ -282,14 +277,13 @@
 		      		  
         </ul>
         <p class="copyright text-muted">
-      &copy; 2020 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+      © 2020 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
 	    </p>  
       </div>
     </div>
   </div>
 </footer>
 
-  
     
 
 
@@ -334,6 +328,5 @@
 
 
 
-  
   </body>
 </html>
