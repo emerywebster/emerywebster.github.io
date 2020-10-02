@@ -3,6 +3,8 @@ layout: post
 title: Rails Tutorial - Chapter 8 (Part 1 of 2)
 categories: Development
 tags: Rails Ruby Learning
+common-css:
+  - "/assets/css/pygment_highlights.css"
 ---
 I'll be honest, I had to go through this chapter twice just to _get it_. It's a beast. And the concepts are much more complex than previous chapters. Part of the reason I'm posting notes throughout this tutorial is to ensure it sticks.
 

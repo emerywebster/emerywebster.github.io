@@ -2,6 +2,8 @@
 layout: post
 title: Rails Tutorial - Chapter 3
 categories: Development
+common-css:
+  - "/assets/css/pygment_highlights.css"
 ---
 On the surface I haven't really done anything with the app yet. It's basically just four simple pages&mdash;but there's quite a bit going on beneath the surface and I'm really enjoying the progression. 
 

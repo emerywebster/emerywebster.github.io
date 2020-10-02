@@ -3,6 +3,8 @@ layout: post
 title: Rails Tutorial - Chapter 4
 categories: Development
 tags: Rails Ruby Learning
+common-css:
+  - "/assets/css/pygment_highlights.css"
 ---
 Ah, time to indroduce the real "intro to programming" section. This chapter[^1] is entirely about [ruby](https://www.ruby-lang.org/en/)...which is probably where most folks realize they're either *all in*...or lose interest completely.
 

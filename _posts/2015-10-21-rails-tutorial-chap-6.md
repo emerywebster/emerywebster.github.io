@@ -3,6 +3,8 @@ layout: post
 title: Rails Tutorial - Chapter 6
 categories: Development
 tags: Rails Ruby Learning
+common-css:
+  - "/assets/css/pygment_highlights.css"
 ---
 Before I get to the meat of this I have to note the significance of today, October 21, 2015, which is the day Marty McFly arrives in _the future_ and we're introduced to all kinds of iconic inventions like hoverboards and self-lacing shoes. My favorite tribute is (predictably) [golf-related](https://instagram.com/p/9GgNQKuzwM/)... :golf:
 
