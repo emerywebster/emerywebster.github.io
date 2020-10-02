@@ -4,6 +4,8 @@ title: Automox.com UX Review
 permalink: work/automox
 custom-js: automox
 intro: In early 2017, I began consulting with Automox - a Boulder startup working to solve common security problems for IT Managers.
+common-css:
+  - "/assets/css/twentytwenty.css"
 ---
 This story is a work in progress. You can view my latest work at [Automox.com](http://automox.com/how-it-works).
 
