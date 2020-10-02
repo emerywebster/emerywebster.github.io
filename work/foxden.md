@@ -22,6 +22,7 @@ Some of my initial contributions included:
 
 After ~6 months with ReadyTalk, I moved into a lead design role to introduce dial-in/dial-out experiences to Foxden. The process for this feature (and any of the examples above) looked something like this:
 
+{: .list-decimal .list-inside }
 1. Research
 2. Ideate
 3. Prototype

@@ -12,6 +12,7 @@ For reference, here's a look at their original [desktop](https://cloudup.com/cE_
 
 Let’s frame this effort into four main stages:
 
+{: .list-decimal .list-inside .pl-10 }
 1. Research & Synthesize
 2. Build
 3. Test & Improve
@@ -27,6 +28,7 @@ We’ve observed the following insights from existing users, prospects, and stak
 
 #### From users:
 
+{: .list-disc .list-inside .pl-10 }
 - “On mobile, I often have to scroll through an incredibly long list to find a specific Reward.”
 - “On desktop, I sometimes just use Command/Ctrl + F to find a Reward.”
 - “I was expecting to click/tap on the logo to select a Reward...”
@@ -37,6 +39,7 @@ We’ve observed the following insights from existing users, prospects, and stak
 
 #### From stakeholders: 
 
+{: .list-disc .list-inside .pl-10 }
 - “Some users contact us because they don’t know how many points they have...even though it shows their amount in the sub-navigation of the Rewards page.”
 - “Users are also confused by the other sub-navigation links.”
 - “We get a lot of requests to ‘favorite’ a Reward so they can find it quickly next time.”
@@ -62,6 +65,7 @@ I want to gather as much feedback on designs as possible. _Where do they fail? W
 
 Some concepts explored here (with links to screenshots):
 
+{: .list-disc .list-inside .pl-10 }
 - [Three Main Buckets](https://cloudup.com/crUgqUjvbiq) (potentially helpful)
 - [Search Filter](https://cloudup.com/cjx1o2QL6R0) (potentially helpful)
 - [Gift Card Category Filters](https://cloudup.com/cY08DgchmcA) (potentially helpful)
@@ -77,6 +81,7 @@ Ultimately, we combine and refine some of the concepts above into a [functional 
 
 Some changes worth calling out:
 
+{: .list-decimal .list-inside .pl-10 }
 1. Modified header nav w/ emphasis on Redeem (currently active), also a minor border adjustment to the ‘Profile’ dropdown to isolate it from other nav elements
 2. Modified sub-header (less vertical space, added “history” to clarify prior redemptions)
 3. Added real-time search filter (semi-functional - click the search bar to see results when typing ‘Am’)
@@ -93,6 +98,7 @@ Many of the issues raised during the research phase point to mobile fixes, so we
 
 Some changes worth calling out above:
 
+{: .list-disc .list-inside .pl-10 }
 - Header: we took this opportunity to update the hamburger menu to Menu (and A/B test it)
 - Sub-header: We kept the slimmer sub-header with a different ‘active’ treatment for Redeem
 - Categories & Search: We’ve consolidated this into one line. We have some concerns about this..but think that users will likely prefer to select a category to narrow their options below.
@@ -100,14 +106,15 @@ Some changes worth calling out above:
 
 ### Questions & Concerns on the Proposed Designs
 
-- Style Guide: I didn’t see much use of drop-shadows anywhere else on the site. The hover effect above might contradict that...and I could quickly provide a more subtle treatment if needed. The Shop/Donate/Other tab treatment is also a new convention for the site.
-- Layout: The page has more elements than it did before...so it may be considered too busy to our users. This is definitely something we want to look for during testing.
-- Tone: I added some exclamation points and ‘Congrats!’ text that may or may not fit the writing style that we want the brand to communicate. I’d likely work with Marketing (and others) to ensure this aligns with the rest of the brand.
-- Navigation: From what I’ve seen, the main header nav and sub-header nav can change completely depending on the user context (particularly for Admins) – it’s possible that I overlooked some conventions here that have historical context...but overall, I think the site navigation has room for improvement.
-- Card CTA: I removed the large green button for the desktop prototype and the mobile screenshot above. I’m unsure if this would be helpful or confusing for users...but we could quickly identify that during testing. 
-- Card Size: I’m also unsure if the ‘logo’ sizes needs to remain large. Ideally, this would’ve become clear during research discussions with the team and existing users.
-- Mobile: I have some concerns about the ‘search’ button here. I’m curious if users would find it more helpful than the ‘filter’ dropdown. It’s possible that this design could change to accommodate the preferred user action (instead of both).
-- Add Card placeholder: At the bottom of each Rewards list is an ‘add another’ card placeholder – in this case, they’re meant for Admins (as a quick link to the Catalog)...but we could also explore an action for regular users, such as a “Suggest another ___________”.
+{: .list-disc .list-inside .pl-10 }
+- **Style Guide**: I didn’t see much use of drop-shadows anywhere else on the site. The hover effect above might contradict that...and I could quickly provide a more subtle treatment if needed. The Shop/Donate/Other tab treatment is also a new convention for the site.
+- **Layout**: The page has more elements than it did before...so it may be considered too busy to our users. This is definitely something we want to look for during testing.
+- **Tone**: I added some exclamation points and ‘Congrats!’ text that may or may not fit the writing style that we want the brand to communicate. I’d likely work with Marketing (and others) to ensure this aligns with the rest of the brand.
+- **Navigation**: From what I’ve seen, the main header nav and sub-header nav can change completely depending on the user context (particularly for Admins) – it’s possible that I overlooked some conventions here that have historical context...but overall, I think the site navigation has room for improvement.
+- **Card CTA**: I removed the large green button for the desktop prototype and the mobile screenshot above. I’m unsure if this would be helpful or confusing for users...but we could quickly identify that during testing.
+- **Card Size**: I’m also unsure if the ‘logo’ sizes needs to remain large. Ideally, this would’ve become clear during research discussions with the team and existing users.
+- **Mobile**: I have some concerns about the ‘search’ button here. I’m curious if users would find it more helpful than the ‘filter’ dropdown. It’s possible that this design could change to accommodate the preferred user action (instead of both).
+- **Add Card placeholder**: At the bottom of each Rewards list is an ‘add another’ card placeholder – in this case, they’re meant for Admins (as a quick link to the Catalog)...but we could also explore an action for regular users, such as a “Suggest another ___________”.
 
 ---
 
@@ -117,23 +124,24 @@ It’s time to observe users with our prototype (ideally existing customers & pr
 
 ### How do we do that?
 
-- _Existing customers_: Ideally, we’ve got a pool of customers we can contact for feedback (and if not, we should recruit some). Aside from internal folks, this is our best resource for understanding the impact of change in the product. They’ve usually got strong opinions, contextual knowledge, and a way of doing things already. We need to observe their emotions, frustrations, delights, and share that with the team.
+**Existing customers**: Ideally, we’ve got a pool of customers we can contact for feedback (and if not, we should recruit some). Aside from internal folks, this is our best resource for understanding the impact of change in the product. They’ve usually got strong opinions, contextual knowledge, and a way of doing things already. We need to observe their emotions, frustrations, delights, and share that with the team.
 
-- _Prospective customers_: Is this feature blocking a sale? Take this opportunity to get feedback from that customer. Let them know we are working on it and want to understand how it matches their expectations. We need to be careful though – we don’t want to cater to a single customer for feature requests...we want our product to fit the needs of our target market as a whole (maximizing users and MRR vs. one super happy customer). Still, if this is a common request for prospective customers...then we’ll want to gather lots of feedback from them.
+**Prospective customers**: Is this feature blocking a sale? Take this opportunity to get feedback from that customer. Let them know we are working on it and want to understand how it matches their expectations. We need to be careful though – we don’t want to cater to a single customer for feature requests...we want our product to fit the needs of our target market as a whole (maximizing users and MRR vs. one super happy customer). Still, if this is a common request for prospective customers...then we’ll want to gather lots of feedback from them.
 
-- _Third-party tools_: there are a lot of options out there – the main benefit is that we can get feedback very quickly. I’ve had a lot of success with [UserTesting.com](http://usertesting.com) (huge user pool, very fast responses, ability to screen testers for certain criteria) and mixed results with [TryMyUI](http://trymyui.com) (slower, more generalized user base). Again, there’s a lot of benefit with sharing quotes and usability videos with the team. Sometimes there are some wild surprises.
+**Third-party tools**: there are a lot of options out there – the main benefit is that we can get feedback very quickly. I’ve had a lot of success with [UserTesting.com](http://usertesting.com) (huge user pool, very fast responses, ability to screen testers for certain criteria) and mixed results with [TryMyUI](http://trymyui.com) (slower, more generalized user base). Again, there’s a lot of benefit with sharing quotes and usability videos with the team. Sometimes there are some wild surprises.
 
-- _Hallway tests_: internal tests with stakeholders, colleagues who are largely uninvolved in the effort, etc. Typically this would’ve been done prior to building out a robust prototype...but can still be helpful in certain situations.
+**Hallway tests**: internal tests with stakeholders, colleagues who are largely uninvolved in the effort, etc. Typically this would’ve been done prior to building out a robust prototype...but can still be helpful in certain situations.
 
-- _Friends, family, other colleagues_: when the going gets tough...you can get helpful feedback from just about anyone (but will likely need to take it with a grain of salt...and do whatever you can to ensure that they’re not lying to avoid hurting your feelings).
+**Friends**, family, other colleagues_: when the going gets tough...you can get helpful feedback from just about anyone (but will likely need to take it with a grain of salt...and do whatever you can to ensure that they’re not lying to avoid hurting your feelings).
 
 ### What are we trying to learn?
 
 We’ll want to craft this test around our main learning goals (outlined in the 3 hypotheses above).
 
-- Does the design `effective`ly solve those problems?
-- Is it `easy to use`? Can it be improved in any way?
-- Does it elicit a positive `emotional response`? Does it resolve formerly negative ones? Can it be improved in any way?
+{: .list-disc .list-inside .pl-10 }
+- Does the design **_effective_**-ly solve those problems?
+- Is it **_easy to use_**? Can it be improved in any way?
+- Does it elicit a positive **_emotional response_**? Does it resolve formerly negative ones? Can it be improved in any way?
 
 Throughout our tests, we need to carefully listen and pay attention to their responses, as well as any additional recommendations, insights, or pain points they communicate.
 
@@ -141,6 +149,7 @@ Throughout our tests, we need to carefully listen and pay attention to their res
 
 There are a lot of directions our tests can take us next, such as...
 
+{: .list-disc .list-inside .pl-10 }
 - Turns out we’re chasing the wrong problem → abandon this feature and/or revisit the problem space (although this should be known through customer interviews and micro-testing before spending this much time on it)
 - The design doesn’t effectively solve the problem → understand why, discuss with the team, restart the Build process (again, our research should help mitigate any risks behind this...and it shouldn’t happen that often, if ever)
 - The design could be easier to use → refine the prototype with our new knowledge and re-test as quickly as possible
@@ -156,6 +165,7 @@ There are a lot of directions our tests can take us next, such as...
 
 Since product design is a collaborative process, (it’s my responsibility to ensure) the engineering team is already up-to-speed on this feature. I’ve shared learning, instilled trust and support in the design direction, and know exactly what the team needs to push this feature into production:
 
+{: .list-disc .list-inside .pl-10 }
 - Flat mockups
 - Sketch files (and relevant art assets)
 - Living style-guide elements
@@ -166,8 +176,9 @@ In this case, I’ll likely need to provide a mix of the above (for edge cases, 
 
 ### Monitor
 
-It’s critical that we have some `benchmark metrics` in place before pushing this to production (Google Analytics, HotJar, and MixPanel are all great – and we can also benchmark qualitative feedback as needed):
+It’s critical that we have some **benchmark metrics** in place before pushing this to production (Google Analytics, HotJar, and MixPanel are all great – and we can also benchmark qualitative feedback as needed):
 
+{: .list-disc .list-inside .pl-10 }
 - Number of Support requests attributed to the Rewards page
 - Avg. time spent finding and redeeming rewards (mobile + desktop)
 - Common requests and feedback from account management pre/post launch
