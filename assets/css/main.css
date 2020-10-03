@@ -731,13 +731,13 @@ pre {
     margin: 0 0 1.75em 0;
     border: #E3EDF3 1px solid;
     width: 100%;
-    padding: 10px;
+    padding: 24px;
     font-family: 'Inconsolata', monospace, sans-serif;
-    font-size: 0.9em;
+    font-size: 16px;
     white-space: pre;
     overflow: auto;
     background: #f8f8f8;
-    border-radius: 3px;
+    border-radius: 8px;
     line-height:1.4em;
 }
 
