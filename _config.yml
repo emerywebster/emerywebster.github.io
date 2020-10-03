@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://emerywebster.com"
-baseurl: ""
+url: 'http://emerywebster.com'
+baseurl: ''
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -23,10 +23,10 @@ description: Webb Henderson is a Product Designer based in Denver Colorado. He p
 
 # List of links in the navigation bar
 navbar-links:
-  Portfolio: ""
-  Writing: "thoughts"
-  About: "about"
-  Contact: "contact"
+  Portfolio: ''
+  Writing: 'thoughts'
+  About: 'about'
+  Contact: 'contact'
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -38,13 +38,13 @@ avatar: /assets/img/avatar.jpg
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Webb Henderson
-  email: "webb.henderson@gmail.com"
+  email: 'webb.henderson@gmail.com'
   facebook: emerywebster
-  github: emerywebster 
+  github: emerywebster
   twitter: emerywebster
   linkedin: in/emerywebster
   # stackoverflow: emerywebster
- 
+
 # Select which links to show in the footer
 footer-links-active:
   rss: false
@@ -57,7 +57,7 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "emerywebster.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: 'emerywebster.com' # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
@@ -65,32 +65,30 @@ url-pretty: "emerywebster.com"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: emerywebster
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-8462524-1"
+google_analytics: 'UA-8462524-1'
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Denver"
+timezone: 'America/Denver'
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
 paginate: 5
-paginate_path: "page/:num"
+paginate_path: 'page/:num'
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-  -
-    scope:
-      path: "" # all files
+      layout: 'post'
+      comments: true # add comments to all blog posts
+  - scope:
+      path: '' # all files
     values:
-      layout: "page"
+      layout: 'page'
       show-avatar: true
 
 sass:
