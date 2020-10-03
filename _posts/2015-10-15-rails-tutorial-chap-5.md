@@ -4,7 +4,7 @@ title: Rails Tutorial - Chapter 5
 categories: Development
 tags: Rails Ruby Learning
 common-css:
-  - "/assets/css/pygment_highlights.css"
+  - "/assets/css/vendor/pygment_highlights.css"
 ---
 This chapter was pretty basic. It did start to bring the app to life visually...and there were certainly some tricky exercises surrounding application _helpers_, etc. 
 
