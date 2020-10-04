@@ -6,7 +6,7 @@ html {
 
 body {
 	height: 100%;
-	font-family: 'Calluna', athelas, 'Lora', 'Georgia', serif;
+	font-family: $font-body;
 	color: #38373d;
 	position: relative;
 	background: #fff;
@@ -103,7 +103,7 @@ hr {
 }
 
 .main-explain-area {
-	font-family: athelas, 'Lora', 'Georgia', serif;
+	font-family: $font-body;
 	padding: 15px inherit;
 }
 
@@ -409,7 +409,7 @@ footer {
 
 .post-preview {
 	.post-entry {
-		font-family: athelas, 'Lora', 'Georgia', serif;
+		font-family: $font-body
 	}
 
 	.post-read-more {
