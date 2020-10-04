@@ -832,7 +832,7 @@ mark {
 
 code {
 	padding: 1px 3px;
-	font-family: 'Inconsolata', monospace, sans-serif;
+	font-family: $font-mono;
 	font-size: 0.85em;
 	white-space: pre-wrap;
 	border: #e3edf3 1px solid;
@@ -848,7 +848,7 @@ pre {
 	border: #e3edf3 1px solid;
 	width: 100%;
 	padding: 24px;
-	font-family: 'Inconsolata', monospace, sans-serif;
+	font-family: $font-mono;
 	font-size: 16px;
 	white-space: pre;
 	overflow: auto;
