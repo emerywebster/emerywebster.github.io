@@ -34,8 +34,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
-	font-weight: 800;
+	font-family: $font-heading;
+	font-weight: 900;
 }
 
 h3 {
@@ -143,17 +143,16 @@ img {
 .navbar-custom {
 	background: #f2f5f7;
 	border-bottom: 1px solid #e3e9ec;
-	font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: $font-heading;
 
 	.nav li a {
-		text-transform: uppercase;
 		font-size: 14px;
 		letter-spacing: 1px;
 	}
 
 	.navbar-brand,
 	.nav li a {
-		font-weight: 800;
+		font-weight: 700;
 		color: #404040;
 	}
 
@@ -299,8 +298,8 @@ img {
 	}
 
 	.container-fluid {
-		padding-left: 80px;
-		padding-right: 50px;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 }
 
@@ -317,6 +316,7 @@ footer {
 	margin-top: 20px;
 	flex-shrink: 0;
 	font-size: 14px;
+	font-family: $font-heading;
 
 	a {
 		color: #404040;
@@ -330,7 +330,6 @@ footer {
 	.copyright {
 		text-align: center;
 		margin-bottom: 0;
-		font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 	}
 
 	.theme-by {
@@ -480,7 +479,7 @@ footer {
 		font-size: 27px;
 		line-height: 1.1;
 		display: block;
-		font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: $font-heading;
 		font-weight: 300;
 		margin: 10px 0 0;
 	}
@@ -489,7 +488,7 @@ footer {
 		font-size: 27px;
 		line-height: 1.1;
 		display: block;
-		font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: $font-heading;
 		font-weight: 300;
 		margin: 10px 0 0;
 		margin-bottom: 20px;
@@ -517,8 +516,7 @@ footer {
 			padding: 5px 10px;
 			font-size: 11px;
 			color: #eee;
-			font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica,
-				sans-serif;
+			font-family: $font-heading;
 			right: 0;
 			bottom: 0;
 			display: none;
@@ -595,7 +593,7 @@ footer {
 	}
 
 	form {
-		font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: $font-heading;
 	}
 
 	.header-section.has-img .intro-header.no-img {
@@ -638,7 +636,7 @@ footer {
 
 .pager {
 	li a {
-		font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: $font-heading;
 		text-transform: uppercase;
 		font-size: 14px;
 		font-weight: 800;
@@ -887,7 +885,7 @@ tt {
 }
 
 .form-group {
-	font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: $font-heading;
 	width: 100%;
 	margin: 14px 0;
 }
@@ -971,7 +969,7 @@ fieldset[disabled] .form-control {
 	width: 100%;
 	height: 45px;
 	font-color: #ffffff;
-	font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: $font-heading;
 	font-size: 16px;
 	font-weight: bold;
 	background-color: #5dacb8;
@@ -984,7 +982,7 @@ fieldset[disabled] .form-control {
 		width: 100%;
 		height: 45px;
 		font-color: #ffffff;
-		font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: $font-heading;
 		font-size: 16px;
 		font-weight: bold;
 		background-color: #5dacb8;
@@ -1176,7 +1174,7 @@ a:active {
 	font-size: 16px;
 	margin: 25px 0;
 	padding: 24px;
-	font-family: 'avenir', 'europa', 'proxima nova', 'montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: $font-heading;
 }
 
 .emoji {
