@@ -11,21 +11,21 @@ permalink: /thoughts.html
       {{ post.date | date: "%B %-d, %Y" }}
     </p>
 
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title mb-3">{{ post.title }}</h2>
-  
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">
-      {{ post.subtitle }}
-    </h3>
-    {% endif %}  
+    <a class="text-gray-900 hover:text-gray-600" href="{{ post.url | prepend: site.baseurl }}">
+      <h2 class="post-title mb-3">{{ post.title }}</h2>
+      {% if post.subtitle %}
+        <h3 class="post-subtitle">
+          {{ post.subtitle }}
+        </h3>
+      {% endif %}
     </a>
-  
+
     <div class="post-entry">
-      {{ post.excerpt | strip_html | xml_escape}} <br />
-      <a class="button" href="{{ post.url | prepend: site.baseurl }}">
-      Read More
-      </a>
+      <p class="mb-4">{{ post.excerpt | strip_html | xml_escape}}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          Read more...
+        </a>
+      </p>
     </div>
   
    </article>

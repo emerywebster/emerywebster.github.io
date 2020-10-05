@@ -316,7 +316,7 @@ footer {
 	font-size: 14px;
 
 	a {
-		color: $gray-700;
+		color: $gray-800;
 	}
 
 	.list-inline {
@@ -361,17 +361,6 @@ footer {
 
 	&:last-child {
 		border-bottom: 0;
-	}
-
-	a {
-		text-decoration: none;
-		color: $gray-700;
-
-		&:focus,
-		&:hover {
-			text-decoration: none;
-			color: $gray-600;
-		}
 	}
 
 	.post-title {
