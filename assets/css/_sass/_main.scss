@@ -854,32 +854,27 @@ label {
 
 .form-control {
 	background-color: $white;
-	font-size: 14px;
-	padding: 0;
-	height: 40px;
-	padding: 10px;
-	line-height: 1.3333333;
+	background: $gray-100;
+	border-color: $gray-400;
 	border-radius: 4px;
-}
-
-input:hover,
-textarea:hover {
-	border-color: $teal-500;
-}
-
-input {
-	&:hover,
+	box-shadow: inset 0 1px 0 rgba(225,228,232,.2);
+	font-size: 14px;
+	// padding: 0;
+	height: 40px;
+	padding: 12px;
+	line-height: 1.3333333;
+	transition: none;
 	&:focus {
+		background: $white;
 		border-color: $teal-500;
-		box-shadow: 0 0 3px rgba(39, 128, 248, 0.15);
+		box-shadow: 0 0 0 3px $teal-200;
 	}
 }
 
+input,
 textarea {
-	&:hover,
-	&:focus {
-		border-color: $teal-500;
-		box-shadow: 0 0 3px rgba(39, 128, 248, 0.15);
+	&:hover {
+		border-color: $gray-500;
 	}
 }
 
@@ -916,7 +911,6 @@ fieldset[disabled] .form-control {
 		font-weight: bold;
 		background-color: $teal-500;
 		border-color: $teal-500;
-		margin-top: 20px;
 	}
 
 	&:hover,
