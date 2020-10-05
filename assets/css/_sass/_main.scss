@@ -2,6 +2,7 @@
 
 html {
 	height: 100%;
+	font-size: 18px;
 }
 
 body {
@@ -981,142 +982,6 @@ fieldset[disabled] .form-control {
 	}
 }
 
-/* Portfolio (Home page) */
-
-.portfolio-desc a {
-	text-decoration: none;
-	color: $teal-500;
-
-	&:hover {
-		background-color: transparent;
-		text-decoration: underline;
-		color: $teal-600;
-	}
-}
-
-a {
-	&:active,
-	&:focus {
-		background-color: transparent;
-		text-decoration: underline;
-		color: $teal-600;
-	}
-}
-
-.portfolio-desc h2 a {
-	text-decoration: none;
-	color: $gray-800;
-
-	&:hover {
-		text-decoration: none;
-		color: $gray-600;
-	}
-}
-
-a:active {
-	text-decoration: none;
-	color: $gray-600;
-}
-
-.portfolio-heading {
-	text-align: center;
-	margin-top: 30px;
-	font-size: 17px;
-	padding-bottom: 50px;
-	border-bottom: 1px solid $gray-400;
-}
-
-.tcs {
-	color: $gray-600;
-}
-
-.mbf {
-	margin-bottom: 0;
-}
-
-@media only screen and (min-width: 990px) {
-	.portfolio-item {
-		padding: 90px 0;
-		border-bottom: 1px solid $gray-400;
-	}
-
-	.portfolio-item-last {
-		padding: 120px 0;
-	}
-
-	.portfolio-desc {
-		margin-top: 50px;
-		margin-left: 40px;
-
-		h2 {
-			font-size: 36px;
-		}
-	}
-
-	.portfolio-image {
-		img {
-			max-width: 280px;
-		}
-
-		a:hover {
-			background-color: transparent;
-		}
-	}
-}
-
-@media only screen and (max-width: 991px) {
-	.portfolio-item {
-		padding: 40px 0;
-		border-bottom: 1px solid $gray-400;
-		text-align: center;
-	}
-
-	.portfolio-item-last {
-		padding: 40px 0;
-		text-align: center;
-	}
-
-	.portfolio-desc {
-		margin-top: 60px;
-	}
-
-	.portfolio-image {
-		img {
-			width: 100%;
-			max-width: 160px;
-			margin: 0 auto;
-			text-align: center;
-		}
-
-		a:hover {
-			background-color: transparent;
-			text-decoration: none;
-		}
-	}
-
-	a {
-		&:active,
-		&:focus {
-			background-color: transparent;
-			text-decoration: none;
-		}
-	}
-}
-
-@media only screen and (max-width: 999px) {
-	.portfolio-heading {
-		font-size: 15px;
-		margin-top: 20px;
-		padding: 0 30px 30px 30px;
-		border-bottom: 1px solid $gray-400;
-	}
-
-	.portfolio-desc {
-		margin-top: 30px;
-		font-size: 17px;
-	}
-}
-
 /* Individual Portfolio elements ("Work") */
 
 .work {
@@ -1144,7 +1009,7 @@ a:active {
 
 	blockquote {
 		font-size: 18px;
-		font-color: $gray-600;
+		color: $gray-600;
 	}
 }
 
