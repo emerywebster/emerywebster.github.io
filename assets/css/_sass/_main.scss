@@ -385,7 +385,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
 	.post-preview {
-		padding: 60px 0 50px 0;
+		padding: 56px 0;
 	}
 }
 
@@ -950,7 +950,6 @@ fieldset[disabled] .form-control {
 	font-weight: bold;
 	background-color: $teal-500;
 	border-color: $teal-500;
-	margin-top: 20px;
 
 	&:hover,
 	&:focus {
