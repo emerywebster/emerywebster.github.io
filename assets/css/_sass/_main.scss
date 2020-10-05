@@ -5,19 +5,19 @@ html {
 }
 
 body {
-	height: 100%;
 	font-family: $font-body;
+	font-size: 18px;
+	height: 100%;
 	color: #38373d;
 	position: relative;
 	background: #fff;
-	font-size: 21px;
 	display: flex;
 	flex-direction: column;
 }
 
 p {
 	line-height: 1.5;
-	margin: 20px 0;
+	margin: 24px 0;
 	font-weight: 400;
 
 	a {
@@ -34,7 +34,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $font-heading;
 	font-weight: 900;
 }
 
@@ -103,7 +102,6 @@ hr {
 }
 
 .main-explain-area {
-	font-family: $font-body;
 	padding: 15px inherit;
 }
 
@@ -143,11 +141,10 @@ img {
 .navbar-custom {
 	background: #f2f5f7;
 	border-bottom: 1px solid #e3e9ec;
-	font-family: $font-heading;
 
 	.nav li a {
-		font-size: 14px;
-		letter-spacing: 1px;
+		font-size: 16px;
+		padding: 12px;
 	}
 
 	.navbar-brand,
@@ -316,7 +313,6 @@ footer {
 	margin-top: 20px;
 	flex-shrink: 0;
 	font-size: 14px;
-	font-family: $font-heading;
 
 	a {
 		color: #404040;
@@ -389,9 +385,12 @@ footer {
 	}
 
 	.post-meta {
-		color: #acb5c3;
-		font-size: 18px;
+		font-size: 20px;
 	}
+}
+
+.post-entry {
+	font-size: 18px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -408,10 +407,6 @@ footer {
 }
 
 .post-preview {
-	.post-entry {
-		font-family: $font-body
-	}
-
 	.post-read-more {
 		font-weight: 800;
 	}
@@ -479,7 +474,6 @@ footer {
 		font-size: 27px;
 		line-height: 1.1;
 		display: block;
-		font-family: $font-heading;
 		font-weight: 300;
 		margin: 10px 0 0;
 	}
@@ -488,7 +482,6 @@ footer {
 		font-size: 27px;
 		line-height: 1.1;
 		display: block;
-		font-family: $font-heading;
 		font-weight: 300;
 		margin: 10px 0 0;
 		margin-bottom: 20px;
@@ -516,7 +509,6 @@ footer {
 			padding: 5px 10px;
 			font-size: 11px;
 			color: #eee;
-			font-family: $font-heading;
 			right: 0;
 			bottom: 0;
 			display: none;
@@ -592,10 +584,6 @@ footer {
 		font-size: 16px;
 	}
 
-	form {
-		font-family: $font-heading;
-	}
-
 	.header-section.has-img .intro-header.no-img {
 		display: block;
 	}
@@ -636,7 +624,6 @@ footer {
 
 .pager {
 	li a {
-		font-family: $font-heading;
 		text-transform: uppercase;
 		font-size: 14px;
 		font-weight: 800;
@@ -721,8 +708,9 @@ table {
 	border-radius: 0.1em;
 	border: 1px solid;
 	display: inline-block;
+	font-weight: 600;
 	margin: 1em 0;
-	padding: 0.25em 1em;
+	padding: 0.5em 1.5em;
 }
 
 a.button {
@@ -885,7 +873,6 @@ tt {
 }
 
 .form-group {
-	font-family: $font-heading;
 	width: 100%;
 	margin: 14px 0;
 }
@@ -968,8 +955,7 @@ fieldset[disabled] .form-control {
 	transition: all 0.15s ease-in-out;
 	width: 100%;
 	height: 45px;
-	font-color: #ffffff;
-	font-family: $font-heading;
+	color: #ffffff;
 	font-size: 16px;
 	font-weight: bold;
 	background-color: #5dacb8;
@@ -981,8 +967,7 @@ fieldset[disabled] .form-control {
 		transition: all 0.15s ease-in-out;
 		width: 100%;
 		height: 45px;
-		font-color: #ffffff;
-		font-family: $font-heading;
+		color: #ffffff;
 		font-size: 16px;
 		font-weight: bold;
 		background-color: #5dacb8;
@@ -1174,7 +1159,6 @@ a:active {
 	font-size: 16px;
 	margin: 25px 0;
 	padding: 24px;
-	font-family: $font-heading;
 }
 
 .emoji {
