@@ -20,13 +20,6 @@ p {
 	line-height: 1.5;
 	margin: 24px 0;
 	font-weight: 400;
-
-	a {
-		border-bottom: 1px dotted $gray-400;
-		color: $teal-500;
-		text-decoration: none;
-		cursor: pointer;
-	}
 }
 
 h1,
@@ -311,7 +304,6 @@ footer {
 	padding: 30px 0;
 	background: $gray-100;
 	border-top: 1px $gray-300 solid;
-	margin-top: 20px;
 	flex-shrink: 0;
 	font-size: 14px;
 
@@ -717,17 +709,6 @@ a.button {
 	}
 }
 
-.blog-post li a {
-	border-bottom: 1px dotted $gray-400;
-	color: $teal-600;
-	text-decoration: none;
-	cursor: pointer;
-
-	&:hover {
-		border-color: $teal-600;
-	}
-}
-
 .navbar-brand {
 	font-size: 18px;
 }
@@ -747,33 +728,7 @@ a.button {
 }
 
 .page-content {
-	li a {
-		border-bottom: 1px dotted $gray-400;
-		color: $teal-500;
-		text-decoration: none;
-		cursor: pointer;
-
-		&:hover {
-			color: $teal-600;
-			border-color: $teal-600;
-		}
-	}
-
-	p a {
-		border-bottom: 1px dotted $gray-400;
-		color: $teal-500;
-		text-decoration: none;
-		cursor: pointer;
-
-		&:hover {
-			color: $teal-600;
-			border-color: $teal-600;
-		}
-
-		&:active {
-			text-decoration: none;
-		}
-	}
+	padding-bottom: 64px
 }
 
 /* --- */

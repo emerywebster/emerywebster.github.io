@@ -22,7 +22,7 @@ permalink: /thoughts.html
 
     <div class="post-entry">
       <p class="mb-4 mt-3">{{ post.excerpt | strip_html | xml_escape}}
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a class="link" href="{{ post.url | prepend: site.baseurl }}">
           Read more...
         </a>
       </p>
