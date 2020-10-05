@@ -8,8 +8,8 @@
 //   Fonts
 // -------------------------------------
 
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-$font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$font-body: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 // FIXME check out variable fonts https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web
 
 $font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
@@ -92,3 +92,9 @@ $yellow-600: #D69E2E;
 $yellow-700: #B7791F;
 $yellow-800: #975A16;
 $yellow-900: #744210;
+
+// -------------------------------------
+//   Text
+// -------------------------------------
+
+$c-text: $gray-900
