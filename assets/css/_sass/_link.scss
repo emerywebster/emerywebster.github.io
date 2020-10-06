@@ -1,0 +1,52 @@
+// *************************************
+//
+//   Link
+//
+// *************************************
+
+a, .link {
+  color: $teal-600;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: $teal-600;
+    color: $teal-600;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+  }
+}
+
+.link--dotted {
+	border-bottom: 1px dotted $gray-500;
+	color: $gray-800;
+}
+
+.link--highlight {
+	background: linear-gradient(to bottom, transparent 0%, transparent 60%, $teal-200 60%, $teal-200 100%);
+	color: $c-text;
+	text-decoration: none;
+	&:hover,
+	&:focus,
+	&:active {
+		background: linear-gradient(to bottom, transparent 0%, transparent 0%, $teal-200 0%, $teal-200 100%);
+		color: $c-text;
+		transition: all 0.25s ease-in-out;
+		text-decoration: none;
+	}
+	&:visited {
+		background: linear-gradient(to bottom, transparent 0%, transparent 60%, $gray-400 60%, $gray-400 100%);
+		&:hover,
+		&:focus,
+		&:active {
+			background: linear-gradient(to bottom, transparent 0%, transparent 0%, $gray-400 0%, $gray-400 100%);
+		}
+	}
+}
+
+.link--text {
+  color: $c-text;
+  &:hover {
+    color: $teal-600;
+  }
+}

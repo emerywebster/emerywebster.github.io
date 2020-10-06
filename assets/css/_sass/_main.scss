@@ -45,19 +45,6 @@ h4 {
 	margin-bottom: 8px;
 }
 
-a {
-	color: $teal-600;
-
-	&:hover,
-	&:focus,
-	&:active {
-		transition: all 0.15s ease-in-out;
-		text-decoration: none;
-		color: $teal-600;
-		border-color: $teal-600;	
-	}
-}
-
 blockquote {
 	color: $gray-600;
 	font-style: italic;
@@ -306,10 +293,6 @@ footer {
 	border-top: 1px $gray-300 solid;
 	flex-shrink: 0;
 	font-size: 14px;
-
-	a {
-		color: $gray-800;
-	}
 
 	.list-inline {
 		margin: 0;
@@ -965,26 +948,4 @@ fieldset[disabled] .form-control {
 
 .emoji {
 	display: inline;
-}
-
-.link {
-	background: linear-gradient(to bottom, transparent 0%, transparent 60%, $teal-200 60%, $teal-200 100%);
-	color: $c-text;
-	text-decoration: none;
-	&:hover,
-	&:focus,
-	&:active {
-		background: linear-gradient(to bottom, transparent 0%, transparent 0%, $teal-200 0%, $teal-200 100%);
-		color: $c-text;
-		transition: all 0.25s ease-in-out;
-		text-decoration: none;
-	}
-	&:visited {
-		background: linear-gradient(to bottom, transparent 0%, transparent 60%, $gray-400 60%, $gray-400 100%);
-		&:hover,
-		&:focus,
-		&:active {
-			background: linear-gradient(to bottom, transparent 0%, transparent 0%, $gray-400 0%, $gray-400 100%);
-		}
-	}
 }
