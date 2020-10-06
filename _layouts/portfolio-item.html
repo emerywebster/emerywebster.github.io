@@ -2,31 +2,24 @@
 layout: base
 ---
 
-	<div class="work-intro">
-		<div class="container">
-			<div class="col-md-8 col-md-offset-2">
-				<h1>{{page.title}}</h1>
-				
-				{% if page.intro %}
-				<p>{{page.intro}}</p>
-				{% endif %}
-				
-				{% if page.quote %}
-				<blockquote>
-					{{page.quote}}
-				</blockquote>
-				{% endif %}
-				
-			</div>
-		</div>
+<div class="work-intro">
+	<div class="max-w-screen-md mx-auto px-4">
+		<h2 class="text-center">{{page.title}}</h2>
+		
+		{% if page.intro %}
+		<p class="text-lg mb-0">{{page.intro}}</p>
+		{% endif %}
+		
+		{% if page.quote %}
+		<blockquote>
+			{{page.quote}}
+		</blockquote>
+		{% endif %}			
 	</div>
+</div>
 
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="page-content">
-        {{ content }}
-      </div>
-    </div>
-  </div>
+<div class="max-w-screen-md mx-auto px-4" role="main">
+	<div class="page-content text-lg">
+		{{ content }}
+	</div>
 </div>

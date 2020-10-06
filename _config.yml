@@ -84,12 +84,12 @@ defaults:
       type: 'posts'
     values:
       layout: 'post'
-      comments: true # add comments to all blog posts
+      comments: false # add comments to all blog posts
   - scope:
       path: '' # all files
     values:
       layout: 'page'
-      show-avatar: true
+      show-avatar: false
 
 sass:
   sass_dir: /assets/css/_sass

@@ -17,6 +17,10 @@ a, .link {
   }
 }
 
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
 .link--dotted {
 	border-bottom: 1px dotted $gray-500;
 	color: $gray-800;

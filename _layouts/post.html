@@ -10,37 +10,33 @@ common-ext-css:
   <a href="" class="ssk ssk-facebook"></a>
   <a href="" class="ssk ssk-linkedin"></a>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
-        <div class="top-share ssk-group">
-          <a href="" class="ssk ssk-text ssk-twitter" data-text="{{ page.title }}">Tweet</a>
-          <a href="" class="ssk ssk-text ssk-facebook">Share</a>
-          <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
-        </div>
-	      {{ content }}
-	    </article>
-	  	  
-      <ul class="pager blog-pager">
-        {% if page.previous.url %}
-        <li class="previous">
-          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="next">
-          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-        </li>
-        {% endif %}
-      </ul>
-      {% if page.comments %}
-      <div class="disqus-comments">
-        {% include disqus.html %}
-      </div>
-      {% endif %}
+<div class="max-w-screen-md mx-auto px-4">
+  <article role="main" class="text-lg">
+    <div class="top-share ssk-group">
+      <a href="" class="ssk ssk-text ssk-twitter" data-text="{{ page.title }}">Tweet</a>
+      <a href="" class="ssk ssk-text ssk-facebook">Share</a>
+      <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
     </div>
+    {{ content }}
+  </article>
+	  	  
+  <ul class="pager blog-pager">
+    {% if page.previous.url %}
+    <li class="previous">
+      <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+    </li>
+    {% endif %}
+    {% if page.next.url %}
+    <li class="next">
+      <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+    </li>
+    {% endif %}
+  </ul>
+  {% if page.comments %}
+  <div class="disqus-comments">
+    {% include disqus.html %}
   </div>
+  {% endif %}
 </div>
 
 
