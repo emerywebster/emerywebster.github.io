@@ -3,13 +3,13 @@ layout: page
 permalink: /thoughts.html
 ---
 
-<div class="posts-list">
+<div class="pt-16">
   {% for post in site.posts %}
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="{{ post.url | prepend: site.baseurl }}">
       <h2 class="post-title">{{ post.title }}</h2>
@@ -22,12 +22,12 @@ permalink: /thoughts.html
 
     <div class="post-entry">
       <p class="mb-4 mt-3">{{ post.excerpt | strip_html | xml_escape}}
-        <a class="link" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="link--highlight" href="{{ post.url | prepend: site.baseurl }}">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   {% endfor %}
 </div>

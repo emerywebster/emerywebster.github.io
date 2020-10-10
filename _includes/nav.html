@@ -1,37 +1,49 @@
-<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.url }}">Webb Henderson</a>
-    </div>
+<nav class="flex justify-between h-16 items-center border-b border-gray-300 fixed top-0 w-full px-4 py-3 lg:p-5 header">
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-      {% for link in site.navbar-links %}
-        {% if link[1].first %}
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-            <div class="navlinks-children">
-              {% for childlink in link[1] %}
-                {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts %}
-                {% endfor %}
+  <a class="text-gray-800 hover:text-gray-600 text-sm lg:text-base font-bold lg:p-3" href="{{ site.url }}">Webb Henderson</a>
+
+  <button onclick="toggleMenu()" id="menuButton" type="button" class="font-bold text-gray-800 text-sm lg:text-base sm:hidden px-2 py-1 border border-gray-400 rounded">
+    <span class="sr-only">Toggle navigation</span>
+    <i id="menuIcon" class="fa fa-bars fa-fw mr-1"></i>
+    Menu
+  </button>
+  <ul class="hidden sm:flex">
+  {% for link in site.navbar-links %}
+    {% if link[1].first %}
+      <li class="p-3">
+        <a href="javascript:void(0)">{{ link[0] }}</a>
+          {% for childlink in link[1] %}
+            {% for linkparts in childlink %}
+              {% include navbarlink.html link=linkparts %}
+            {% endfor %}
+          {% endfor %}
+      </li>
+    {% else %}
+      <li class="p-3">
+        {% include navbarlink.html link=link %}
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <ul id="mobileMenu" class="mobileMenu hidden">
+    {% for link in site.navbar-links %}
+      {% if link[1].first %}
+        <li class="px-4 py-3">
+          <a href="javascript:void(0)">{{ link[0] }}</a>
+            {% for childlink in link[1] %}
+              {% for linkparts in childlink %}
+                {% include navbarlink.html link=linkparts %}
               {% endfor %}
-            </div>
-          </li>
-        {% else %}
-          <li>
-            {% include navbarlink.html link=link %}
-          </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+            {% endfor %}
+        </li>
+      {% else %}
+        <li class="px-4 py-3">
+          {% include navbarlink.html link=link %}
+        </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
 
 	{% if site.avatar and (layout.show-avatar or page.show-avatar) %}
 	<div class="avatar-container">
@@ -42,6 +54,4 @@
 	  </div>
 	</div>
 	{% endif %}
-
-  </div>
 </nav>

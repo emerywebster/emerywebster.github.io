@@ -94,7 +94,7 @@ Some changes worth calling out:
 
 Many of the issues raised during the research phase point to mobile fixes, so we’ve applied some of our hypothesized solutions into the following mockup (although in reality, we would test this just as heavily with a functional prototype – I’d love to understand the underlying metrics behind mobile vs. desktop use as well):
 
-<img src="https://cldup.com/VtQhH5800x-3000x3000.png" class="img-responsive center-block" />
+<img src="https://cldup.com/VtQhH5800x-3000x3000.png" class="mx-auto" />
 
 Some changes worth calling out above:
 
