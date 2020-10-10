@@ -39,7 +39,8 @@ a,
 		transition: all 0.25s ease-in-out;
 		text-decoration: none;
 	}
-	&:visited {
+	&:visited,
+	&[data-visited] {
 		background: linear-gradient(to bottom, transparent 0%, transparent 60%, $gray-400 60%, $gray-400 100%);
 		&:hover,
 		&:focus,
