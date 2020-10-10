@@ -4,17 +4,18 @@
 //
 // *************************************
 
-a, .link {
-  color: $teal-600;
-  text-decoration: none;
-  &:hover,
-  &:focus,
-  &:active {
-    border-color: $teal-600;
-    color: $teal-600;
-    text-decoration: none;
-    transition: all 0.15s ease-in-out;
-  }
+a,
+.link {
+	color: $teal-600;
+	text-decoration: none;
+	&:hover,
+	&:focus,
+	&:active {
+		border-color: $teal-600;
+		color: $teal-600;
+		text-decoration: none;
+		transition: all 0.15s ease-in-out;
+	}
 }
 
 // -------------------------------------
@@ -49,8 +50,8 @@ a, .link {
 }
 
 .link--text {
-  color: $c-text;
-  &:hover {
-    color: $teal-600;
-  }
+	color: $c-text;
+	&:hover {
+		color: $teal-600;
+	}
 }
