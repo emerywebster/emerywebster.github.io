@@ -25,19 +25,11 @@
   
   
     
-      <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />
-    
       <link rel="stylesheet" href="/assets/css/styles.css" />
     
     
   
   
-  
-    
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-    
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-    
   
 
     
@@ -79,109 +71,150 @@
 </head>
 
   <body>
-    <div class="content">
-      <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="http://emerywebster.com">Webb Henderson</a>
-    </div>
+    <div class="content pt-16">
+      <div class="content-body">
+        <nav class="flex justify-between h-16 items-center border-b border-gray-300 fixed top-0 w-full px-4 py-3 lg:p-5 header">
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
+  <a class="text-gray-800 hover:text-gray-600 text-sm lg:text-base font-bold lg:p-3" href="http://emerywebster.com">Webb Henderson</a>
+
+  <button onclick="toggleMenu()" id="menuButton" type="button" class="font-bold text-gray-800 text-sm lg:text-base sm:hidden px-2 py-1 border border-gray-400 rounded">
+    <span class="sr-only">Toggle navigation</span>
+    <i id="menuIcon" class="fa fa-bars fa-fw mr-1"></i>
+    Menu
+  </button>
+  <ul class="hidden sm:flex">
+  
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/">Portfolio</a>
+
+      </li>
+    
+    
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/thoughts">Writing</a>
+
+      </li>
+    
+    
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/about">About</a>
+
+      </li>
+    
+    
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/contact">Contact</a>
+
+      </li>
+    
+    
+  </ul>
+
+  <ul id="mobileMenu" class="mobileMenu hidden">
+    
       
-        
-          <li>
-            
-            
-
-
-
-
-
-<a href="/">Portfolio</a>
-
-          </li>
-        
-        
-        
-          <li>
-            
+        <li class="px-4 py-3">
+          
             
 
 
 
 
 
-<a href="/thoughts">Writing</a>
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/">Portfolio</a>
 
-          </li>
-        
-        
-        
-          <li>
-            
-            
-
-
-
-
-
-<a href="/about">About</a>
-
-          </li>
-        
-        
-        
-          <li>
-            
+        </li>
+      
+      
+      
+        <li class="px-4 py-3">
+          
             
 
 
 
 
 
-<a href="/contact">Contact</a>
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/thoughts">Writing</a>
 
-          </li>
-        
-        
-      </ul>
-    </div>
+        </li>
+      
+      
+      
+        <li class="px-4 py-3">
+          
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/about">About</a>
+
+        </li>
+      
+      
+      
+        <li class="px-4 py-3">
+          
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/contact">Contact</a>
+
+        </li>
+      
+      
+    </ul>
 
 	
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	    <a href="/">
-	      <img class="avatar-img" src="/assets/img/avatar.jpg">
-		</a>
-	  </div>
-	</div>
-	
-
-  </div>
 </nav>
 
-      
-<div class="intro-header"></div>
+        
 
-
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="page-content">
-        <div class="posts-list">
+<div class="page-content max-w-screen-md mx-auto px-4 text-lg">
+  <div class="pt-16">
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       March 26, 2017
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2017/03/26/framer/">
       <h2 class="post-title">Framer</h2>
@@ -192,19 +225,19 @@
       <p class="mb-4 mt-3">Prototyping is easily my favorite part of the design process. It’s the best opportunity to test your vision for an actual product experience (and better understand any assumptions, hypotheses, and decisions made along the way). Plus it’s fun to build out your ideas with a little movement and personality.
 
 
-        <a class="link" href="/2017/03/26/framer/">
+        <a class="link--highlight" href="/2017/03/26/framer/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       March 21, 2016
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2016/03/21/ux-principles/">
       <h2 class="post-title">UX Learning</h2>
@@ -215,19 +248,19 @@
       <p class="mb-4 mt-3">I recently went through Joel Marsh’s crash course on UX fundamentals. It’s an extremely introductory, high-level guide…but definitely a useful and worthwhile exercise.
 
 
-        <a class="link" href="/2016/03/21/ux-principles/">
+        <a class="link--highlight" href="/2016/03/21/ux-principles/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       March 16, 2016
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2016/03/16/sketch/">
       <h2 class="post-title">Sketchin'</h2>
@@ -238,19 +271,19 @@
       <p class="mb-4 mt-3">Sketch is really, really, really awesome. It’s a simple, useful, and surprisingly powerful design tool. Here are a few things I built with it recently…
 
 
-        <a class="link" href="/2016/03/16/sketch/">
+        <a class="link--highlight" href="/2016/03/16/sketch/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       February 29, 2016
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2016/02/29/spiceguide/">
       <h2 class="post-title">SpiceGuide</h2>
@@ -261,19 +294,19 @@
       <p class="mb-4 mt-3">So…I have a food blog now. And yeah, it’s extremely cliché…but who cares? I’m pretty sure worse things happen on the internet.
 
 
-        <a class="link" href="/2016/02/29/spiceguide/">
+        <a class="link--highlight" href="/2016/02/29/spiceguide/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       February 26, 2016
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2016/02/26/the-road/">
       <h2 class="post-title">The Road</h2>
@@ -284,19 +317,19 @@
       <p class="mb-4 mt-3">I’m reading a fantastic pretty good book called I Am Pilgrim by Terry Hayes. Today this quote jumped out at me:
 
 
-        <a class="link" href="/2016/02/26/the-road/">
+        <a class="link--highlight" href="/2016/02/26/the-road/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       January 11, 2016
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2016/01/11/year-in-review-2015/">
       <h2 class="post-title">Year in Review - 2015</h2>
@@ -307,19 +340,19 @@
       <p class="mb-4 mt-3">This is the first time I’ve ever written something like this…so I’ll start as simply as I can: I made enormous personal and professional strides in 2015, and I am so lucky and thankful to continue leading such a fun, crazy, and experience-rich life. I have a loving family, amazing (and hilarious) friends, and a seemingly endless supply of challenges and adventures around me. I’m excited for the road ahead…but it’s worth taking a moment to jot down the goodies from 2015. Here we go…
 
 
-        <a class="link" href="/2016/01/11/year-in-review-2015/">
+        <a class="link--highlight" href="/2016/01/11/year-in-review-2015/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       January 7, 2016
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2016/01/07/float-tanks/">
       <h2 class="post-title">Try a Float Tank</h2>
@@ -330,19 +363,19 @@
       <p class="mb-4 mt-3">Also known as a “sensory deprivation chamber” (which sounds terrifying) or an isolation tank (which isn’t much better).
 
 
-        <a class="link" href="/2016/01/07/float-tanks/">
+        <a class="link--highlight" href="/2016/01/07/float-tanks/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       December 16, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/12/16/poems/">
       <h2 class="post-title">Poems</h2>
@@ -353,19 +386,19 @@
       <p class="mb-4 mt-3">We are constantly entrenched in the practical use of language. Sometimes it’s nice to step away from that and appreciate its artistic expression as well.
 
 
-        <a class="link" href="/2015/12/16/poems/">
+        <a class="link--highlight" href="/2015/12/16/poems/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       December 8, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/12/08/social-media-engagement/">
       <h2 class="post-title">Social Media</h2>
@@ -376,19 +409,19 @@
       <p class="mb-4 mt-3">Today I had a simple, yet totally profound interaction on Twitter. Here’s what happened: While reading Dan Olsen’s The Lean Product Playbook I found myself with a lot of unanswered questions — primarily around his central case study (which is used to illustrate his lean process with an actual product). I tried Google… Nothing. Then I thought, why not just ask him?
 
 
-        <a class="link" href="/2015/12/08/social-media-engagement/">
+        <a class="link--highlight" href="/2015/12/08/social-media-engagement/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       December 4, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/12/04/colorado-product-meetup/">
       <h2 class="post-title">Meetups</h2>
@@ -399,19 +432,19 @@
       <p class="mb-4 mt-3">Last night I headed up to Galvanize Boulder to check out the Colorado Product Meetup. Quick version: they crushed it — super fun, well organized, and a friendly/smart/diverse crowd. I’m looking forward to the next event and learning from more product folks down the road.
 
 
-        <a class="link" href="/2015/12/04/colorado-product-meetup/">
+        <a class="link--highlight" href="/2015/12/04/colorado-product-meetup/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       November 23, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/11/23/mockups/">
       <h2 class="post-title">Mockups</h2>
@@ -422,19 +455,19 @@
       <p class="mb-4 mt-3">While working on concepts for a recent side project I decided it would be a good time to dig deeper into wireframing/prototyping with Balsamiq Mockups.
 
 
-        <a class="link" href="/2015/11/23/mockups/">
+        <a class="link--highlight" href="/2015/11/23/mockups/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       November 20, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/11/20/local-home-page/">
       <h2 class="post-title">Local Home Page</h2>
@@ -445,19 +478,19 @@
       <p class="mb-4 mt-3">When I started rebuilding this site I also took some time to clean up (and properly establish) all my dev stuff — organizing old projects, establishing backup/deploy processes, and reworking my local dev environment.
 
 
-        <a class="link" href="/2015/11/20/local-home-page/">
+        <a class="link--highlight" href="/2015/11/20/local-home-page/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       November 19, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/11/19/the-mom-test/">
       <h2 class="post-title">The Mom Test</h2>
@@ -468,19 +501,19 @@
       <p class="mb-4 mt-3">…is one of the most helpful and insightful business books I’ve read. If you’re reading this and have any interest in building a new idea (or gathering better feedback in general) definitely pick it up now.
 
 
-        <a class="link" href="/2015/11/19/the-mom-test/">
+        <a class="link--highlight" href="/2015/11/19/the-mom-test/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       November 10, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/11/10/mysterious/">
       <h2 class="post-title">The Mysterious</h2>
@@ -491,19 +524,19 @@
       <p class="mb-4 mt-3">[Full disclosure, this post is all over the place] — Last night I went on a mini TED binge and somehow ended on the path of public speaking (and confidence in general). Throughout The 7 Secrets of the Greatest Speakers in History, Robert Greene compiles some incredible speeches to discuss why (and how) the speeches themselves served as tipping points in American history.
 
 
-        <a class="link" href="/2015/11/10/mysterious/">
+        <a class="link--highlight" href="/2015/11/10/mysterious/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       November 9, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/11/09/golf-swing-epiphanies/">
       <h2 class="post-title">Golf Swing Epiphanies</h2>
@@ -514,19 +547,19 @@
       <p class="mb-4 mt-3">Learning (or building upon) any skill typically comes with a series of epiphanies — a collection of AHA! moments that push you closer and closer to mastery.
 
 
-        <a class="link" href="/2015/11/09/golf-swing-epiphanies/">
+        <a class="link--highlight" href="/2015/11/09/golf-swing-epiphanies/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       November 5, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/11/05/rails-tutorial-chap-8-1/">
       <h2 class="post-title">Rails Tutorial - Chapter 8 (Part 1 of 2)</h2>
@@ -537,19 +570,19 @@
       <p class="mb-4 mt-3">I’ll be honest, I had to go through this chapter twice just to get it. It’s a beast. And the concepts are much more complex than previous chapters. Part of the reason I’m posting notes throughout this tutorial is to ensure it sticks.
 
 
-        <a class="link" href="/2015/11/05/rails-tutorial-chap-8-1/">
+        <a class="link--highlight" href="/2015/11/05/rails-tutorial-chap-8-1/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       November 4, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/11/04/skiing/">
       <h2 class="post-title">Snowboarding --&gt; Skiing</h2>
@@ -560,19 +593,19 @@
       <p class="mb-4 mt-3">Last year I began the process of switching from <img class="emoji" title=":snowboarder:" alt=":snowboarder:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c2.png" height="20" width="20"> to <img class="emoji" title=":ski:" alt=":ski:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3bf.png" height="20" width="20"> — trying out new equipment, falling a lot, harnessing my inner Jerry. Like anything else it required a bit of patience (and some pain) but I’m excited to get back up there and get better.
 
 
-        <a class="link" href="/2015/11/04/skiing/">
+        <a class="link--highlight" href="/2015/11/04/skiing/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 31, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/31/climbing/">
       <h2 class="post-title">Climbing</h2>
@@ -583,19 +616,19 @@
       <p class="mb-4 mt-3">I developed a new obsession today at Movement Denver. Alison and I decided to take a belay class (super intro beginner class) to see if it’s something we might want to get into… We f*cking loved it. We’re going back tomorrow to take the belay test so we can hook each other up (literally) whenever we want.
 
 
-        <a class="link" href="/2015/10/31/climbing/">
+        <a class="link--highlight" href="/2015/10/31/climbing/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 25, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/25/rails-tutorial-chap-7/">
       <h2 class="post-title">Rails Tutorial - Chapter 7</h2>
@@ -606,19 +639,19 @@
       <p class="mb-4 mt-3">Soooo I now have a  working  version of the app live on heroku.
 
 
-        <a class="link" href="/2015/10/25/rails-tutorial-chap-7/">
+        <a class="link--highlight" href="/2015/10/25/rails-tutorial-chap-7/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 21, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/21/rails-tutorial-chap-6/">
       <h2 class="post-title">Rails Tutorial - Chapter 6</h2>
@@ -629,19 +662,19 @@
       <p class="mb-4 mt-3">Before I get to the meat of this I have to note the significance of today, October 21, 2015, which is the day Marty McFly arrives in the future and we’re introduced to all kinds of iconic inventions like hoverboards and self-lacing shoes. My favorite tribute is (predictably) golf-related… <img class="emoji" title=":golf:" alt=":golf:" src="https://github.githubassets.com/images/icons/emoji/unicode/26f3.png" height="20" width="20">
 
 
-        <a class="link" href="/2015/10/21/rails-tutorial-chap-6/">
+        <a class="link--highlight" href="/2015/10/21/rails-tutorial-chap-6/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 16, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/16/principles/">
       <h2 class="post-title">Principles</h2>
@@ -652,19 +685,19 @@
       <p class="mb-4 mt-3">While flying from DEN to DFW today I began reading Principles — a short “book” on management (and life) by Ray Dalio, founder &amp;amp; CEO of Bridgewater Associates.
 
 
-        <a class="link" href="/2015/10/16/principles/">
+        <a class="link--highlight" href="/2015/10/16/principles/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 15, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/15/rails-tutorial-chap-5/">
       <h2 class="post-title">Rails Tutorial - Chapter 5</h2>
@@ -675,19 +708,19 @@
       <p class="mb-4 mt-3">This chapter was pretty basic. It did start to bring the app to life visually…and there were certainly some tricky exercises surrounding application helpers, etc.
 
 
-        <a class="link" href="/2015/10/15/rails-tutorial-chap-5/">
+        <a class="link--highlight" href="/2015/10/15/rails-tutorial-chap-5/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 14, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/14/rails-tutorial-chap-4/">
       <h2 class="post-title">Rails Tutorial - Chapter 4</h2>
@@ -705,19 +738,19 @@
   
 
 
-        <a class="link" href="/2015/10/14/rails-tutorial-chap-4/">
+        <a class="link--highlight" href="/2015/10/14/rails-tutorial-chap-4/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 8, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/08/iflg/">
       <h2 class="post-title">IFLG Phase 1</h2>
@@ -728,19 +761,19 @@
       <p class="mb-4 mt-3">The 2015 Presidents Cup is taking place (right now) at the Jack Nicklaus club in Incheon, South Korea. This is the first time the cup has been held anywhere in Asia — which is cool for SO MANY reasons.
 
 
-        <a class="link" href="/2015/10/08/iflg/">
+        <a class="link--highlight" href="/2015/10/08/iflg/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 7, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/07/scrum-findings/">
       <h2 class="post-title">Scrum Findings</h2>
@@ -751,19 +784,19 @@
       <p class="mb-4 mt-3">As far as learning goes…I’m all over the place lately. Yesterday I dove deep into git concepts, before that I was expoloring ruby/rails…and today I predictably have more notes to share on yet another (albeit certainly related) topic.
 
 
-        <a class="link" href="/2015/10/07/scrum-findings/">
+        <a class="link--highlight" href="/2015/10/07/scrum-findings/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 6, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/06/git-notes-001/">
       <h2 class="post-title">Git Notes 001</h2>
@@ -781,19 +814,19 @@
   
 
 
-        <a class="link" href="/2015/10/06/git-notes-001/">
+        <a class="link--highlight" href="/2015/10/06/git-notes-001/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 4, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/04/rails-tutorial-chap-3/">
       <h2 class="post-title">Rails Tutorial - Chapter 3</h2>
@@ -804,19 +837,19 @@
       <p class="mb-4 mt-3">On the surface I haven’t really done anything with the app yet. It’s basically just four simple pages—but there’s quite a bit going on beneath the surface and I’m really enjoying the progression.
 
 
-        <a class="link" href="/2015/10/04/rails-tutorial-chap-3/">
+        <a class="link--highlight" href="/2015/10/04/rails-tutorial-chap-3/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 3, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/03/learning-hartl-rails-tutorial/">
       <h2 class="post-title">Learning Hartl's Rails Tutorial</h2>
@@ -827,19 +860,19 @@
       <p class="mb-4 mt-3">Some years ago (~fall 2010)—before I knew anything at all about web development—I attempted to run through Michael Hartl’s famous ruby on rails tutorial. This became one of my first introductions to a handful of technologies: command line, git, code deployment, and programming in general. Awesome stuff for sure, but certainly more than I could chew at the time.
 
 
-        <a class="link" href="/2015/10/03/learning-hartl-rails-tutorial/">
+        <a class="link--highlight" href="/2015/10/03/learning-hartl-rails-tutorial/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
   <article class="post-preview">
 
-    <p class="font-serif post-meta text-gray-600">
+    <span class="block font-serif post-meta text-gray-600 mb-3">
       October 2, 2015
-    </p>
+    </span>
 
     <a class="text-gray-900 hover:text-gray-600" href="/2015/10/02/launched/">
       <h2 class="post-title">Launched</h2>
@@ -849,78 +882,69 @@
     <div class="post-entry">
       <p class="mb-4 mt-3">Ok, I’m up and running with Github Pages. Still a ways to go… <img class="emoji" title=":grin:" alt=":grin:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f601.png" height="20" width="20">
 
-        <a class="link" href="/2015/10/02/launched/">
+        <a class="link--highlight" href="/2015/10/02/launched/">
           Read more...
         </a>
       </p>
     </div>
-  
-   </article>
+
+  </article>
   
 </div>
-
-      </div>
-	    
-    </div>
-  </div>
 </div>
 
-    </div>
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-          <li>
-            <a href="https://linkedin.com/in/emerywebster" title="LinkedIn">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="https://github.com/emerywebster" title="GitHub">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-		      
-          <li>
-            <a href="https://twitter.com/emerywebster" title="Twitter">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-		      
-          <li>
-            <a href="mailto:webb.henderson@gmail.com" title="Email me">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-		      
-		      		  
-        </ul>
-        <p class="copyright text-muted">
-      © 2020 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
-	    </p>  
+
       </div>
     </div>
-  </div>
+    <footer class="bg-gray-100 border-t border-gray-300 p-10">
+  <ul class="flex justify-center text-sm lg:text-base">
+    
+    <li class="px-2">
+      <a class="link--text" href="https://linkedin.com/in/emerywebster" title="LinkedIn">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="px-2">
+      <a class="link--text" href="https://github.com/emerywebster" title="GitHub">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    <li class="px-2">
+      <a class="link--text" href="https://twitter.com/emerywebster" title="Twitter">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    <li class="px-2">
+      <a class="link--text" href="mailto:webb.henderson@gmail.com" title="Email me">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    		  
+  </ul>
+  <p class="text-center text-sm lg:text-base mb-0">
+    © 2020 : <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+  </p>
 </footer>
 
     
@@ -933,18 +957,6 @@
 
 
 
-  
-    
-      <script>
-      	if (typeof jQuery == 'undefined') {
-      	  document.write('<script src="/assets/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
-      	}
-      </script>
-    
-  
-    
-	<script src="/assets/js/bootstrap.min.js"></script>
-    
   
     
 	<script src="/assets/js/main.js"></script>

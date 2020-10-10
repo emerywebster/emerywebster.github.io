@@ -25,19 +25,11 @@
   
   
     
-      <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />
-    
       <link rel="stylesheet" href="/assets/css/styles.css" />
     
     
   
   
-  
-    
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-    
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-    
   
 
     
@@ -79,135 +71,167 @@
 </head>
 
   <body>
-    <div class="content">
-      <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="http://emerywebster.com">Webb Henderson</a>
-    </div>
+    <div class="content pt-16">
+      <div class="content-body">
+        <nav class="flex justify-between h-16 items-center border-b border-gray-300 fixed top-0 w-full px-4 py-3 lg:p-5 header">
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
+  <a class="text-gray-800 hover:text-gray-600 text-sm lg:text-base font-bold lg:p-3" href="http://emerywebster.com">Webb Henderson</a>
+
+  <button onclick="toggleMenu()" id="menuButton" type="button" class="font-bold text-gray-800 text-sm lg:text-base sm:hidden px-2 py-1 border border-gray-400 rounded">
+    <span class="sr-only">Toggle navigation</span>
+    <i id="menuIcon" class="fa fa-bars fa-fw mr-1"></i>
+    Menu
+  </button>
+  <ul class="hidden sm:flex">
+  
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/">Portfolio</a>
+
+      </li>
+    
+    
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/thoughts">Writing</a>
+
+      </li>
+    
+    
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/about">About</a>
+
+      </li>
+    
+    
+    
+      <li class="p-3">
+        
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/contact">Contact</a>
+
+      </li>
+    
+    
+  </ul>
+
+  <ul id="mobileMenu" class="mobileMenu hidden">
+    
       
-        
-          <li>
-            
-            
-
-
-
-
-
-<a href="/">Portfolio</a>
-
-          </li>
-        
-        
-        
-          <li>
-            
+        <li class="px-4 py-3">
+          
             
 
 
 
 
 
-<a href="/thoughts">Writing</a>
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/">Portfolio</a>
 
-          </li>
-        
-        
-        
-          <li>
-            
-            
-
-
-
-
-
-<a href="/about">About</a>
-
-          </li>
-        
-        
-        
-          <li>
-            
+        </li>
+      
+      
+      
+        <li class="px-4 py-3">
+          
             
 
 
 
 
 
-<a href="/contact">Contact</a>
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/thoughts">Writing</a>
 
-          </li>
-        
-        
-      </ul>
-    </div>
+        </li>
+      
+      
+      
+        <li class="px-4 py-3">
+          
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/about">About</a>
+
+        </li>
+      
+      
+      
+        <li class="px-4 py-3">
+          
+            
+
+
+
+
+
+<a class="text-gray-800 hover:text-gray-600 font-bold" href="/contact">Contact</a>
+
+        </li>
+      
+      
+    </ul>
 
 	
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	    <a href="/">
-	      <img class="avatar-img" src="/assets/img/avatar.jpg" />
-		</a>
-	  </div>
-	</div>
-	
-
-  </div>
 </nav>
 
-      
-
-
-
-<header class="header-section ">
-
-<div class="intro-header no-img">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-heading mb-4 mt-8">
-          <h1 class="mb-2">Scrum Findings</h1>
-          
-
         
-          <span class="post-meta font-serif text-gray-600 text-lg">October 7, 2015</span>
-        
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
+<header class="header-section pt-16 ">
+
+<h1 class="text-center">Scrum Findings</h1>
+
+
+
+  <span class="block font-serif post-meta text-gray-600 text-lg mb-6 text-center">October 7, 2015</span>
+
 </header>
-
-
 
 <div class="ssk-sticky ssk-left ssk-center ssk-lg">
   <a href="" class="ssk ssk-twitter" data-text="Scrum Findings"></a>
   <a href="" class="ssk ssk-facebook"></a>
   <a href="" class="ssk ssk-linkedin"></a>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
-        <div class="top-share ssk-group">
-          <a href="" class="ssk ssk-text ssk-twitter" data-text="Scrum Findings">Tweet</a>
-          <a href="" class="ssk ssk-text ssk-facebook">Share</a>
-          <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
-        </div>
-	      <p>As far as learning goes…I’m all over the place lately. Yesterday I dove deep into <code class="language-plaintext highlighter-rouge">git</code> concepts, before that I was expoloring ruby/rails…and today I predictably have more notes to share on yet another (albeit certainly related) topic.</p>
+<div class="max-w-screen-md mx-auto px-4">
+  <article role="main" class="text-lg">
+    <div class="top-share ssk-group">
+      <a href="" class="ssk ssk-text ssk-twitter" data-text="Scrum Findings">Tweet</a>
+      <a href="" class="ssk ssk-text ssk-facebook">Share</a>
+      <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
+    </div>
+    <p>As far as learning goes…I’m all over the place lately. Yesterday I dove deep into <code class="language-plaintext highlighter-rouge">git</code> concepts, before that I was expoloring ruby/rails…and today I predictably have more notes to share on yet another (albeit certainly related) topic.</p>
 
 <p>I don’t have a completely clear answer as to why I’m going down all of these avenues…other than to say that <em>I am enjoying each of them</em>. I’m certainly a lifelong learner and infinitely curious about multiple topics…and don’t see any problem with that. I’ve always wanted to learn more about this process and (agile development in general). In the past I worked within a number of modified waterfall approaches (due primarily to the nature of client services work) but can see how agile would be preferable in most product-based business models.</p>
 
@@ -469,43 +493,21 @@
 </ul>
 
 
-	    </article>
+  </article>
 	  	  
-      <ul class="pager blog-pager">
-        
-        <li class="previous">
-          <a href="/2015/10/06/git-notes-001/" data-toggle="tooltip" data-placement="top" title="Git Notes 001">&larr; Previous Post</a>
-        </li>
-        
-        
-        <li class="next">
-          <a href="/2015/10/08/iflg/" data-toggle="tooltip" data-placement="top" title="IFLG Phase 1">Next Post &rarr;</a>
-        </li>
-        
-      </ul>
-      
-      <div class="disqus-comments">
-        
-<div class="comments">
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-	    var disqus_shortname = 'emerywebster';
-	    // ensure that pages with query string get the same discussion
-            var url_parts = window.location.href.split("?");
-            var disqus_url = url_parts[0];	    
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-
-      </div>
-      
-    </div>
-  </div>
+  <ul class="pager blog-pager">
+    
+    <li class="previous">
+      <a href="/2015/10/06/git-notes-001/" data-toggle="tooltip" data-placement="top" title="Git Notes 001">&larr; Previous Post</a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2015/10/08/iflg/" data-toggle="tooltip" data-placement="top" title="IFLG Phase 1">Next Post &rarr;</a>
+    </li>
+    
+  </ul>
+  
 </div>
 
 
@@ -514,62 +516,57 @@
 <script type="text/javascript">
 SocialShareKit.init();
 </script>
-    </div>
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-          <li>
-            <a href="https://linkedin.com/in/emerywebster" title="LinkedIn">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="https://github.com/emerywebster" title="GitHub">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-		      
-          <li>
-            <a href="https://twitter.com/emerywebster" title="Twitter">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-		      
-          <li>
-            <a href="mailto:webb.henderson@gmail.com" title="Email me">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-		      
-		      		  
-        </ul>
-        <p class="copyright text-muted">
-      &copy; 2020 : <a href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
-	    </p>  
       </div>
     </div>
-  </div>
+    <footer class="bg-gray-100 border-t border-gray-300 p-10">
+  <ul class="flex justify-center text-sm lg:text-base">
+    
+    <li class="px-2">
+      <a class="link--text" href="https://linkedin.com/in/emerywebster" title="LinkedIn">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="px-2">
+      <a class="link--text" href="https://github.com/emerywebster" title="GitHub">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    <li class="px-2">
+      <a class="link--text" href="https://twitter.com/emerywebster" title="Twitter">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    <li class="px-2">
+      <a class="link--text" href="mailto:webb.henderson@gmail.com" title="Email me">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    
+    
+    		  
+  </ul>
+  <p class="text-center text-sm lg:text-base mb-0">
+    &copy; 2020 : <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+  </p>
 </footer>
 
     
@@ -582,18 +579,6 @@ SocialShareKit.init();
 
 
 
-  
-    
-      <script>
-      	if (typeof jQuery == 'undefined') {
-      	  document.write('<script src="/assets/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
-      	}
-      </script>
-    
-  
-    
-	<script src="/assets/js/bootstrap.min.js"></script>
-    
   
     
 	<script src="/assets/js/main.js"></script>
