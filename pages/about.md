@@ -20,7 +20,7 @@ If you'd like to discuss a project, [give me a shout](/contact).
 ### Personal stuff
 
 - My full name is Emery Webster Henderson.
-- Find me [@emerywebster](http://twitter.com/emerywebster) pretty much everywhere.
+- You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much everywhere.
 - I grew up near [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
 - I moved to the [DFW area](http://mavs.com) when I was 16.
 - I went to school in [Boulder, CO](http://leeds.colorado.edu).
@@ -56,9 +56,11 @@ If you'd like to discuss a project, [give me a shout](/contact).
 
 #### People I follow
 
+- [Brian Lovin](http://brianlovin.com)
 - [Chris Coyier](http://chriscoyier.net/)
 - [Don Norman](http://jnd.org/)
 - [Jared Spool](http://uie.com/)
+- [Joel Califa](http://joelcalifa.com)
 - [Julie Zhuo](https://medium.com/@joulee)
 - [Ken Norton](http://kennorton.com/)
 - [Luke Wroblewski](http://lukew.com/)
@@ -72,6 +74,7 @@ If you'd like to discuss a project, [give me a shout](/contact).
 - [Designing Products People Love](https://www.amazon.com/dp/B019YN9WFW/) (Scott Hurff)
 - [Designing with the Mind in Mind](https://www.amazon.com/dp/0124079148/) (Jeff Johnson)
 - [Don't Make Me Think](https://www.amazon.com/dp/0321965515/) & [Rocket Surgery Made Easy](https://www.amazon.com/dp/0321657292/) (Steve Krug)
+- [Escaping the Build Trap](https://www.amazon.com/dp/B07K3QBWG1/) (Melissa Perri)
 - [Lean UX](https://www.amazon.com/dp/B01LYGQ6CH/) (Jeff Gothelf)
 - [Sprint](https://www.amazon.com/dp/B010MH1DAQ/) (Google Ventures Dudes)
 - [The Design of Everyday Things](https://www.amazon.com/dp/B00E257T6C/) & [Emotional Design](https://www.amazon.com/dp/B005GKIYD4/) (Don Norman)
@@ -81,7 +84,7 @@ If you'd like to discuss a project, [give me a shout](/contact).
 #### Newsletters
 
 - [Bringing the Donuts](http://kennorton.us12.list-manage.com/subscribe?u=55f1cf967fb74d3b3db26ef2b&id=3c04852012)
-- [uxdesign.cc](http://uxdesign.cc)
+- [UX Collective](http://uxdesign.cc)
 
 #### Podcasts
 
