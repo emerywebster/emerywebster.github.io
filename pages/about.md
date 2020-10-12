@@ -8,19 +8,23 @@ Oh hey. I'm Webb &ndash; I live in Denver, Colorado and spend most of my time th
 
 If you'd like to discuss a project, [give me a shout](/contact).
 
+<img src="https://user-images.githubusercontent.com/178044/95697508-2ed04f80-0bfc-11eb-8a35-80136dd7d016.png" alt="Henderson Family Photo">
+
 ---
 
 ### Professional stuff
 
-- I currently lead design at [TrueCoach](http://truecoach.co) :purple_heart::muscle:.
-- I'm a former UX Designer at [ReadyTalk](http://readytalk.com).
-- Prior to that, I managed development projects at [Crowd Favorite](http://crowdfavorite.com).
-- I once ran an eBay/Amazon resale business (and still dabble).
+In 2017, I joined [TrueCoach](http://truecoach.co) (then Fitbot) as the first product designer. We grew like crazy and were acquired in March, 2020.
+
+Before TrueCoach I helped build web and native mobile apps at [ReadyTalk](http://readytalk.com) and consulted with a number of companies in the Denver/Boulder area. 
+
+I got my start as a self-taught designer and engineer largely through my experience managing development projects at [Crowd Favorite](http://crowdfavorite.com). 
+
+Randomly, I once ran an eBay/Amazon resale business (and still dabble).
 
 ### Personal stuff
 
 - My full name is Emery Webster Henderson.
-- You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much everywhere.
 - I grew up near [Saint Louis, MO](http://stlouis.cardinals.mlb.com/).
 - I moved to the [DFW area](http://mavs.com) when I was 16.
 - I went to school in [Boulder, CO](http://leeds.colorado.edu).
@@ -32,11 +36,13 @@ If you'd like to discuss a project, [give me a shout](/contact).
 
 ### Connect
 
-- [GitHub](http://github.com/emerywebster)
-- [Golfshot](https://play.golfshot.com/profiles/589Rq/rounds)
-- [Goodreads](https://www.goodreads.com/user/show/5677497-webb-henderson)
-- [Instagram](http://instagram.com/emerywebster)
-- [Twitter](http://twitter.com/emerywebster)
+You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much everywhere.
+
+- <img src="https://github.githubassets.com/favicons/favicon.svg" width="22" class="inline"> [GitHub](http://github.com/emerywebster)<br>
+- <img src="https://golfshot.com/wp-content/uploads/2018/05/favicon.png" width="22" class="inline"> [Golfshot](https://play.golfshot.com/profiles/589Rq/rounds)<br>
+- <img src="https://www.goodreads.com/images/icons/goodreads_icon_32x32.png" width="22" class="inline"> [Goodreads](https://www.goodreads.com/user/show/5677497-webb-henderson)<br>
+- <img src="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico" width="22" class="inline"> [Instagram](http://instagram.com/emerywebster)<br>
+- <img src="https://abs.twimg.com/favicons/twitter.ico" width="22" class="inline"> [Twitter](http://twitter.com/emerywebster)<br>
 
 ---
 
@@ -69,7 +75,7 @@ If you'd like to discuss a project, [give me a shout](/contact).
 - [Tim Brown](http://nicewebtype.com)
 - [Tristan Kromer](http://grasshopperherder.com/)
 
-#### Design Books
+#### Books
 
 - [Designing Products People Love](https://www.amazon.com/dp/B019YN9WFW/) (Scott Hurff)
 - [Designing with the Mind in Mind](https://www.amazon.com/dp/0124079148/) (Jeff Johnson)
