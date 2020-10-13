@@ -85,7 +85,9 @@ To revisit the task - Meghan's goal is to quickly sign up and take the product f
 
 But let’s keep going as though we’ve already validated this need. Here’s a user story to spell out the work a bit more specifically:
 
-`As a prospect, I want to quickly build and send a test email, so I can evaluate the product for continual use and/or purchase.`
+```
+As a prospect, I want to quickly build and send a test email, so I can evaluate the product for continual use and/or purchase.`
+```
 
 ---
 
