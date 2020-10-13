@@ -132,7 +132,7 @@ It’s time to observe users with our prototype (ideally existing customers & pr
 
 **Hallway tests**: internal tests with stakeholders, colleagues who are largely uninvolved in the effort, etc. Typically this would’ve been done prior to building out a robust prototype...but can still be helpful in certain situations.
 
-**Friends**, family, other colleagues_: when the going gets tough...you can get helpful feedback from just about anyone (but will likely need to take it with a grain of salt...and do whatever you can to ensure that they’re not lying to avoid hurting your feelings).
+**Friends, family, colleagues**: when the going gets tough...you can get helpful feedback from just about anyone – but will likely need to take it with a grain of salt and ensure you're prompting in a way that produces honest answers.
 
 ### What are we trying to learn?
 
