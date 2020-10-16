@@ -55,6 +55,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 - [Courtney Bregar](http://courtneybregar.com)
 - [Devin Reams](http://devin.reams.me)
 - [Jared Cornwall](http://jaredcornwall.com)
+- [Joey Mazzotta](http://www.detuned.net)
 - [Jonathan Johnson](http://jondavidjohn.com)
 - [Michael Lopp](http://randsinrepose.com)
 - [Nam Nguyen](http://nam-ux.com)
