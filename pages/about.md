@@ -54,6 +54,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 - [Ben Anderson](http://design-pathology.com)
 - [Courtney Bregar](http://courtneybregar.com)
 - [Devin Reams](http://devin.reams.me)
+- [Emilie Hester](https://www.truekind.co)
 - [Jared Cornwall](http://jaredcornwall.com)
 - [Joey Mazzotta](http://www.detuned.net)
 - [Jonathan Johnson](http://jondavidjohn.com)
