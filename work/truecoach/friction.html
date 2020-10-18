@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>User Experience Design Portfolio of Webb Henderson</title>
+  <title>Reducing Friction - User Experience Design Portfolio of Webb Henderson</title>
 
   <meta name="author" content="Webb Henderson" />
   
@@ -42,11 +42,11 @@
      
   
   <!-- Facebook OpenGraph tags -->
-  <meta property="og:title" content="User Experience Design Portfolio of Webb Henderson" />
+  <meta property="og:title" content="Reducing Friction" />
   <meta property="og:type" content="website" />
   
   
-  <meta property="og:url" content="http://emerywebster.com/page/4/" />
+  <meta property="og:url" content="http://emerywebster.com/work/truecoach/friction" />
   
   
   
@@ -208,67 +208,82 @@
 
         
 
-<div class="container mx-auto px-4" role="main">
-  <div class="page-content">
-    <p class="border-b border-gray-300 font-serif m-0 py-16 text-center text-lg">User Experience &amp; Product Design <br /> Based in Denver, Colorado.</p>
 
-<div class="grid lg:grid-cols-3 items-center border-b border-gray-300 lg:px-24 py-16 text-center lg:text-left gap-6 lg:gap-10">
-  <a href="work/truecoach" class="mx-auto col-span-2 lg:col-span-1">
-    <img class="justify-self-center w-40 lg:w-56" src="https://user-images.githubusercontent.com/178044/96371311-4f2d6c00-111e-11eb-9d79-6470d21b1193.png" alt="TrueCoach logo" />
-  </a>
-  <div class="col-span-2">
-    <h2 class="text-4xl"><a class="link--text" href="work/truecoach">TrueCoach</a></h2>
-    <p class="mb-3 text-lg">Enabling coaches to manage & grow their business.</p>
-    <a class="link--highlight text-lg" href="work/truecoach">View projects</a>
-  </div>
+
+<header class="header-section pt-16 ">
+
+<h1 class="text-center">Reducing Friction</h1>
+
+
+
+</header>
+
+
+<div class="page-content max-w-screen-md mx-auto px-4 text-lg">
+  <p><strong>Problem –</strong> Customers were unable to upgrade their payment plan beyond a set of entry-level options. This caused frustrastion, slowed revenue growth, and added unnecessary support costs.</p>
+
+<p><strong>Solution –</strong> Alongside <a href="http://twitter.com/joeymurdah" class="link--highlight" target="_blank">another designer</a>, we led a cross-functional team to build a faster and simpler account management experience.</p>
+
+<p><strong>Outcome –</strong> Our customer support team reported a near 100% reduction in related conversations in <a href="http://intercom.com" class="link--highlight" target="_blank">Intercom</a>.</p>
+
+<p><a class="mb-6" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&amp;viewport=537%2C376%2C0.03125930204987526&amp;scaling=min-zoom" target="_blank">
+  <img class="rounded-xl" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype">
+</a></p>
+
+<p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> That’s the TLDR. You’ll find more context below.</p>
+
+<hr>
+
+<h4 id="problem">Problem</h4>
+
+<p>TrueCoach’s pricing model is based on the number of clients within an organization. More clients -&gt; more money.</p>
+
+<p>Originally, we provided these options within the product:</p>
+
+<div class="bg-gray-100 rounded-lg p-6">
+  <ul class="list-disc list-inside">
+    <li>
+<span class="font-bold">1 to 5 clients</span>: $</li>
+    <li>
+<span class="font-bold">6 to 25 clients</span>: $$</li>
+    <li>
+<span class="font-bold">26 to 50 clients</span>: $$$</li>
+    <li class="mb-3">
+<span class="font-bold">More than 50 clients</span>: Contact us</li>
+    <small>The familiar SaaS pricing model that you see pretty much everywhere.</small>
+  </ul>
 </div>
 
-<div class="grid lg:grid-cols-3 items-center border-b border-gray-300 lg:px-24 py-16 text-center lg:text-left gap-6 lg:gap-10">
-  <a href="work/bonusly" class="mx-auto col-span-2 lg:col-span-1">
-    <img class="justify-self-center w-40 lg:w-56" src="https://user-images.githubusercontent.com/178044/27663587-4d74813e-5c20-11e7-8a41-cc003bf911e5.png" alt="Bonusly logo" />
-  </a>
-  <div class="col-span-2">
-    <h2 class="text-4xl"><a class="link--text" href="work/bonusly">Bonusly</a></h2>
-    <p class="mb-3 text-lg">Helping users understand their options and make better purchasing decisions.</p>
-    <a class="link--highlight text-lg" href="work/bonusly">View project</a>
-  </div>
+<p>In reality, there were another ~20 hidden pricing tiers that we would show customers when they inevitably grew and reached out to us.</p>
+
+<p>Through initial research and discovery, our cross functional team identified the following core problem to solve: <strong>allow coaches to upgrade/downgrade to any pricing plan without intervention</strong> (up to a point where we suggested a white glove offering).</p>
+
+<p>We also uncovered the following problems along the user journey:</p>
+
+<p>🤔 Confusion of monthly vs yearly pricing<br>
+🤔 Uncertain of time remaining in free trial<br>
+😕 Difficulty activating account during free trial<br>
+😕 Difficulty changing plans once activated<br>
+🤷‍♀️ Lack of access to onboarding material after sign up<br>
+🤷‍♀️ Lack of data to learn why customers canceled their accounts</p>
+
+<hr>
+
+<h4 id="solution">Solution</h4>
+
+<p>As a cross-functional team, we collaboratively stepped through the following activities during research and solution meetings.</p>
+
+<ol class="list-decimal list-inside">
+  <li>Outlined the current user journey &amp; identified primary pain points.</li>
+  <li>Drew and discussed new work flows and solutions.</li>
+  <li>Developed an end-to-end prototype for internal reviewing and testing.</li>
+  <li>Broke the work into pieces to ship and monitor/measure incrementally.</li>
+</ol>
+
+
 </div>
 
-<div class="grid lg:grid-cols-3 items-center border-b border-gray-300 lg:px-24 py-16 text-center lg:text-left gap-6 lg:gap-10">
-  <a href="work/sendgrid" class="mx-auto col-span-2 lg:col-span-1">
-    <img class="justify-self-center w-40 lg:w-56" src="https://cloud.githubusercontent.com/assets/178044/24669962/97580832-1929-11e7-931a-adad9155cd34.png" alt="Sendgrid logo" />
-  </a>
-  <div class="col-span-2">
-    <h2 class="text-4xl"><a class="link--text" href="work/sendgrid">SendGrid</a></h2>
-    <p class="mb-3 text-lg">Improving the email marketing experience.</p>
-    <a class="link--highlight text-lg" href="work/sendgrid">View project</a>
-  </div>
-</div>
 
-<div class="grid lg:grid-cols-3 items-center border-b border-gray-300 lg:px-24 py-16 text-center lg:text-left gap-6 lg:gap-10">
-  <a href="work/foxden" class="mx-auto col-span-2 lg:col-span-1">
-    <img class="justify-self-center w-40 lg:w-56" src="https://cloud.githubusercontent.com/assets/178044/24670825/dc0b3442-192c-11e7-8a26-da4516d688e7.png" alt="Foxden logo" />
-  </a>
-  <div class="col-span-2">
-    <h2 class="text-4xl"><a class="link--text" href="work/foxden">Foxden</a></h2>
-    <p class="mb-3 text-lg">Building a mobile and in-room meeting platform.</p>
-    <a class="link--highlight text-lg" href="work/foxden">View project</a>
-  </div>
-</div>
-
-<div class="grid lg:grid-cols-3 items-center lg:px-24 pt-16 pb-8 text-center lg:text-left gap-6 lg:gap-10">
-  <a href="work/automox" class="mx-auto col-span-2 lg:col-span-1">
-    <img class="justify-self-center w-40 lg:w-56" src="https://cloud.githubusercontent.com/assets/178044/24670677/353b26ea-192c-11e7-97b2-74c8d5a105a4.png" alt="Automox logo" />
-  </a>
-  <div class="col-span-2">
-    <h2 class="text-4xl"><a class="link--text" href="work/automox">Automox</a></h2>
-    <p class="mb-3 text-lg">Marketing a new product to IT &amp; security professionals.</p>
-    <a class="link--highlight text-lg" href="work/automox">View project</a>
-  </div>
-</div>
-
-  </div>
-</div>
       </div>
     </div>
     <footer class="bg-gray-100 border-t border-gray-300 p-10">
@@ -318,7 +333,7 @@
     		  
   </ul>
   <p class="text-center text-sm lg:text-base mb-0">
-    &copy; 2020 : <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+    © 2020 : <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
   </p>
 </footer>
 
