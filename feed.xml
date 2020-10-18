@@ -7,6 +7,17 @@
     <atom:link href="http://emerywebster.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Revamp</title>
+        <description>
+          
+          It’s been over three years since I’ve made any changes to this site :grimacing:. Here are a handful of recent changes that seemed worth documenting. Switched from Bootstrap to Tailwind. Replaced one large CSS file with a modular SASS framework. Renamed git master branch to main. Set up a deploy...
+        </description>
+        <pubDate>Fri, 02 Oct 2020 00:00:00 -0600</pubDate>
+        <link>http://emerywebster.com/2020/10/02/revamp/</link>
+        <guid isPermaLink="true">http://emerywebster.com/2020/10/02/revamp/</guid>
+      </item>
+    
+      <item>
         <title>Framer</title>
         <description>
           
@@ -213,17 +224,6 @@
         <pubDate>Sun, 25 Oct 2015 00:00:00 -0600</pubDate>
         <link>http://emerywebster.com/2015/10/25/rails-tutorial-chap-7/</link>
         <guid isPermaLink="true">http://emerywebster.com/2015/10/25/rails-tutorial-chap-7/</guid>
-      </item>
-    
-      <item>
-        <title>Rails Tutorial - Chapter 6</title>
-        <description>
-          
-          Before I get to the meat of this I have to note the significance of today, October 21, 2015, which is the day Marty McFly arrives in the future and we’re introduced to all kinds of iconic inventions like hoverboards and self-lacing shoes. My favorite tribute is (predictably) golf-related… :golf:...
-        </description>
-        <pubDate>Wed, 21 Oct 2015 00:00:00 -0600</pubDate>
-        <link>http://emerywebster.com/2015/10/21/rails-tutorial-chap-6/</link>
-        <guid isPermaLink="true">http://emerywebster.com/2015/10/21/rails-tutorial-chap-6/</guid>
       </item>
     
   </channel>
