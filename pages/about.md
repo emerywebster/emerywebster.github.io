@@ -84,7 +84,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 - [Don't Make Me Think](https://www.amazon.com/dp/0321965515/) & [Rocket Surgery Made Easy](https://www.amazon.com/dp/0321657292/) (Steve Krug)
 - [Escaping the Build Trap](https://www.amazon.com/dp/B07K3QBWG1/) (Melissa Perri)
 - [Lean UX](https://www.amazon.com/dp/B01LYGQ6CH/) (Jeff Gothelf)
-- [Sprint](https://www.amazon.com/dp/B010MH1DAQ/) (Google Ventures Dudes)
+- [Sprint](https://www.amazon.com/dp/B010MH1DAQ/) (Google Ventures)
 - [The Design of Everyday Things](https://www.amazon.com/dp/B00E257T6C/) & [Emotional Design](https://www.amazon.com/dp/B005GKIYD4/) (Don Norman)
 - [The Lean Product Playbook](https://www.amazon.com/dp/B00SZ638C8/) (Dan Olsen)
 - [Universal Principles of Design](https://www.amazon.com/dp/1592535879/)
@@ -92,6 +92,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 #### Newsletters
 
 - [Bringing the Donuts](http://kennorton.us12.list-manage.com/subscribe?u=55f1cf967fb74d3b3db26ef2b&id=3c04852012)
+- [CSS-Tricks](https://css-tricks.com/newsletters/)
 - [UX Collective](http://uxdesign.cc)
 
 #### Podcasts
