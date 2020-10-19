@@ -1,0 +1,191 @@
+// *************************************
+//
+//   Base
+//   -> Tag-level settings
+//
+// *************************************
+
+html {
+	font-size: 1rem;
+	height: 100%;
+}
+
+body {
+	font-family: $font-body;
+	font-size: 1rem;
+	height: 100%;
+	color: $gray-900;
+	position: relative;
+	background: $white;
+	display: flex;
+	flex-direction: column;
+}
+
+// -------------------------------------
+//   Block Content
+// -------------------------------------
+
+// TODO: untangle this
+blockquote {
+	border-left: 6px solid $gray-300;
+	color: $gray-600;
+	font-size: 22px;
+	font-style: italic;
+	padding: 12px 18px;
+	margin-bottom: 32px;
+	small {
+		display: inline-block;
+		margin: 0.8em 0 0.8em 1.5em;
+		font-size: 0.9em;
+		color: $gray-400;
+		&:before {
+			content: '\2014 \00A0';
+		}
+	}
+	cite {
+		font-weight: 700;
+		a {
+			font-weight: normal;
+		}
+	}
+	p {
+		margin: 0;
+		font-size: 115%;
+	}
+}
+
+hr {
+	margin: 32px 0;
+}
+
+li {
+	margin-bottom: 0.15em;
+}
+
+p {
+	line-height: 1.5;
+	margin: 24px 0;
+	font-weight: 400;
+}
+
+// ----- Headings ----- //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 900;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 28px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 20px;
+	color: $gray-700;
+	margin-top: 24px;
+	margin-bottom: 8px;
+}
+
+// ----- Code ----- //
+
+code {
+	padding: 2px 5px;
+	font-family: $font-mono;
+	font-size: 0.85em;
+	white-space: pre-wrap;
+	border: $gray-300 1px solid;
+	background: $gray-100;
+	border-radius: 6px;
+	color: inherit;
+}
+
+// ----- Images ----- //
+
+img {
+	&::selection,
+	&::-moz-selection {
+		color: white;
+		background: transparent;
+	}
+	max-width: 100%;
+}
+
+// ----- Selection ----- //
+
+::-moz-selection,
+::selection {
+	background-color: $teal-500;
+	color: $white;
+	text-shadow: none;
+}
+
+// ----- Tables ----- //
+
+table {
+	padding: 0;
+
+	tr {
+		border-top: 1px solid $gray-400;
+		background-color: $white;
+		margin: 0;
+		padding: 0;
+
+		&:nth-child(2n) {
+			background-color: $gray-100;
+		}
+
+		th {
+			font-weight: bold;
+			border: 1px solid $gray-400;
+			text-align: left;
+			margin: 0;
+			padding: 6px 13px;
+		}
+
+		td {
+			border: 1px solid $gray-400;
+			text-align: left;
+			margin: 0;
+			padding: 6px 13px;
+		}
+
+		th :first-child,
+		td :first-child {
+			margin-top: 0;
+		}
+
+		th :last-child,
+		td :last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+// TODO: move elsewhere
+.content {
+	flex: 1 0 auto;
+}
+
+.page-content {
+	padding-bottom: 64px;
+	ul {
+		list-style: inside;
+	}
+}

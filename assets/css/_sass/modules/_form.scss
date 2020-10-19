@@ -1,0 +1,94 @@
+// *************************************
+//
+//   Forms
+//   TODO: Refactor into input and textarea
+//
+// *************************************
+
+.form {
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.form-group {
+	width: 100%;
+	margin: 14px 0;
+}
+
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	font-size: 14px;
+	color: $gray-400;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	font-size: 14px;
+	color: $gray-400;
+}
+
+:-ms-input-placeholder {
+	/* IE 10+ */
+	font-size: 14px;
+	color: $gray-400;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	font-size: 14px;
+	color: $gray-400;
+}
+
+label {
+	font-size: 14px;
+	font-weight: bold;
+	color: $gray-700;
+	display: inline-block;
+}
+
+.form-control {
+	background-color: $white;
+	background: $gray-100;
+	border: 1px solid $gray-400;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(225, 228, 232, 0.2);
+	font-size: 14px;
+	display: block;
+	height: 40px;
+	padding: 12px;
+	line-height: 1.3333333;
+	transition: none;
+	width: 100%;
+	&:focus {
+		background: $white;
+		border: 1px solid $teal-500;
+		box-shadow: 0 0 0 3px $teal-200;
+		outline: none;
+	}
+}
+
+input,
+textarea {
+	&:hover {
+		border-color: $gray-500;
+	}
+}
+
+textarea.form-control {
+	height: auto;
+}
+
+.form {
+	&[disabled],
+	&[readonly] {
+		cursor: not-allowed;
+		background-color: $gray-200;
+	}
+}
+
+fieldset[disabled] .form-control {
+	cursor: not-allowed;
+	background-color: $gray-200;
+}

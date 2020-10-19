@@ -3,11 +3,10 @@
 
 @tailwind base;
 
-@import 'variables';
-
-@import 'btn';
-@import 'link';
-@import 'main';
+@import 'config';
+@import 'base';
+@import 'modules';
+@import 'utilities';
 
 @tailwind components;
 
