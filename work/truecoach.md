@@ -18,6 +18,10 @@ permalink: work/truecoach
     <span class="font-bold my-0 link--highlight">Responding to the pandemic</span><br>
     <span class="text-gray-900 text-base"><i class="fa fa-fw fa-long-arrow-right mr-1 text-gray-600"></i>Pitched solution to help coaches create at-home workouts while gyms were closed.</span>
   </a>
+  <a class="block py-4" href="/work/truecoach/nutrition">
+    <span class="font-bold my-0 link--highlight">Simplifying nutrition</span><br>
+    <span class="text-gray-900 text-base"><i class="fa fa-fw fa-long-arrow-right mr-1 text-gray-600"></i>Increased engagement with MyFitnessPal integration.</span>
+  </a>
   <div class="flex justify-between align-middle py-4">
     <span class="text-gray-600 text-base">More coming soon</span>
   </div>
