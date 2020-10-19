@@ -10,7 +10,7 @@ permalink: work/truecoach/friction
 **Outcome –** Our customer support team reported a near 100% reduction in related conversations in <a href="http://intercom.com" class="link--highlight" target="_blank">Intercom</a>.
 
 <a class="mb-6" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&viewport=537%2C376%2C0.03125930204987526&scaling=min-zoom" target="_blank">
-  <img class="rounded-xl" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
+  <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg brighten-5" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
 </a>
 
 :point_up: That's the TLDR. You'll find more context below.

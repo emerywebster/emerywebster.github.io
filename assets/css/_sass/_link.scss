@@ -33,6 +33,7 @@ a,
 	&:active {
 		background: linear-gradient(to bottom, transparent 0%, transparent 0%, $teal-200 0%, $teal-200 100%);
 		border: 0;
+		color: $c-text;
 	}
 	&:visited,
 	&[data-visited] {
