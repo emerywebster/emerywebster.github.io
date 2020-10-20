@@ -6,11 +6,13 @@
 // *************************************
 
 // -------------------------------------
-//   Palette
+//   Color palette
 // -------------------------------------
 
 $black: #000;
 $white: #fff;
+
+$blackish: #121212;
 
 $gray-100: #f7fafc;
 $gray-200: #edf2f7;
@@ -82,8 +84,100 @@ $yellow-700: #b7791f;
 $yellow-800: #975a16;
 $yellow-900: #744210;
 
+// Shadows
+
+$shadow-large-light: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 40px 80px -20px,
+	rgba(0, 0, 0, 0.3) 0px 20px 50px -30px;
+$shadow-large-dark: rgba(0, 0, 0, 0.6) 0px 40px 80px 0px;
+$shadow-form-light: inset 0 1px 0 rgba(225, 228, 232, 0.2);
+$shadow-form-dark: inset 0 1px 0 $black;
+
 // -------------------------------------
-//   Text-
+// Theme variables
 // -------------------------------------
 
-$c-text: $gray-900;
+:root {
+	// ----- Backgrounds ----- //
+
+	--bg-primary: #{$white};
+	--bg-secondary: #{$gray-100};
+	--bg-secondaryRGBA: 247,250,252;
+	--bg-code: #{$gray-100};
+
+	// ----- Borders ----- //
+
+	--border-primary: #{$gray-300};
+	--border-code: #{$gray-300};
+
+	// ----- Text ----- //
+
+	--text-primary: #{$gray-900};
+	--text-secondary: #{$gray-700};
+
+	// ----- Inputs ----- //
+
+	--input-hover: #{$gray-500};
+
+	// ----- Links ----- //
+
+	--link: #{$teal-600};
+	--link-hover: #{$teal-700};
+	--link-highlight: #{$teal-200};
+	--link-highlight-visited: #{$gray-400};
+	--link-subdued: #{$gray-800};
+	--link-subdued-hover: #{$gray-600};
+	--link-subduedDark: #{$gray-800};
+	--link-subduedDark-hover: #{$gray-600};
+	--link-text: #{$gray-900};
+	--link-text-hover: #{$gray-600};
+
+	// ----- Shadows ----- //
+
+	--shadow-form: #{$shadow-form-light};
+	--shadow-large: #{$shadow-large-light};
+	--shadow-outline: #{$teal-200};
+
+}
+
+.dark-theme {
+	// ----- Backgrounds ----- //
+
+	--bg-primary: #{$black};
+	--bg-secondary: #{$gray-900};
+	--bg-secondaryRGBA: 26,32,44;
+	--bg-code: #{$gray-900};
+
+	// ----- Borders ----- //
+
+	--border-primary: #{$gray-900};
+	--border-code: #{$gray-800};
+
+	// ----- Text ----- //
+
+	--text-primary: #{$gray-100};
+	--text-secondary: #{$gray-500};
+
+	// ----- Inputs ----- //
+
+	--input-hover: #{$gray-700};
+
+	// ----- Links ----- //
+
+	--link: #{$teal-400};
+	--link-hover: #{$teal-500};
+	--link-highlight: #{$teal-600};
+	--link-highlight-visited: #{$gray-600};
+	--link-subdued: #{$gray-500};
+	--link-subdued-hover: #{$gray-400};
+	--link-subduedDark: #{$gray-700};
+	--link-subduedDark-hover: #{$gray-600};
+	--link-text: #{$gray-100};
+	--link-text-hover: #{$gray-400};
+
+	// ----- Shadows ----- //
+
+	--shadow-form: #{$shadow-form-dark};
+	--shadow-large: #{$shadow-large-dark};
+	--shadow-outline: #{$teal-900};
+
+}

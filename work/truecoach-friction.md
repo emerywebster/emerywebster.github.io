@@ -23,7 +23,7 @@ TrueCoach's pricing model is based on the number of clients within an organizati
 
 Originally, we provided these options within the product:
 
-<div class="bg-gray-100 rounded-lg p-6">
+<div class="bg-gray-100 dark:bg-gray-900 rounded-lg p-6">
   <ul class="list-disc list-inside">
     <li><span class="font-bold">1 to 5 clients</span>: $</li>
     <li><span class="font-bold">6 to 25 clients</span>: $$</li>

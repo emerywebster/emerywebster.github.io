@@ -6,8 +6,8 @@
 // *************************************
 
 .nav {
-	background-color: $gray-100;
-	border-bottom: 1px solid $gray-300;
+	background-color: var(--bg-secondary);
+	border-bottom: 1px solid var(--border-primary);
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -25,7 +25,7 @@
 	.nav {
 		-webkit-backdrop-filter: blur(10px);
 		backdrop-filter: blur(10px);
-		background-color: rgba($gray-100, 0.8);
+		background-color: rgba(var(--bg-secondaryRGBA), 0.8);
 	}
 }
 

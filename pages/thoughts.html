@@ -7,11 +7,11 @@ permalink: /thoughts.html
   {% for post in site.posts %}
   <article class="post-preview">
 
-    <span class="block font-serif post-meta text-gray-600 mb-3">
+    <span class="block font-serif post-meta text-gray-600 dark:text-gray-500 mb-3">
       {{ post.date | date: "%B %-d, %Y" }}
     </span>
 
-    <a class="text-gray-900 hover:text-gray-600" href="{{ post.url | prepend: site.baseurl }}">
+    <a class="link--text" href="{{ post.url | prepend: site.baseurl }}">
       <h2 class="post-title">{{ post.title }}</h2>
       {% if post.subtitle %}
         <h3 class="post-subtitle">
