@@ -3,13 +3,16 @@ layout: page
 title: Account Management
 permalink: work/truecoach/account
 ---
+
+:point_down: Here is the TLDR. You'll find more context below.
+
 **Problem –** Customers were unable to upgrade their payment plan beyond a set of entry-level options. This caused frustration, slowed revenue growth, and added unnecessary support costs.
 
 **Solution –** Through internal/external research and testing, we designed a series of simple, helpful, and flexible improvements to the `activate` and `manage` account experience.
 
-**Outcome –** We reduced 99% of related support costs and saw a slight improvement in average revenue per user and conversion (~1-2%).
+**Outcome –** We reduced 99% of related support costs and saw a slight improvement in average revenue per user and conversion (~1%).
 
-<a class="mb-6" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&viewport=537%2C376%2C0.03125930204987526&scaling=min-zoom" target="_blank">
+<a class="mb-16" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&viewport=537%2C376%2C0.03125930204987526&scaling=min-zoom" target="_blank">
   <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg brighten-5" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
 </a>
 
@@ -100,6 +103,10 @@ From here we were able to refine our user flows and move directly into high fide
   <img class="shadow-lg border border-gray-200" src="https://user-images.githubusercontent.com/178044/97218618-89d27c80-178e-11eb-9f04-d1fe46a8051b.png" alt="Wireframe concept for activate/upgrade project">
   <p class="text-sm italic text-center">What we ultimately delivered to customers.</p>
 </div>
+
+<a class="mb-16" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&viewport=537%2C376%2C0.03125930204987526&scaling=min-zoom" target="_blank">
+  <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg brighten-5" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
+</a>
 
 ---
 

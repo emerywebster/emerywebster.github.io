@@ -5,9 +5,9 @@ permalink: work/truecoach/pandemic
 ---
 **Problem –** With many gyms closing in March & April of 2020, our customers needed a quick way to adapt to their clients' limited access to equipment.
 
-**Solution –** During a team <a href="https://truecoach.co/careers/" class="link--highlight" target="_blank">investment day</a>, I partnered with a front end engineer to explore how coaches might more easily build at-home workouts for clients. We introduced a <code>bodyweight</code> tag to our exercise library, as well as a new way to easily find them while building workouts.
+**Solution –** During a team <a href="https://truecoach.co/careers/" class="link--highlight" target="_blank">investment day</a>, I partnered with a front end engineer to explore how coaches might more easily build at-home workouts for clients. We introduced a <code>bodyweight</code> tag to our exercise library and introduced new UI to easily find them while building workouts.
 
-**Outcome –** While the solution below was never fully implemented, we did add a <code>bodyweight</code> tag to our exercise library. This turned out to be a quick and inexpensive way to address the problem and retain many of our customers.
+**Outcome –** While the solution below was never fully implemented, we learned that a <code>bodyweight</code> exercise tag provided a quick and inexpensive way to address the problem and proactively support our customers.
 
 ---
 
