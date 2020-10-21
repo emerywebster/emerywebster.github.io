@@ -14,9 +14,9 @@ body {
 	font-family: $font-body;
 	font-size: 1rem;
 	height: 100%;
-	color: $gray-900;
+	color: var(--text-primary);
 	position: relative;
-	background: $white;
+	background: var(--bg-primary);
 	display: flex;
 	flex-direction: column;
 }
@@ -55,6 +55,7 @@ blockquote {
 }
 
 hr {
+	border-color: var(--border-primary);
 	margin: 32px 0;
 }
 
@@ -98,7 +99,7 @@ h4 {
 	font-weight: 700;
 	font-size: 20px;
 	margin-top: 20px;
-	color: $gray-700;
+	color: var(--text-secondary);
 	margin-top: 24px;
 	margin-bottom: 8px;
 }
@@ -106,14 +107,24 @@ h4 {
 // ----- Code ----- //
 
 code {
-	padding: 2px 5px;
+	background: var(--bg-code);
+	border-radius: 6px;
+	border: 1px solid var(--border-code);
 	font-family: $font-mono;
 	font-size: 0.85em;
+	padding: 2px 5px;
 	white-space: pre-wrap;
-	border: $gray-300 1px solid;
-	background: $gray-100;
-	border-radius: 6px;
-	color: inherit;
+}
+
+pre {
+	border: 1px solid var(--border-code);
+	border-radius: 12px;
+	color: $gray-300;
+	padding: 16px 24px;
+	code {
+		background: none;
+		border: 0;
+	}
 }
 
 // ----- Images ----- //

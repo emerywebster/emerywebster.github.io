@@ -1,8 +1,8 @@
-<footer class="bg-gray-100 border-t border-gray-300 p-10">
+<footer class="bg-gray-100 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-800 p-10">
   <ul class="flex justify-center text-sm lg:text-base">
     {% if site.author.linkedin and site.footer-links-active.linkedin %}
     <li class="px-2">
-      <a class="link--text" href="https://linkedin.com/{{ site.author.linkedin }}" title="LinkedIn">
+      <a class="link--subduedDark" href="https://linkedin.com/{{ site.author.linkedin }}" title="LinkedIn">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -12,7 +12,7 @@
     {% endif %}
     {% if site.author.facebook and site.footer-links-active.facebook %}
     <li class="px-2">
-      <a class="link--text" href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook">
+      <a class="link--subduedDark" href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -22,7 +22,7 @@
     {% endif %}
     {% if site.author.github and site.footer-links-active.github %}
     <li class="px-2">
-      <a class="link--text" href="https://github.com/{{ site.author.github }}" title="GitHub">
+      <a class="link--subduedDark" href="https://github.com/{{ site.author.github }}" title="GitHub">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -32,7 +32,7 @@
     {% endif %}
     {% if site.author.twitter and site.footer-links-active.twitter %}
     <li class="px-2">
-      <a class="link--text" href="https://twitter.com/{{ site.author.twitter }}" title="Twitter">
+      <a class="link--subduedDark" href="https://twitter.com/{{ site.author.twitter }}" title="Twitter">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -42,7 +42,7 @@
     {% endif %}
     {% if site.author.email and site.footer-links-active.email %}
     <li class="px-2">
-      <a class="link--text" href="mailto:{{ site.author.email }}" title="Email me">
+      <a class="link--subduedDark" href="mailto:{{ site.author.email }}" title="Email me">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -52,7 +52,7 @@
     {% endif %}
     {% if site.author.stackoverflow and site.footer-links-active.stackoverflow %}
     <li class="px-2">
-      <a class="link--text" href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" title="StackOverflow">
+      <a class="link--subduedDark" href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" title="StackOverflow">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
@@ -62,7 +62,7 @@
     {% endif %}
     {% if site.footer-links-active.rss %}
     <li class="px-2">
-        <a class="link--text" href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
+        <a class="link--subduedDark" href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -72,6 +72,6 @@
     {% endif %}		  
   </ul>
   <p class="text-center text-sm lg:text-base mb-0">
-    &copy; {{ site.time | date: '%Y' }} : <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+    &copy; {{ site.time | date: '%Y' }} : <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
   </p>
 </footer>

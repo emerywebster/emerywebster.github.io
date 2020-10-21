@@ -6,12 +6,12 @@
 
 a,
 .link {
-	color: $teal-600;
+	color: var(--link);
 	text-decoration: none;
 	&:hover,
 	&:focus,
 	&:active {
-		color: $teal-700;
+		color: var(--link-hover);
 		text-decoration: none;
 	}
 }
@@ -22,34 +22,71 @@ a,
 
 .link--dotted {
 	border-bottom: 1px dotted $gray-500;
-	color: $gray-800;
 }
 
 .link--highlight {
-	background: linear-gradient(to bottom, transparent 0%, transparent 60%, $teal-200 60%, $teal-200 100%);
-	color: $c-text;
+	background: linear-gradient(
+		to bottom,
+		transparent 0%,
+		transparent 65%,
+		var(--link-highlight) 65%,
+		var(--link-highlight) 100%
+	);
+	color: var(--text-primary);
 	&:hover,
 	&:focus,
 	&:active {
-		background: linear-gradient(to bottom, transparent 0%, transparent 0%, $teal-200 0%, $teal-200 100%);
+		background: linear-gradient(
+			to bottom,
+			transparent 0%,
+			transparent 0%,
+			var(--link-highlight) 0%,
+			var(--link-highlight) 100%
+		);
 		border: 0;
-		color: $c-text;
+		color: var(--text-primary);
 	}
 	&:visited,
 	&[data-visited] {
-		background: linear-gradient(to bottom, transparent 0%, transparent 60%, $gray-400 60%, $gray-400 100%);
+		background: linear-gradient(
+			to bottom,
+			transparent 0%,
+			transparent 65%,
+			var(--link-highlight-visited) 65%,
+			var(--link-highlight-visited) 100%
+		);
 		&:hover,
 		&:focus,
 		&:active {
-			background: linear-gradient(to bottom, transparent 0%, transparent 0%, $gray-400 0%, $gray-400 100%);
+			background: linear-gradient(
+				to bottom,
+				transparent 0%,
+				transparent 0%,
+				var(--link-highlight-visited) 0%,
+				var(--link-highlight-visited) 100%
+			);
 			border: 0;
 		}
 	}
 }
 
-.link--text {
-	color: $c-text;
+.link--subdued {
+	color: var(--link-subdued);
 	&:hover {
-		color: $teal-600;
+		color: var(--link-subdued-hover);
+	}
+}
+
+.link--subduedDark {
+	color: var(--link-subduedDark);
+	&:hover {
+		color: var(--link-subduedDark-hover);
+	}
+}
+
+.link--text {
+	color: var(--link-text);
+	&:hover {
+		color: var(--link-text-hover);
 	}
 }

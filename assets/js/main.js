@@ -19,3 +19,10 @@ for (i = 0; i < links.length; i++) {
 		link.dataset.visited = true;
 	}
 }
+
+const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+if (prefersDarkScheme.matches) {
+	document.body.classList.add('dark-theme');
+} else {
+	document.body.classList.remove('dark-theme');
+}
