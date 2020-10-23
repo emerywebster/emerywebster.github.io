@@ -1,35 +1,14 @@
 ---
 layout: base
 common-ext-css:
-  - "/assets/css/vendor/ssk.css"
   - "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 ---
 
 {% include header.html type="post" %}
-<div class="ssk-sticky ssk-left ssk-center ssk-lg">
-  <a href="" class="ssk ssk-twitter" data-text="{{ page.title }}"></a>
-  <a href="" class="ssk ssk-facebook"></a>
-  <a href="" class="ssk ssk-linkedin"></a>
-</div>
 <div class="max-w-screen-md mx-auto px-4">
   <article role="main" class="text-lg mb-20">
-    <div class="top-share ssk-group">
-      <a href="" class="ssk ssk-text ssk-twitter" data-text="{{ page.title }}">Tweet</a>
-      <a href="" class="ssk ssk-text ssk-facebook">Share</a>
-      <a href="" class="ssk ssk-text ssk-linkedin">Share</a>
-    </div>
     {{ content }}
   </article>
-	  	  
-  <!-- <div class="flex justify-between items-center my-10">
-    {% if page.previous.url %}
-      <a class="btn btn--primary" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-    {% endif %}
-    {% if page.next.url %}
-      <a class="btn btn--primary" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-    {% endif %}
-  -->
-
 </div>
 
 {% if page.comments %}
@@ -37,6 +16,3 @@ common-ext-css:
   {% include disqus.html %}
 </div>
 {% endif %}
-
-<!-- SSK -->
-{% include ssk.html %}
