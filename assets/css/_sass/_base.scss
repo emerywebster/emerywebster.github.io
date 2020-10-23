@@ -147,6 +147,12 @@ img {
 	max-width: 100%;
 }
 
+// ----- Inputs ----- //
+
+input[type="text"] {
+	-webkit-appearance: none;
+}
+
 // ----- Selection ----- //
 
 ::-moz-selection,
