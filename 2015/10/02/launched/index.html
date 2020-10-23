@@ -20,7 +20,7 @@
     
       <link rel="stylesheet" href="/assets/css/vendor/ssk.css" />
     
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     
       
   
@@ -73,18 +73,18 @@
     <div class="content pt-16">
       <div class="content-body">
         <nav id="header" class="nav">
-  <div class="nav-bar">
-    <a class="link--subdued text-sm sm:text-base font-bold lg:p-3" href="http://emerywebster.com">Webb Henderson</a>
+  <div class="nav-bar container mx-auto">
+    <a class="link--subdued text-sm font-bold lg:p-3" href="http://emerywebster.com">Webb Henderson</a>
 
     <button onclick="toggleMenu()" id="menuButton" type="button" class="font-bold link--subdued text-sm lg:text-base sm:hidden px-2 py-1 border border-gray-400 dark:border-gray-700 rounded">
       <span class="sr-only">Toggle navigation</span>
       <i id="menuIcon" class="fa fa-bars fa-fw mr-1"></i>
       Menu
     </button>
-    <ul class="hidden sm:flex">
+    <ul class="hidden text-sm sm:flex">
       
       
-      <li class="p-3">
+      <li>
         
             
 
@@ -92,13 +92,13 @@
 
 
 
-<a class="link--subdued font-bold" href="/">Work</a>
+<a class="link--subdued font-bold p-3" href="/">Work</a>
 
       </li>
       
       
       
-      <li class="p-3">
+      <li>
         
             
 
@@ -106,13 +106,13 @@
 
 
 
-<a class="link--subdued font-bold" href="/thoughts">Writing</a>
+<a class="link--subdued font-bold p-3" href="/thoughts">Writing</a>
 
       </li>
       
       
       
-      <li class="p-3">
+      <li>
         
             
 
@@ -120,13 +120,13 @@
 
 
 
-<a class="link--subdued font-bold" href="/about">About</a>
+<a class="link--subdued font-bold p-3" href="/about">About</a>
 
       </li>
       
       
       
-      <li class="p-3">
+      <li>
         
             
 
@@ -134,7 +134,7 @@
 
 
 
-<a class="link--subdued font-bold" href="/contact">Contact</a>
+<a class="link--subdued font-bold p-3" href="/contact">Contact</a>
 
       </li>
       
@@ -153,7 +153,7 @@
 
 
 
-<a class="link--subdued font-bold" href="/">Work</a>
+<a class="link--subdued font-bold p-3" href="/">Work</a>
 
         </li>
       
@@ -167,7 +167,7 @@
 
 
 
-<a class="link--subdued font-bold" href="/thoughts">Writing</a>
+<a class="link--subdued font-bold p-3" href="/thoughts">Writing</a>
 
         </li>
       
@@ -181,7 +181,7 @@
 
 
 
-<a class="link--subdued font-bold" href="/about">About</a>
+<a class="link--subdued font-bold p-3" href="/about">About</a>
 
         </li>
       
@@ -195,7 +195,7 @@
 
 
 
-<a class="link--subdued font-bold" href="/contact">Contact</a>
+<a class="link--subdued font-bold p-3" href="/contact">Contact</a>
 
         </li>
       
@@ -253,55 +253,45 @@ SocialShareKit.init();
 </script>
       </div>
     </div>
-    <footer class="bg-gray-100 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-800 p-10">
-  <ul class="flex justify-center text-sm lg:text-base">
-    
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://linkedin.com/in/emerywebster" title="LinkedIn">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    
-    
-    
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://github.com/emerywebster" title="GitHub">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    
-    
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://twitter.com/emerywebster" title="Twitter">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    
-    
-    <li class="px-2">
-      <a class="link--subduedDark" href="mailto:webb.henderson@gmail.com" title="Email me">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    
-    
-    		  
-  </ul>
-  <p class="text-center text-sm lg:text-base mb-0">
-    © 2020 : <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
-  </p>
+    <footer class="container mx-auto pt-24 pb-8">
+  <div class="flex items-center justify-between px-3">
+    <ul class="flex">
+      
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="https://linkedin.com/in/emerywebster" title="LinkedIn">
+          <i class="fa fa-linkedin fa-lg"></i>
+        </a>
+      </li>
+      
+      
+      
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="https://github.com/emerywebster" title="GitHub">
+          <i class="fa fa-github fa-lg"></i>
+        </a>
+      </li>
+      
+      
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="https://twitter.com/emerywebster" title="Twitter">
+          <i class="fa fa-twitter fa-lg"></i>
+        </a>
+      </li>
+      
+      
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="http://instagram.com/emerywebster" title="Email me">
+          <i class="fa fa-instagram fa-lg"></i>
+        </a>
+      </li>
+      
+      
+      		  
+    </ul>
+    <span class="text-sm">
+      Hosted by <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+    </span>
+  </div>
 </footer>
 
     
