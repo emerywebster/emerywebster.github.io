@@ -51,6 +51,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 #### People I know
 
 - [Alex King](http://alexking.org)
+- [Andrew Austin](https://dribbble.com/andrewjaustin)
 - [Ben Anderson](http://design-pathology.com)
 - [Courtney Bregar](http://courtneybregar.com)
 - [Devin Reams](http://devin.reams.me)
@@ -61,6 +62,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 - [Michael Lopp](http://randsinrepose.com)
 - [Nam Nguyen](http://nam-ux.com)
 - [Rona Kilmer](http://ronakilmer.com)
+- [Sandy Sage](http://sandysage.com)
 
 #### People I follow
 
