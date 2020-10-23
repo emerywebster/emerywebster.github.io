@@ -1,77 +1,58 @@
-<footer class="bg-gray-100 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-800 p-10">
-  <ul class="flex justify-center text-sm lg:text-base">
-    {% if site.author.linkedin and site.footer-links-active.linkedin %}
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://linkedin.com/{{ site.author.linkedin }}" title="LinkedIn">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-    {% if site.author.facebook and site.footer-links-active.facebook %}
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-    {% if site.author.github and site.footer-links-active.github %}
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://github.com/{{ site.author.github }}" title="GitHub">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-    {% if site.author.twitter and site.footer-links-active.twitter %}
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://twitter.com/{{ site.author.twitter }}" title="Twitter">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-    {% if site.author.email and site.footer-links-active.email %}
-    <li class="px-2">
-      <a class="link--subduedDark" href="mailto:{{ site.author.email }}" title="Email me">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-    {% if site.author.stackoverflow and site.footer-links-active.stackoverflow %}
-    <li class="px-2">
-      <a class="link--subduedDark" href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" title="StackOverflow">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-    {% if site.footer-links-active.rss %}
-    <li class="px-2">
-        <a class="link--subduedDark" href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-          </span>
+<footer class="container mx-auto pt-24 pb-8">
+  <div class="flex items-center justify-between px-3">
+    <ul class="flex">
+      {% if site.author.linkedin and site.footer-links-active.linkedin %}
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="https://linkedin.com/{{ site.author.linkedin }}" title="LinkedIn">
+          <i class="fa fa-linkedin fa-lg"></i>
         </a>
-      </li>		
-    {% endif %}		  
-  </ul>
-  <p class="text-center text-sm lg:text-base mb-0">
-    &copy; {{ site.time | date: '%Y' }} : <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/blob/master/LICENSE.md">License</a> : Hosted by <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
-  </p>
+      </li>
+      {% endif %}
+      {% if site.author.facebook and site.footer-links-active.facebook %}
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook">
+          <i class="fa fa-facebook fa-lg"></i>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.author.github and site.footer-links-active.github %}
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="https://github.com/{{ site.author.github }}" title="GitHub">
+          <i class="fa fa-github fa-lg"></i>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.author.twitter and site.footer-links-active.twitter %}
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="https://twitter.com/{{ site.author.twitter }}" title="Twitter">
+          <i class="fa fa-twitter fa-lg"></i>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.author.email and site.footer-links-active.email %}
+      <li class="px-1">
+        <a class="link--subduedDark p-2" href="http://instagram.com/{{ site.author.instagram }}" title="Email me">
+          <i class="fa fa-instagram fa-lg"></i>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.author.stackoverflow and site.footer-links-active.stackoverflow %}
+      <li class="px-1">
+        <a class="link--subduedDark" href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" title="StackOverflow">
+          <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.footer-links-active.rss %}
+      <li class="px-1">
+          <a class="link--subduedDark" href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+          </a>
+        </li>		
+      {% endif %}		  
+    </ul>
+    <span class="text-sm">
+      Hosted by <a class="link--dotted link--subdued" href="https://github.com/emerywebster/emerywebster.github.io/">GitHub</a>.
+    </span>
+  </div>
 </footer>
