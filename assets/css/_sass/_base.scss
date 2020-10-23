@@ -60,13 +60,14 @@ hr {
 }
 
 li {
+	font-weight: 300;
 	margin-bottom: 0.15em;
 }
 
 p {
 	line-height: 1.5;
 	margin: 24px 0;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 // ----- Headings ----- //
@@ -102,6 +103,10 @@ h4 {
 	color: var(--text-secondary);
 	margin-top: 24px;
 	margin-bottom: 8px;
+}
+
+strong {
+	font-weight: 700;
 }
 
 // ----- Code ----- //
