@@ -11,12 +11,10 @@ common-js:
 <html lang="en">
   {% include head.html %}
   <body>
-    <div class="content pt-16">
-      <div class="content-body">
-        {% include nav.html %}
-        {{ content }}
-      </div>
-    </div>
+    {% include nav.html %}
+    <main class="content pt-16">
+      {{ content }}
+    </main>
     {% include footer.html %}
     {% include footer-scripts.html %}
   </body>

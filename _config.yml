@@ -23,7 +23,7 @@ description: Webb Henderson is a Product Designer based in Denver Colorado. He p
 
 # List of links in the navigation bar
 navbar-links:
-  Work: ''
+  Work: '#work-samples'
   Writing: 'thoughts'
   About: 'about'
   Contact: 'contact'
