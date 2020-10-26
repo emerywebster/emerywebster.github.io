@@ -2,7 +2,6 @@
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: 'http://emerywebster.com'
 baseurl: ''
@@ -11,13 +10,8 @@ baseurl: ''
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
 
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
-title: User Experience Design Portfolio of Webb Henderson
-
-# Short description of your site
-description: Webb Henderson is a Product Designer based in Denver Colorado. He practices User Research, Information Architecture, and Interaction Design for mobile and the web.
+title: Webb Henderson - Product Designer in Denver, CO
+description: Webb Henderson is a product designer based in Denver Colorado. He specializes in user research, problem & solution validation, prototyping, and front end development for startups.
 
 # --- Navigation bar options --- #
 
