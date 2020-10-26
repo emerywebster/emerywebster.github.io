@@ -27,7 +27,7 @@
     </ul>
   </div>
 
-  <ul id="mobileMenu" class="mobileMenu hidden">
+  <ul id="mobileMenu" class="mobileMenu hidden" onclick="toggleMenu()">
     {% for link in site.navbar-links %}
       {% if link[1].first %}
         <li class="px-4 py-3">
@@ -43,8 +43,8 @@
           {% include navbarlink.html link=link %}
         </li>
       {% endif %}
-      {% endfor %}
-    </ul>
+    {% endfor %}
+  </ul>
 
 	{% if site.avatar and (layout.show-avatar or page.show-avatar) %}
 	<div class="avatar-container">
