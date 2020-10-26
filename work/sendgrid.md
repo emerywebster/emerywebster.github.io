@@ -4,6 +4,8 @@ title: SendGrid Email Marketing
 permalink: work/sendgrid
 intro: In early 2017, I took some time to review the email marketing experience for SendGrid - a communication platform for transactional (API-based) and marketing emails. 
 quote: Imagine that you are a design intern at a new marketing agency. Your boss has asked at the last minute that you put together an email to send to about 100 clients announcing your upcoming holiday event. You have very limited experience with HTML or sending emails and the agency doesn’t have an email tool in place yet. So you set off to Google to find a tool and stumble upon SendGrid.
+common-css:
+  - "/assets/css/vendor/highlight.css"
 ---
 
 ### The Challenge
