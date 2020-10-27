@@ -18,7 +18,7 @@ permalink: work/truecoach/nutrition
 
 {: .flex .justify-center }
 <a href="https://www.figma.com/proto/u7DaARuVTraNSUOXNTSSiZ/TrueCoach-Nutrition?node-id=332%3A2157&scaling=min-zoom" target="_blank">
-  <img class="mx-auto transition duration-200 ease-in-out transform brighten-5" src="https://user-images.githubusercontent.com/178044/97233662-ec367780-17a4-11eb-81a1-2e044087b3eb.png" width="400" alt="Placeholder image for bodyweight exercises prototype" />
+  <img class="mx-auto transition duration-200 ease-in-out transform scale-1" src="https://user-images.githubusercontent.com/178044/97233662-ec367780-17a4-11eb-81a1-2e044087b3eb.png" width="400" alt="Placeholder image for bodyweight exercises prototype" />
 </a>
 
 ---

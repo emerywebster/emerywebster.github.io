@@ -13,7 +13,7 @@ permalink: work/truecoach/account
 **Outcome –** We reduced 99% of related support costs and saw a slight improvement in average revenue per user and conversion (~1%).
 
 <a class="mb-16" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&viewport=537%2C376%2C0.03125930204987526&scaling=min-zoom" target="_blank">
-  <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg brighten-5" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
+  <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg scale-1" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
 </a>
 
 ---
@@ -105,7 +105,7 @@ From here we were able to refine our user flows and move directly into high fide
 </div>
 
 <a class="mb-16" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&viewport=537%2C376%2C0.03125930204987526&scaling=min-zoom" target="_blank">
-  <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg brighten-5" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
+  <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg scale-1" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
 </a>
 
 ---
