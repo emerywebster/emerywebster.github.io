@@ -9,7 +9,7 @@ permalink: work/truecoach/payments
 
 **Outcome –** Since launching in late 2019, we've seen 22% adoption among our US-based customers and processed hundreds of thousands of coach/client transactions. The revenue potential is also on pace to outgrow our original subscription model within the next 2-3 years.
 
-<a href="https://user-images.githubusercontent.com/178044/97262081-ca111980-17e5-11eb-8f9d-f26a85746183.png"><img src="https://user-images.githubusercontent.com/178044/97262081-ca111980-17e5-11eb-8f9d-f26a85746183.png" alt="TrueCoach payments dashboard and product creation views"></a>
+<a href="https://user-images.githubusercontent.com/178044/97358290-ad65f780-1860-11eb-9b1e-6a7e4a4a23bf.png"><img src="https://user-images.githubusercontent.com/178044/97358290-ad65f780-1860-11eb-9b1e-6a7e4a4a23bf.png" alt="TrueCoach payments dashboard and product creation views"></a>
 
 ---
 
