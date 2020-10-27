@@ -13,5 +13,15 @@ permalink: work/truecoach/payments
 
 ---
 
+#### My Role
+
+We began working on TrueCoach Payments in late 2018 when we were still a scrappy team of 8 (and an engineering team of 6). I led user research, ideation, prototyping, and development for the "front of the front end".
+
+In 2019, I began working closely with our iOS team to deliver client-specific features. Soon we hired <a href="http://twitter.com/joeymurdah/" class="link--highlight">another talented designer</a> to share ownership of our mobile experiences and design solutions for Android.
+
+Payments quickly became a core feature of our platform, and we are constantly gathering feedback, iterating, and building upon it.
+
+---
+
 {: .text-gray-600 .text-center }
 More context coming soon.
