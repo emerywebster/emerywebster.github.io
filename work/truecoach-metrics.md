@@ -26,7 +26,7 @@ I led research and design, which included:
 - Interviewing and observing how coaches approached these problems at the time.
 - Drafting new concepts via whiteboarding, sketches, and mockups.
 - Prototyping, testing, and validating solutions with customers prior to development.
-- Dev assists (mostly `css` and templating contributions for Ember components).
+- Dev assists (mostly `css` and templating contributions to <a href="https://emberjs.com/" class="link--highlight">Ember</a> components).
 - Responding to wins and shortcomings via <a href="http://intercom.com" class="link--highlight">Intercom</a>.
 
 ---
