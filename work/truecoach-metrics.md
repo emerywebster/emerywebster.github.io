@@ -3,9 +3,9 @@ layout: page
 title: Measuring athlete performance
 permalink: work/truecoach/metrics
 ---
-**Problem –** When I first joined the team, our coaches were still using spreadsheets to track their athlete's performance and progression. This made theme less efficient and less effective when developing training programs.
+**Problem –** When I first joined the team, our coaches were still using spreadsheets to track their athlete's performance and progression. Using multiple tools to plan and build a client's training programs made them less efficient and less effective.
 
-**Solution –** After learning how and why our coaches needed to track their athletes' goals and progression, we delivered <a href="https://truecoach.co/features/metrics/" class="link--highlight">Metrics</a> – a tool that provided the history and background coaches needed while planning and programming. 
+**Solution –** After gaining a deeper understanding of how and why coaches needed to track their clients' progression, we delivered <a href="https://truecoach.co/features/metrics/" class="link--highlight">Metrics</a> – a tool that provided the history and background coaches needed while planning and programming. 
 
 **Outcome –** Outside of workout creation and delivery, metrics quickly became our most popular supplemental coaching feature.
 
