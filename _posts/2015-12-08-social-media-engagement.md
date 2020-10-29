@@ -17,7 +17,7 @@ For some reason I didn't expect to get a response at all. I'm not sure why. Dan 
 
 My point is that even quick and seemingly insignificant touch points like this can leave your readers/users/fans/whatever feeling pretty special. 
 
-[Gary Vaynerchuk](http://twitter.com/garyvee) is the king of this kind of thing&mdash;constantly building and engaging with his audience/customer/community through various social touchpoints. About a year ago I was looking for a video interview of him and reached out to see if he could point me in the right direction. Within _minutes_ he reached back to me, cc'ing a partner/employee of his to help me out. I had the video link within 20 minutes[^1].
+[Gary Vaynerchuk](http://twitter.com/garyvee) is the king of this kind of thing&mdash;constantly building and engaging with his audience/customer/community through various social touchpoints. About a year ago I was looking for a video interview of him and reached out to see if he could point me in the right direction. Within _minutes_ he reached back to me, cc'ing a partner/employee of his to help me out. I had the video link within 20 minutes [^1].
 
 This is a guy with _millions_ of social connections, running multiple businesses, and is likely much busier than most people. He's basically moving 120mph 120% of the time...so it was reassuring to see that he walked the talk when I raised my hand.
 
@@ -27,5 +27,7 @@ One of my favorite quotes of his:
 
 I highly recommend you give him a follow on [Twitter](http://twitter.com/garyvee) and [Medium](https://medium.com/@garyvee). After digging a bit I'm sure you'll learn something new (and understand why he's so successful).
 
-[^1]: Watch the video here: [Author and Entrepreneur Gary VaynerChuk | The Cain Conversation](https://www.youtube.com/watch?v=lsqaqRBTj_s). GREAT interview.
+---
+
+[^1]: GREAT interview with Gary Vaynerchuk: [The Cain Conversation](https://www.youtube.com/watch?v=lsqaqRBTj_s).
 [^2]: From [Why Advice from Gurus is Mostly Meaningless](https://medium.com/@garyvee/why-listening-to-gurus-won-t-change-your-lifestyle-cea34330ae76#.ca5l08wrp).
