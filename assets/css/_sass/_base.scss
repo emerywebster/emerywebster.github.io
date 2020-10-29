@@ -155,11 +155,14 @@ input[type="text"] {
 
 // ----- Selection ----- //
 
-::-moz-selection,
+::-moz-selection {
+	background: var(--text-primary);
+	color: var(--bg-primary);
+}
+
 ::selection {
-	background-color: $teal-500;
-	color: $white;
-	text-shadow: none;
+	background: var(--text-primary);
+	color: var(--bg-primary);;
 }
 
 // ----- Tables ----- //
