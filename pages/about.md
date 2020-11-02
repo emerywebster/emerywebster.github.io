@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 feature-img: "img/beav.jpg"
 ---
-Oh hey. I'm Webb &ndash; I live in Denver, Colorado and spend most of my time thinking about difficult problems so users don't have to.
+Oh hey :wave: I'm Webb &ndash; I live in Denver, Colorado and spend most of my time thinking about difficult problems so users don't have to.
 
 If you'd like to discuss a project, [give me a shout](/contact).
 
