@@ -1,7 +1,6 @@
 // *************************************
 //
 //   Colors
-//   TODO: set up CSS variables & dark mode
 //
 // *************************************
 
@@ -136,7 +135,6 @@ $shadow-form-dark: inset 0 1px 0 $black;
 	--shadow-form: #{$shadow-form-light};
 	--shadow-large: #{$shadow-large-light};
 	--shadow-outline: #{$teal-200};
-
 }
 
 .dark-theme {
@@ -179,5 +177,4 @@ $shadow-form-dark: inset 0 1px 0 $black;
 	--shadow-form: #{$shadow-form-dark};
 	--shadow-large: #{$shadow-large-dark};
 	--shadow-outline: #{$teal-900};
-
 }
