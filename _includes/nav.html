@@ -1,8 +1,7 @@
 <nav id="header" class="nav">
-  <div class="nav-bar container mx-auto">
-    <a class="link--subdued text-sm font-bold lg:p-3" href="{{ site.url }}">Webb Henderson</a>
-
-    <button onclick="toggleMenu()" id="menuButton" type="button" class="font-bold link--subdued text-sm lg:text-base sm:hidden px-2 py-1 border border-gray-400 dark:border-gray-700 rounded">
+  <div class="container flex justify-between items-center mx-auto px-4">
+    <a class="link--subdued text-sm font-bold py-3" href="{{ site.url }}">Webb Henderson</a>
+    <button onclick="toggleMenu()" id="menuButton" type="button" class="font-bold link--subdued text-sm lg:text-base sm:hidden px-2 py-1 my-3 border border-gray-400 dark:border-gray-700 rounded">
       <span class="sr-only">Toggle navigation</span>
       <i id="menuIcon" class="fa fa-bars fa-fw mr-1"></i>
       Menu
@@ -27,7 +26,7 @@
     </ul>
   </div>
 
-  <ul id="mobileMenu" class="mobileMenu hidden" onclick="toggleMenu()">
+  <ul id="mobileMenu" class="nav-mobileMenu hidden" onclick="toggleMenu()">
     {% for link in site.navbar-links %}
       {% if link[1].first %}
         <li class="px-4 py-3">
@@ -45,14 +44,4 @@
       {% endif %}
     {% endfor %}
   </ul>
-
-	{% if site.avatar and (layout.show-avatar or page.show-avatar) %}
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	    <a href="/">
-	      <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
-		</a>
-	  </div>
-	</div>
-	{% endif %}
 </nav>

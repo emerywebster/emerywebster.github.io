@@ -1,7 +1,6 @@
 // *************************************
 //
 //   Nav
-//   TODO: refactor to BEM
 //
 // *************************************
 
@@ -13,111 +12,23 @@
 	width: 100%;
 	z-index: 1;
 }
-
-.nav-bar {
-	align-items: center;
-	display: flex;
-	height: 4rem;
-	justify-content: space-between;
-	padding: 12px 16px;
-}
-
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
 	.nav {
-		-webkit-backdrop-filter: blur(10px);
-		backdrop-filter: blur(10px);
-		background-color: rgba(var(--bg-primaryRGBA), 0.8);
+		-webkit-backdrop-filter: blur(5px);
+		backdrop-filter: blur(5px);
+		background-color: rgba(var(--bg-primaryRGBA), 0.9);
 	}
 }
 
-@media only screen and (min-width: 640px) {
-	.header {
-		padding: 20px;
-	}
-}
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
 
-@media only screen and (min-width: 640px) {
-	.mobileMenu {
-		display: none;
-	}
-}
-
-.mobileMenu {
+.nav-mobileMenu {
 	border-bottom: 1px solid var(--border-primary);
 }
-
-.avatar-container {
-	opacity: 1;
-	position: absolute;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
-	left: 50%;
-	width: 50px;
-	margin-top: -25px;
-
-	.avatar-img-border {
-		width: 100%;
-		border-radius: 50%;
-		margin-left: -50%;
-		display: inline-block;
-		box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-		-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-	}
-
-	.avatar-img {
-		width: 100%;
-		border-radius: 50%;
-		display: block;
-	}
-
-	&.top-nav-short .avatar-container {
-		opacity: 0;
-	}
-
-	&.top-nav-expanded .avatar-container {
+@media only screen and (min-width: 640px) {
+	.nav-mobileMenu {
 		display: none;
-	}
-}
-
-.navbar-brand {
-	font-size: 18px;
-}
-
-@media only screen and (max-width: 768px) {
-	.navbar-brand {
-		font-size: 0.75em;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.navbar-custom {
-		padding: 20px 0;
-		-webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-		-moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-		transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-
-		&.top-nav-short {
-			padding: 0;
-		}
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.navbar-custom .avatar-container {
-		width: 100px;
-		margin-top: -50px;
-
-		.avatar-img-border {
-			width: 100%;
-			box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-			-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-			-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-		}
-
-		.avatar-img {
-			width: 100%;
-		}
 	}
 }

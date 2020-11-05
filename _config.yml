@@ -22,10 +22,6 @@ navbar-links:
   About: 'about'
   Contact: 'contact'
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: /assets/img/avatar.jpg
-
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -84,7 +80,6 @@ defaults:
       path: '' # all files
     values:
       layout: 'page'
-      show-avatar: false
 
 sass:
   sass_dir: /assets/css/_sass
