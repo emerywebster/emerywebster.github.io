@@ -5,6 +5,6 @@
     "tailwindcss": "^1.9.6"
   },
   "devDependencies": {
-    "postcss-scss": "^3.0.2"
+    "postcss-scss": "^3.0.4"
   }
 }
