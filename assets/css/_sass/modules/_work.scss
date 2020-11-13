@@ -6,27 +6,27 @@
 // *************************************
 
 .work-intro {
-	background-color: $gray-900;
-	color: $white;
-	padding: 48px 0;
-	margin-bottom: 40px;
+  background-color: $gray-900;
+  color: $white;
+  padding: 48px 0;
+  margin-bottom: 40px;
 
-	a {
-		color: $white;
-		text-decoration: none;
-		border-bottom: 1px dashed $white;
-	}
+  a {
+    color: $white;
+    text-decoration: none;
+    border-bottom: 1px dashed $white;
+  }
 
-	blockquote {
-		font-size: 18px;
-		background: $gray-800;
-		border-color: $gray-700;
-		color: $gray-300;
-		margin-bottom: 0;
-		margin-top: 32px;
-	}
+  blockquote {
+    font-size: 18px;
+    background: $gray-800;
+    border-color: $gray-700;
+    color: $gray-300;
+    margin-bottom: 0;
+    margin-top: 32px;
+  }
 }
 
 .work-regular p {
-	margin: 40px 0;
+  margin: 40px 0;
 }

@@ -5,19 +5,19 @@
 // *************************************
 
 .nav {
-	background-color: var(--bg-primary);
-	border-bottom: 1px solid var(--border-primary);
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1;
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border-primary);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-	.nav {
-		-webkit-backdrop-filter: blur(5px);
-		backdrop-filter: blur(5px);
-		background-color: rgba(var(--bg-primaryRGBA), 0.9);
-	}
+  .nav {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(var(--bg-primaryRGBA), 0.9);
+  }
 }
 
 // -------------------------------------
@@ -25,10 +25,10 @@
 // -------------------------------------
 
 .nav-mobileMenu {
-	border-bottom: 1px solid var(--border-primary);
+  border-bottom: 1px solid var(--border-primary);
 }
 @media only screen and (min-width: 640px) {
-	.nav-mobileMenu {
-		display: none;
-	}
+  .nav-mobileMenu {
+    display: none;
+  }
 }

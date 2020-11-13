@@ -33,12 +33,13 @@
   padding: 12px 32px;
   transition: all 0.3s ease;
   &:hover,
-	&:focus {
-    box-shadow: 0 6px 12px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  &:focus {
+    box-shadow: 0 6px 12px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
     transform: translate(0, -2px);
-	}
+  }
 }
 
 .btn--wide {
-	width: 100%;
+  width: 100%;
 }

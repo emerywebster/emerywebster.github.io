@@ -6,19 +6,19 @@
 // *************************************
 
 html {
-	font-size: 1rem;
-	height: 100%;
+  font-size: 1rem;
+  height: 100%;
 }
 
 body {
-	font-family: $font-body;
-	font-size: 1rem;
-	height: 100%;
-	color: var(--text-primary);
-	position: relative;
-	background: var(--bg-primary);
-	display: flex;
-	flex-direction: column;
+  font-family: $font-body;
+  font-size: 1rem;
+  height: 100%;
+  color: var(--text-primary);
+  position: relative;
+  background: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
 }
 
 // -------------------------------------
@@ -27,51 +27,51 @@ body {
 
 // TODO: untangle this
 blockquote {
-	background: var(--bg-secondary);
-	border-left: 6px solid $gray-300;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	color: var(--text-secondary);
-	font-size: 22px;
-	font-style: italic;
-	padding: 24px 32px;
-	margin-bottom: 32px;
-	small {
-		display: inline-block;
-		margin: 0.8em 0 0.8em 1.5em;
-		font-size: 0.9em;
-		color: $gray-400;
-		&:before {
-			content: '\2014 \00A0';
-		}
-	}
-	cite {
-		font-weight: 700;
-		a {
-			font-weight: normal;
-		}
-	}
-	p {
-		margin: 0;
-		font-size: 20px;
-		font-weight: 500;
-	}
+  background: var(--bg-secondary);
+  border-left: 6px solid $gray-300;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 22px;
+  font-style: italic;
+  padding: 24px 32px;
+  margin-bottom: 32px;
+  small {
+    display: inline-block;
+    margin: 0.8em 0 0.8em 1.5em;
+    font-size: 0.9em;
+    color: $gray-400;
+    &:before {
+      content: "\2014 \00A0";
+    }
+  }
+  cite {
+    font-weight: 700;
+    a {
+      font-weight: normal;
+    }
+  }
+  p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+  }
 }
 
 hr {
-	border-color: var(--border-primary);
-	margin: 32px 0;
+  border-color: var(--border-primary);
+  margin: 32px 0;
 }
 
 li {
-	font-weight: 300;
-	margin-bottom: 0.15em;
+  font-weight: 300;
+  margin-bottom: 0.15em;
 }
 
 p {
-	line-height: 1.5;
-	margin: 24px 0;
-	font-weight: 300;
+  line-height: 1.5;
+  margin: 24px 0;
+  font-weight: 300;
 }
 
 // ----- Headings ----- //
@@ -82,139 +82,139 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 900;
+  font-weight: 900;
 }
 
 h1 {
-	font-size: 48px;
+  font-size: 48px;
 }
 
 h2 {
-	font-size: 36px;
+  font-size: 36px;
 }
 
 h3 {
-	font-weight: 700;
-	font-size: 28px;
-	margin-top: 24px;
-	margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 h4 {
-	font-weight: 700;
-	font-size: 20px;
-	margin-top: 20px;
-	color: var(--text-secondary);
-	margin-top: 24px;
-	margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  color: var(--text-secondary);
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
 strong {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 // ----- Code ----- //
 
 code {
-	background: var(--bg-code);
-	border-radius: 6px;
-	border: 1px solid var(--border-code);
-	font-family: $font-mono;
-	font-size: 0.85em;
-	padding: 2px 5px;
-	white-space: pre-wrap;
+  background: var(--bg-code);
+  border-radius: 6px;
+  border: 1px solid var(--border-code);
+  font-family: $font-mono;
+  font-size: 0.85em;
+  padding: 2px 5px;
+  white-space: pre-wrap;
 }
 
 pre {
-	border: 1px solid var(--border-code);
-	border-radius: 12px;
-	color: $gray-300;
-	padding: 16px 24px;
-	code {
-		background: none;
-		border: 0;
-	}
+  border: 1px solid var(--border-code);
+  border-radius: 12px;
+  color: $gray-300;
+  padding: 16px 24px;
+  code {
+    background: none;
+    border: 0;
+  }
 }
 
 // ----- Images ----- //
 
 img {
-	&::selection,
-	&::-moz-selection {
-		color: white;
-		background: transparent;
-	}
-	max-width: 100%;
+  &::selection,
+  &::-moz-selection {
+    color: white;
+    background: transparent;
+  }
+  max-width: 100%;
 }
 
 // ----- Inputs ----- //
 
 input[type="text"] {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 // ----- Selection ----- //
 
 ::-moz-selection {
-	background: var(--text-primary);
-	color: var(--bg-primary);
+  background: var(--text-primary);
+  color: var(--bg-primary);
 }
 
 ::selection {
-	background: var(--text-primary);
-	color: var(--bg-primary);;
+  background: var(--text-primary);
+  color: var(--bg-primary);
 }
 
 // ----- Tables ----- //
 
 table {
-	padding: 0;
+  padding: 0;
 
-	tr {
-		border-top: 1px solid $gray-400;
-		background-color: $white;
-		margin: 0;
-		padding: 0;
+  tr {
+    border-top: 1px solid $gray-400;
+    background-color: $white;
+    margin: 0;
+    padding: 0;
 
-		&:nth-child(2n) {
-			background-color: $gray-100;
-		}
+    &:nth-child(2n) {
+      background-color: $gray-100;
+    }
 
-		th {
-			font-weight: bold;
-			border: 1px solid $gray-400;
-			text-align: left;
-			margin: 0;
-			padding: 6px 13px;
-		}
+    th {
+      font-weight: bold;
+      border: 1px solid $gray-400;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
 
-		td {
-			border: 1px solid $gray-400;
-			text-align: left;
-			margin: 0;
-			padding: 6px 13px;
-		}
+    td {
+      border: 1px solid $gray-400;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
 
-		th :first-child,
-		td :first-child {
-			margin-top: 0;
-		}
+    th :first-child,
+    td :first-child {
+      margin-top: 0;
+    }
 
-		th :last-child,
-		td :last-child {
-			margin-bottom: 0;
-		}
-	}
+    th :last-child,
+    td :last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 // TODO: move elsewhere
 .content {
-	flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .page-content {
-	padding-bottom: 64px;
-	ul {
-		list-style: inside;
-	}
+  padding-bottom: 64px;
+  ul {
+    list-style: inside;
+  }
 }

@@ -6,89 +6,89 @@
 // *************************************
 
 .form {
-	max-width: 480px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 40px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .form-group {
-	width: 100%;
-	margin: 14px 0;
+  width: 100%;
+  margin: 14px 0;
 }
 
 ::-webkit-input-placeholder {
-	/* Chrome/Opera/Safari */
-	font-size: 14px;
-	color: $gray-400;
+  /* Chrome/Opera/Safari */
+  font-size: 14px;
+  color: $gray-400;
 }
 
 ::-moz-placeholder {
-	/* Firefox 19+ */
-	font-size: 14px;
-	color: $gray-400;
+  /* Firefox 19+ */
+  font-size: 14px;
+  color: $gray-400;
 }
 
 :-ms-input-placeholder {
-	/* IE 10+ */
-	font-size: 14px;
-	color: $gray-400;
+  /* IE 10+ */
+  font-size: 14px;
+  color: $gray-400;
 }
 
 :-moz-placeholder {
-	/* Firefox 18- */
-	font-size: 14px;
-	color: $gray-400;
+  /* Firefox 18- */
+  font-size: 14px;
+  color: $gray-400;
 }
 
 label {
-	font-size: 14px;
-	font-weight: bold;
-	color: var(--text-secondary);
-	display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--text-secondary);
+  display: inline-block;
 }
 
 .form-control {
-	-webkit-appearance: none;
-	background-color: var(--bg-secondary);
-	border: 1px solid var(--border-primary);
-	border-radius: 4px;
-	box-shadow: var(--shadow-form);
-	font-size: 14px;
-	display: block;
-	height: 40px;
-	padding: 12px;
-	line-height: 1.3333333;
-	transition: none;
-	width: 100%;
-	&:focus {
-		background: var(--bg-primary);
-		border: 1px solid $teal-500;
-		box-shadow: 0 0 0 3px var(--shadow-outline);
-		outline: none;
-	}
+  -webkit-appearance: none;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 4px;
+  box-shadow: var(--shadow-form);
+  font-size: 14px;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  line-height: 1.3333333;
+  transition: none;
+  width: 100%;
+  &:focus {
+    background: var(--bg-primary);
+    border: 1px solid $teal-500;
+    box-shadow: 0 0 0 3px var(--shadow-outline);
+    outline: none;
+  }
 }
 
 input,
 textarea {
-	&:hover {
-		border-color: var(--input-hover);
-	}
+  &:hover {
+    border-color: var(--input-hover);
+  }
 }
 
 textarea.form-control {
-	height: auto;
+  height: auto;
 }
 
 .form {
-	&[disabled],
-	&[readonly] {
-		cursor: not-allowed;
-		background-color: $gray-200;
-	}
+  &[disabled],
+  &[readonly] {
+    cursor: not-allowed;
+    background-color: $gray-200;
+  }
 }
 
 fieldset[disabled] .form-control {
-	cursor: not-allowed;
-	background-color: $gray-200;
+  cursor: not-allowed;
+  background-color: $gray-200;
 }

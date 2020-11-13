@@ -85,8 +85,9 @@ $yellow-900: #744210;
 
 // Shadows
 
-$shadow-large-light: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 40px 80px -20px,
-	rgba(0, 0, 0, 0.3) 0px 20px 50px -30px;
+$shadow-large-light: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+  rgba(50, 50, 93, 0.25) 0px 40px 80px -20px,
+  rgba(0, 0, 0, 0.3) 0px 20px 50px -30px;
 $shadow-large-dark: rgba(0, 0, 0, 0.6) 0px 40px 80px 0px;
 $shadow-form-light: inset 0 1px 0 rgba(225, 228, 232, 0.2);
 $shadow-form-dark: inset 0 1px 0 $black;
@@ -96,85 +97,85 @@ $shadow-form-dark: inset 0 1px 0 $black;
 // -------------------------------------
 
 :root {
-	// ----- Backgrounds ----- //
+  // ----- Backgrounds ----- //
 
-	--bg-primary: #{$white};
-	--bg-primaryRGBA: 255,255,255;
-	--bg-secondary: #{$gray-100};
-	--bg-code: #{$gray-100};
+  --bg-primary: #{$white};
+  --bg-primaryRGBA: 255, 255, 255;
+  --bg-secondary: #{$gray-100};
+  --bg-code: #{$gray-100};
 
-	// ----- Borders ----- //
+  // ----- Borders ----- //
 
-	--border-primary: #{$gray-200};
-	--border-code: #{$gray-300};
+  --border-primary: #{$gray-200};
+  --border-code: #{$gray-300};
 
-	// ----- Text ----- //
+  // ----- Text ----- //
 
-	--text-primary: #{$gray-900};
-	--text-secondary: #{$gray-700};
+  --text-primary: #{$gray-900};
+  --text-secondary: #{$gray-700};
 
-	// ----- Inputs ----- //
+  // ----- Inputs ----- //
 
-	--input-hover: #{$gray-500};
+  --input-hover: #{$gray-500};
 
-	// ----- Links ----- //
+  // ----- Links ----- //
 
-	--link: #{$teal-600};
-	--link-hover: #{$teal-700};
-	--link-highlight: #{$teal-200};
-	--link-highlight-visited: #{$gray-400};
-	--link-subdued: #{$gray-800};
-	--link-subdued-hover: #{$gray-600};
-	--link-subduedDark: #{$gray-800};
-	--link-subduedDark-hover: #{$gray-600};
-	--link-text: #{$gray-900};
-	--link-text-hover: #{$gray-600};
+  --link: #{$teal-600};
+  --link-hover: #{$teal-700};
+  --link-highlight: #{$teal-200};
+  --link-highlight-visited: #{$gray-400};
+  --link-subdued: #{$gray-800};
+  --link-subdued-hover: #{$gray-600};
+  --link-subduedDark: #{$gray-800};
+  --link-subduedDark-hover: #{$gray-600};
+  --link-text: #{$gray-900};
+  --link-text-hover: #{$gray-600};
 
-	// ----- Shadows ----- //
+  // ----- Shadows ----- //
 
-	--shadow-form: #{$shadow-form-light};
-	--shadow-large: #{$shadow-large-light};
-	--shadow-outline: #{$teal-200};
+  --shadow-form: #{$shadow-form-light};
+  --shadow-large: #{$shadow-large-light};
+  --shadow-outline: #{$teal-200};
 }
 
 .dark-theme {
-	// ----- Backgrounds ----- //
+  // ----- Backgrounds ----- //
 
-	--bg-primary: #{$black};
-	--bg-primaryRGBA: 0,0,0;
-	--bg-secondary: #{$gray-900};
-	--bg-code: #{$gray-900};
+  --bg-primary: #{$black};
+  --bg-primaryRGBA: 0, 0, 0;
+  --bg-secondary: #{$gray-900};
+  --bg-code: #{$gray-900};
 
-	// ----- Borders ----- //
+  // ----- Borders ----- //
 
-	--border-primary: #{$gray-900};
-	--border-code: #{$gray-800};
+  --border-primary: #{$gray-900};
+  --border-code: #{$gray-800};
 
-	// ----- Text ----- //
+  // ----- Text ----- //
 
-	--text-primary: #{$gray-100};
-	--text-secondary: #{$gray-500};
+  --text-primary: #{$gray-100};
+  --text-secondary: #{$gray-500};
 
-	// ----- Inputs ----- //
+  // ----- Inputs ----- //
 
-	--input-hover: #{$gray-700};
+  --input-hover: #{$gray-700};
 
-	// ----- Links ----- //
+  // ----- Links ----- //
 
-	--link: #{$teal-400};
-	--link-hover: #{$teal-500};
-	--link-highlight: #{$teal-600};
-	--link-highlight-visited: #{$gray-600};
-	--link-subdued: #{$gray-500};
-	--link-subdued-hover: #{$gray-400};
-	--link-subduedDark: #{$gray-700};
-	--link-subduedDark-hover: #{$gray-600};
-	--link-text: #{$gray-100};
-	--link-text-hover: #{$gray-400};
+  --link: #{$teal-400};
+  --link-hover: #{$teal-500};
+  --link-highlight: #{$teal-600};
+  --link-highlight-visited: #{$gray-600};
+  --link-subdued: #{$gray-500};
+  --link-subdued-hover: #{$gray-400};
+  --link-subduedDark: #{$gray-700};
+  --link-subduedDark-hover: #{$gray-600};
+  --link-text: #{$gray-100};
+  --link-text-hover: #{$gray-400};
 
-	// ----- Shadows ----- //
+  // ----- Shadows ----- //
 
-	--shadow-form: #{$shadow-form-dark};
-	--shadow-large: #{$shadow-large-dark};
-	--shadow-outline: #{$teal-900};
+  --shadow-form: #{$shadow-form-dark};
+  --shadow-large: #{$shadow-large-dark};
+  --shadow-outline: #{$teal-900};
 }
