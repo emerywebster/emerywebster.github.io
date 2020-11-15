@@ -1,0 +1,27 @@
+// *************************************
+//
+//   Typing
+//
+// *************************************
+
+.typed-text {
+  font-weight: 600;
+  margin-right: -6px;
+}
+
+.typed-cursor {
+  animation: blink 0.75s infinite;
+  opacity: 1;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
