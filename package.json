@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8.1.4",
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.7",
     "tailwindcss": "^1.9.6"
   },
   "devDependencies": {
-    "postcss-scss": "^3.0.2"
+    "postcss-scss": "^3.0.4"
   }
 }
