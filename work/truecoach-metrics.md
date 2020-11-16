@@ -13,7 +13,7 @@ permalink: work/truecoach/metrics
 <a href="https://user-images.githubusercontent.com/178044/97395840-6b15d800-18ab-11eb-97d4-e4fbfbfbed38.png"><img src="https://user-images.githubusercontent.com/178044/97395840-6b15d800-18ab-11eb-97d4-e4fbfbfbed38.png" alt="TrueCoach metrics progression tools"></a>
 
 {: .mt-0 }
-<span class="block text-center italic text-sm">Snapshot of coach perspective (left) and athlete perspective (right)</span>
+<span class="block text-center italic text-sm">Metrics view from coach perspective (left) and athlete perspective (right).</span>
 
 ---
 

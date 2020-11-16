@@ -3,17 +3,14 @@ layout: page
 title: Account Management
 permalink: work/truecoach/account
 ---
-
-:point_down: Here is the TLDR. You'll find more context below.
-
 **Problem –** Customers were unable to upgrade their payment plan beyond a set of entry-level options. This caused frustration, slowed revenue growth, and added unnecessary support costs.
 
 **Solution –** Through internal/external research and testing, we designed a series of simple, helpful, and flexible improvements to the `activate` and `manage` account experience.
 
 **Outcome –** We reduced 99% of related support costs and saw a slight improvement in average revenue per user and conversion (~1%).
 
-<a class="mb-16" href="https://www.figma.com/proto/WwEFrpYyYurKdCNAI3zBpB/Activate-and-Upgrade-Copy?node-id=1%3A43&viewport=537%2C376%2C0.03125930204987526&scaling=min-zoom&hide-ui=1" target="_blank">
-  <img class="rounded-2xl shadow-md transition duration-200 ease-in-out transform hover:shadow-lg scale-1" src="https://user-images.githubusercontent.com/178044/96373580-b6511d80-112a-11eb-9bce-1597d7ad6630.png" alt="Placeholder image for TrueCoach account management prototype" />
+<a href="https://user-images.githubusercontent.com/178044/99298005-4952a580-2806-11eb-8de2-5cfcface9e93.png" target="_blank">
+  <img class="transition duration-200 ease-in-out transform scale-1" src="https://user-images.githubusercontent.com/178044/99298005-4952a580-2806-11eb-8de2-5cfcface9e93.png" alt="Placeholder plan activation screenshot" />
 </a>
 
 ---
@@ -59,7 +56,7 @@ While conducting interviews and usability tests with customers, we also uncovere
 😕 Difficulty canceling an account.<br>
 🤷‍♀️ Lack of data to understand why certain customers left.
 
-With this additional research and understanding around the problem, we were able to reframe the problem in ways that benefited both the business and our customers.
+With this additional research and understanding, we were able to reframe the problem in ways that benefited both the business and our customers.
 
 ---
 
@@ -128,7 +125,7 @@ As of mid-2020, we successfully released the first three solutions to customers.
 
 #### Impact & lessons learned
 
-- Trimmed related conversations in <a href="www.intercom.com" target="_blank" class="link--highlight">Intercom</a> by nearly 100%.
+- Trimmed related conversations in <a href="http://intercom.com" target="_blank" class="link--highlight">Intercom</a> by nearly 100%.
 - Saw a slight increase in average revenue per user and conversation rates (although this might be attributable to external factors related to the pandemic).
 - Sharing the problem and solution as a team helped us generate better ideas, increase momentum for the work, and keep the rest of the company informed about the project along the way.
 - Prioritizing and shipping the project incrementally helped us deliver the right solutions faster.
