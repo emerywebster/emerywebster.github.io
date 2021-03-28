@@ -138,44 +138,46 @@ $shadow-form-dark: inset 0 1px 0 $black;
   --shadow-outline: #{$teal-200};
 }
 
-.dark-theme {
-  // ----- Backgrounds ----- //
+@media (prefers-color-scheme: dark) {
+  .dark-theme {
+    // ----- Backgrounds ----- //
 
-  --bg-primary: #{$black};
-  --bg-primaryRGBA: 0, 0, 0;
-  --bg-secondary: #{$gray-900};
-  --bg-code: #{$gray-900};
+    --bg-primary: #{$black};
+    --bg-primaryRGBA: 0, 0, 0;
+    --bg-secondary: #{$gray-900};
+    --bg-code: #{$gray-900};
 
-  // ----- Borders ----- //
+    // ----- Borders ----- //
 
-  --border-primary: #{$gray-900};
-  --border-code: #{$gray-800};
+    --border-primary: #{$gray-900};
+    --border-code: #{$gray-800};
 
-  // ----- Text ----- //
+    // ----- Text ----- //
 
-  --text-primary: #{$gray-100};
-  --text-secondary: #{$gray-500};
+    --text-primary: #{$gray-100};
+    --text-secondary: #{$gray-500};
 
-  // ----- Inputs ----- //
+    // ----- Inputs ----- //
 
-  --input-hover: #{$gray-700};
+    --input-hover: #{$gray-700};
 
-  // ----- Links ----- //
+    // ----- Links ----- //
 
-  --link: #{$teal-400};
-  --link-hover: #{$teal-500};
-  --link-highlight: #{$teal-600};
-  --link-highlight-visited: #{$gray-600};
-  --link-subdued: #{$gray-500};
-  --link-subdued-hover: #{$gray-400};
-  --link-subduedDark: #{$gray-700};
-  --link-subduedDark-hover: #{$gray-600};
-  --link-text: #{$gray-100};
-  --link-text-hover: #{$gray-400};
+    --link: #{$teal-400};
+    --link-hover: #{$teal-500};
+    --link-highlight: #{$teal-600};
+    --link-highlight-visited: #{$gray-600};
+    --link-subdued: #{$gray-500};
+    --link-subdued-hover: #{$gray-400};
+    --link-subduedDark: #{$gray-700};
+    --link-subduedDark-hover: #{$gray-600};
+    --link-text: #{$gray-100};
+    --link-text-hover: #{$gray-400};
 
-  // ----- Shadows ----- //
+    // ----- Shadows ----- //
 
-  --shadow-form: #{$shadow-form-dark};
-  --shadow-large: #{$shadow-large-dark};
-  --shadow-outline: #{$teal-900};
+    --shadow-form: #{$shadow-form-dark};
+    --shadow-large: #{$shadow-large-dark};
+    --shadow-outline: #{$teal-900};
+  }
 }
