@@ -21,14 +21,6 @@ for (i = 0; i < links.length; i++) {
 	}
 }
 
-// Dark mode
-const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-if (prefersDarkScheme.matches) {
-	document.body.classList.add('dark-theme');
-} else {
-	document.body.classList.remove('dark-theme');
-}
-
 // Type effect
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".typed-cursor");

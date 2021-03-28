@@ -11,16 +11,6 @@
   display: inline;
 }
 
-.tldr {
-  border: 1px solid var(--border-primary);
-  box-shadow: var(--shadow-large);
-  border-radius: 16px;
-  padding: 48px;
-  .dark-theme & {
-    background: $gray-900;
-  }
-}
-
 .scale-1 {
   &:hover {
     transform: scale(1.01);
