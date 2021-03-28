@@ -14,7 +14,7 @@ If you'd like to discuss a project, [give me a shout](/contact).
 
 ### Professional stuff
 
-In 2017, I joined [TrueCoach](http://truecoach.co) (then Fitbot) as the first product designer. We grew like crazy and were acquired in March, 2020.
+I'm currently designing financial tools for platform developers at [Moov](http://moov.io). Before Moov, I joined [TrueCoach](http://truecoach.co) (then Fitbot) as the first product designer. We grew like crazy and were acquired in March, 2020.
 
 Before TrueCoach I helped build web and native mobile apps at [ReadyTalk](http://readytalk.com) and consulted with a number of companies in the Denver/Boulder area. 
 
@@ -50,6 +50,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 
 #### People I know
 
+- [Alden Spence](http://alden.works)
 - [Alex King](http://alexking.org)
 - [Andrew Austin](https://dribbble.com/andrewjaustin)
 - [Ben Anderson](http://design-pathology.com)
