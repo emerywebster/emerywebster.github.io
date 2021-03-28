@@ -16,7 +16,8 @@ Made with:
 
 ### Deploy to Github Pages
 
-Based on https://sangsoonam.github.io/2019/02/08/using-git-worktree-to-deploy-github-pages.html
+- [`gh-pages-deploy`](https://github.com/emerywebster/dotfiles/blob/1bcdc59dfbbcc3851ba2506a5e6cfad00b5a1979/system/.function#L35) 
+- Based on https://sangsoonam.github.io/2019/02/08/using-git-worktree-to-deploy-github-pages.html
 
 ### License
 
