@@ -81,8 +81,8 @@ camelcase-css@^2.0.1:
   resolved "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz"
 
 caniuse-lite@^1.0.30001181, caniuse-lite@^1.0.30001196:
-  version "1.0.30001197"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001197.tgz#47ad15b977d2f32b3ec2fe2b087e0c50443771db"
+  version "1.0.30001296"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001296.tgz"
 
 chalk@^2.4.1:
   version "2.4.2"
@@ -264,8 +264,9 @@ jsonfile@^6.0.1:
   version "6.1.0"
   resolved "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
   dependencies:
-    graceful-fs "^4.1.6"
     universalify "^2.0.0"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
 
 lodash.toarray@^4.4.0:
   version "4.4.0"

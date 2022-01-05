@@ -3,9 +3,8 @@ source 'https://rubygems.org'
 require 'json'
 require 'open-uri'
 
-gem 'github-pages', JSON.parse(open('https://pages.github.com/versions.json').read)['github-pages']
-
 group :jekyll_plugins do
+  gem "github-pages"
   gem "jekyll-feed"
   gem "jekyll-mentions"
   gem "jekyll-paginate"
@@ -15,3 +14,5 @@ group :jekyll_plugins do
   gem "jemoji"
 end
 
+
+gem "webrick", "~> 1.7"
