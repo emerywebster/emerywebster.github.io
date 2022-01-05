@@ -50,7 +50,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 
 #### People I know
 
-- [Alden Spence](http://alden.works)
+- [Alden Spence](https://www.alllden.com/)
 - [Alex King](http://alexking.org)
 - [Andrew Austin](https://dribbble.com/andrewjaustin)
 - [Ben Anderson](http://design-pathology.com)
@@ -61,6 +61,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 - [Joey Mazzotta](http://www.detuned.net)
 - [Jonathan Johnson](http://jondavidjohn.com)
 - [Michael Lopp](http://randsinrepose.com)
+- [Morgan Bonham](https://www.morganbonham.com/)
 - [Nam Nguyen](http://nam-ux.com)
 - [Rona Kilmer](http://ronakilmer.com)
 - [Sandy Sage](http://sandysage.com)
