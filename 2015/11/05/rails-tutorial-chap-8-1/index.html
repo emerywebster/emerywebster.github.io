@@ -269,7 +269,7 @@
 
 <p>Initially I struggled with the concept of <code class="language-plaintext highlighter-rouge">params[:whatever]</code>…but after some digging I found that it’s basically just a placeholder for a nested hash (user data submitted through the login form). So <code class="language-plaintext highlighter-rouge">params[:session]</code> translates to <code class="language-plaintext highlighter-rouge">{ password: "foobar", email: "user@example.com" }</code>.</p>
 
-<p>Going further, <code class="language-plaintext highlighter-rouge">params[:session][:email]</code> just points to the submitted email address (and the same could be applied with <code class="language-plaintext highlighter-rouge">...[:password]</code>)<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+<p>Going further, <code class="language-plaintext highlighter-rouge">params[:session][:email]</code> just points to the submitted email address (and the same could be applied with <code class="language-plaintext highlighter-rouge">...[:password]</code>)<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <p>To pound this concept in a little further let’s explain what’s really going on with the punchline in the above code:</p>
 

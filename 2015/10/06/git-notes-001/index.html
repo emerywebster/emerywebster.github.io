@@ -219,7 +219,7 @@
 
 <div class="max-w-screen-md mx-auto px-4">
   <article role="main" class="text-lg mb-20">
-    <p>I use an alias in my <strong>~/.gitconfig</strong> called <code class="language-plaintext highlighter-rouge">git hist</code><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>, which looks like this:</p>
+    <p>I use an alias in my <strong>~/.gitconfig</strong> called <code class="language-plaintext highlighter-rouge">git hist</code><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, which looks like this:</p>
 
 <figure class="highlight"><pre><code class="language-shell" data-lang="shell">hist <span class="o">=</span> log <span class="nt">--graph</span> <span class="nt">--pretty</span><span class="o">=</span>format:<span class="s1">'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset'</span> <span class="nt">--abbrev-commit</span> <span class="nt">--date</span><span class="o">=</span>relative</code></pre></figure>
 
@@ -241,7 +241,7 @@
 <code class="language-plaintext highlighter-rouge">--pretty=format:[options]</code> : show certain details (placeholders) about each commit and format them as specified.</li>
 </ul>
 
-<p>Below is a list of those placeholders used here<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>:</p>
+<p>Below is a list of those placeholders used here<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>:</p>
 
 <ul>
   <li>
@@ -256,7 +256,7 @@
 <code class="language-plaintext highlighter-rouge">%an</code> = author name</li>
 </ul>
 
-<p>Colors are then added  via <code class="language-plaintext highlighter-rouge">%C[color-name]%[text-to-color]%Creset</code><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>.</p>
+<p>Colors are then added  via <code class="language-plaintext highlighter-rouge">%C[color-name]%[text-to-color]%Creset</code><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>.</p>
 
 <p><strong>Back to the point</strong> — the whole reason I started down this path is because I didn’t know how or why the refs are shown as they are:</p>
 
