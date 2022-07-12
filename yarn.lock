@@ -81,8 +81,8 @@ camelcase-css@^2.0.1:
   resolved "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz"
 
 caniuse-lite@^1.0.30001196, caniuse-lite@^1.0.30001286:
-  version "1.0.30001296"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001296.tgz"
+  version "1.0.30001365"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001365.tgz"
 
 chalk@^2.4.1:
   version "2.4.2"
