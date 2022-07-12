@@ -46,7 +46,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 
 ---
 
-### Influences & Recommendations
+### Influences & recommendations
 
 #### People I know
 
@@ -83,6 +83,7 @@ You can find me [@emerywebster](http://twitter.com/emerywebster) pretty much eve
 
 #### Books
 
+- [Build](https://www.amazon.com/dp/B09BNJ6GBV/) (Tony Fadell)
 - [Designing Products People Love](https://www.amazon.com/dp/B019YN9WFW/) (Scott Hurff)
 - [Designing with the Mind in Mind](https://www.amazon.com/dp/0124079148/) (Jeff Johnson)
 - [Don't Make Me Think](https://www.amazon.com/dp/0321965515/) & [Rocket Surgery Made Easy](https://www.amazon.com/dp/0321657292/) (Steve Krug)
