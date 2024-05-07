@@ -225,35 +225,26 @@
 
 <p>And outputs as (using this site as an example):</p>
 
-<p><img src="/assets/img/2015-10-06-git-hist.jpg" alt="git hist command output"></p>
+<p><img src="/assets/img/2015-10-06-git-hist.jpg" alt="git hist command output" /></p>
 
 <p>It’s insanely helpful <strong>but I had no idea how it worked (or what it meant)</strong> until just now.</p>
 
 <p>So, here’s a quick look at what I learned:</p>
 
 <ul>
-  <li>
-<code class="language-plaintext highlighter-rouge">hist = log</code> : create/start the alias identical to <code class="language-plaintext highlighter-rouge">git log</code>
-</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">--graph</code> : adds graphic on the left side to ‘illustrate’ commits, merges, rebases, etc.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">--pretty=format:[options]</code> : show certain details (placeholders) about each commit and format them as specified.</li>
+  <li><code class="language-plaintext highlighter-rouge">hist = log</code> : create/start the alias identical to <code class="language-plaintext highlighter-rouge">git log</code></li>
+  <li><code class="language-plaintext highlighter-rouge">--graph</code> : adds graphic on the left side to ‘illustrate’ commits, merges, rebases, etc.</li>
+  <li><code class="language-plaintext highlighter-rouge">--pretty=format:[options]</code> : show certain details (placeholders) about each commit and format them as specified.</li>
 </ul>
 
 <p>Below is a list of those placeholders used here<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>:</p>
 
 <ul>
-  <li>
-<code class="language-plaintext highlighter-rouge">%h</code> = abbreviated hash</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">%d</code> = ref name</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">%s</code> = subject (message in the commit; not decorated)</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">%cr</code> = committer date</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">%an</code> = author name</li>
+  <li><code class="language-plaintext highlighter-rouge">%h</code> = abbreviated hash</li>
+  <li><code class="language-plaintext highlighter-rouge">%d</code> = ref name</li>
+  <li><code class="language-plaintext highlighter-rouge">%s</code> = subject (message in the commit; not decorated)</li>
+  <li><code class="language-plaintext highlighter-rouge">%cr</code> = committer date</li>
+  <li><code class="language-plaintext highlighter-rouge">%an</code> = author name</li>
 </ul>
 
 <p>Colors are then added  via <code class="language-plaintext highlighter-rouge">%C[color-name]%[text-to-color]%Creset</code><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>.</p>
@@ -267,30 +258,26 @@
 <p>Again, after more digging, I’ve found a more concise explanation:</p>
 
 <ul>
-  <li>
-<strong>HEAD</strong> : A reference to the last commit in the current checked out branch (via <a href="http://stackoverflow.com/questions/2529971/what-is-the-head-in-git">Stack Overflow</a>).</li>
-  <li>
-<strong>origin/master</strong> : A reference to the remote you cloned the repo from…and where it will push to.</li>
-  <li>
-<strong>[other]/master</strong> : Additional remotes that you can push to. In the case of Hartl’s rails tutorial, I have one that deploys to heroku via <code class="language-plaintext highlighter-rouge">git push heroku</code>.</li>
-  <li>
-<strong>master</strong> : The branch I’m using and committing to locally.</li>
+  <li><strong>HEAD</strong> : A reference to the last commit in the current checked out branch (via <a href="http://stackoverflow.com/questions/2529971/what-is-the-head-in-git">Stack Overflow</a>).</li>
+  <li><strong>origin/master</strong> : A reference to the remote you cloned the repo from…and where it will push to.</li>
+  <li><strong>[other]/master</strong> : Additional remotes that you can push to. In the case of Hartl’s rails tutorial, I have one that deploys to heroku via <code class="language-plaintext highlighter-rouge">git push heroku</code>.</li>
+  <li><strong>master</strong> : The branch I’m using and committing to locally.</li>
 </ul>
 
 <p>It’s worth noting that I can use <code class="language-plaintext highlighter-rouge">git remote show origin</code> and <code class="language-plaintext highlighter-rouge">git remote show heroku</code> to see where they each point.</p>
 
-<p>Whew! This took a while but even if it doesn’t stick I’ll have a place to jump back to! <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" height="20" width="20"></p>
+<p>Whew! This took a while but even if it doesn’t stick I’ll have a place to jump back to! :octocat:</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>Admittedly I stole much of this from the <a href="http://gitimmersion.com/lab_11.html">GitImmersion tutorial</a> and then again on <a href="https://coderwall.com/p/euwpig/a-better-git-log">coderwall.com</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>Admittedly I stole much of this from the <a href="http://gitimmersion.com/lab_11.html">GitImmersion tutorial</a> and then again on <a href="https://coderwall.com/p/euwpig/a-better-git-log">coderwall.com</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
-      <p>After some digging I found a full list of these options in the <a href="https://git-scm.com/docs/git-show/1.8.2.2">git documentation</a>…plus everything else I needed to learn in this post. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>After some digging I found a full list of these options in the <a href="https://git-scm.com/docs/git-show/1.8.2.2">git documentation</a>…plus everything else I needed to learn in this post. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:3" role="doc-endnote">
-      <p>You can find a full list of <code class="language-plaintext highlighter-rouge">pretty</code> format options in the <a href="http://git-scm.com/docs/pretty-formats">git documentation</a> as well. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>You can find a full list of <code class="language-plaintext highlighter-rouge">pretty</code> format options in the <a href="http://git-scm.com/docs/pretty-formats">git documentation</a> as well. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
